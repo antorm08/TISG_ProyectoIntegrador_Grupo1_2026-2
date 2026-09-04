@@ -1,3 +1,4 @@
 *.inspect.ndjson
 *.formula_errors.ndjson
 qa_*/
+~$*

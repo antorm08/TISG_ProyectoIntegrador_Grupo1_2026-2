@@ -35,19 +35,21 @@ Para las próximas entregas, cada aporte debería incluir al menos una evidencia
 - Captura fechada de una reunión o sesión de trabajo, cuando sea pertinente.
 - Enlace a una PoC, experimento o diagrama editable.
 
-## Campos para completar
+## Identificación y evidencia independiente
 
-| Integrante real | Usuario de GitHub | Rol acordado | Enlace a evidencia futura |
+| Integrante real | Usuario de GitHub | Rol acordado | Evidencia independiente |
 |---|---|---|---|
-| Anthony Romani | [usuario] | [rol] | [enlace] |
-| Max Astuhuaman | [usuario] | [rol] | [enlace] |
-| Guillermo Calle | [usuario] | [rol] | [enlace] |
-| Pablo | [usuario] | [rol] | [enlace] |
+| Anthony Romani | Por confirmar | Caso, AS-IS y supuestos | Por registrar |
+| Max Astuhuaman | Por confirmar | Investigación y fuentes | Por registrar |
+| Guillermo Calle | Por confirmar | Technology Radar | Por registrar |
+| Pablo | Por confirmar | Project Charter, Impact Canvas y coherencia | Por registrar |
+
+Los usuarios y enlaces permanecen pendientes hasta contar con evidencia auténtica. No se atribuirán cuentas, commits, capturas ni revisiones sin confirmación del integrante correspondiente.
 
 ## Lista de control
 
-- [ ] Los nombres corresponden a integrantes reales.
-- [ ] Ninguna evidencia fue fabricada o retrofechada.
-- [ ] Cada aporte se puede localizar en un archivo o sección.
+- [x] Los nombres corresponden a integrantes reales.
+- [x] Ninguna evidencia fue fabricada o retrofechada.
+- [x] Cada aporte se puede localizar en un archivo o sección.
 - [ ] Los cuatro integrantes conocen el contenido completo.
 - [ ] El documento de evidencias coincide con este registro.
