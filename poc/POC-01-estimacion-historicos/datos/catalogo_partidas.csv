@@ -1,0 +1,9 @@
+partida_id,descripcion,unidad,costo_unitario_base,hh_unitario_base
+EXC-01,Excavación en material tipo II,m3,48.0,0.35
+HOR-01,Hormigón estructural f'c=210,m3,320.0,1.2
+FIL-01,Fierro de refuerzo colocado,t,4100.0,8.5
+CIM-01,Cimbra en madera,m2,42.0,0.45
+ALB-01,Albañilería en ladrillo,m2,65.0,0.8
+INS-01,Instalaciones sanitarias,punto,240.0,1.1
+INS-02,Instalaciones eléctricas,punto,195.0,0.9
+ACB-01,Acabados interiores,m2,150.0,1.4

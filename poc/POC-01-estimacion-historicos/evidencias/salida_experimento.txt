@@ -1,0 +1,22 @@
+[OK] Datos sintéticos en /mnt/c/Users/user/Documents/GitHub/TISG_ProyectoIntegrador_Grupo1_2026-2/poc/POC-01-estimacion-historicos/datos
+     Obras cerradas: 6 | Partidas catalogo: 8
+     Filas metrados: 35 | costos: 35 | tareo: 35
+     Semilla: 20261002
+==================================================================
+POC-01 — Estimación con históricos vs. línea base manual
+==================================================================
+Obras cerradas usadas   : 6
+Partidas de la obra nueva: 6
+------------------------------------------------------------------
+MAPE línea base manual :  20.19 %
+MAPE método analítico  :  11.31 %
+Reducción de error     :  43.98 %
+------------------------------------------------------------------
+¿MAPE analítico <= 15%?  SÍ
+¿Reducción >= 30%?       SÍ
+DECISIÓN: CONTINUAR (H1 respaldada en este experimento sintético)
+==================================================================
+Limitación: datos sintéticos; el método subestima obras más difíciles
+porque el ratio histórico promedia tipos. Ajustar por tipo en la fase 2.
+Detalle por partida: ../resultados/resultados.csv
+[OK] H1 validada en el experimento sintético: MAPE 11.31% (reducción 43.99%).

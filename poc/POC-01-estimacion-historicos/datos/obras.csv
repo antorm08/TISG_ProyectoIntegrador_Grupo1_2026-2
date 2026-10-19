@@ -1,0 +1,8 @@
+obra_id,nombre,tipo,area_m2,estado,anio
+OB-C01,Obra cerrada 1,Vivienda multifamiliar,3909.0,Cerrada,2021
+OB-C02,Obra cerrada 2,Edificio comercial,2242.0,Cerrada,2022
+OB-C03,Obra cerrada 3,Nave industrial,2896.0,Cerrada,2023
+OB-C04,Obra cerrada 4,Nave industrial,3686.0,Cerrada,2024
+OB-C05,Obra cerrada 5,Vivienda multifamiliar,4592.0,Cerrada,2025
+OB-C06,Obra cerrada 6,Edificio comercial,2714.0,Cerrada,2026
+OB-N01,Obra nueva (a estimar),Edificio comercial,3100.0,En ejecución,2027
