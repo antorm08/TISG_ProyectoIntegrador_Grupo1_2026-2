@@ -7,9 +7,15 @@ No requiere dependencias externas. Uso:
 
 import os
 import re
+import struct
 import sys
 import zipfile
 from datetime import datetime, timezone
+
+EMU_POR_TWIP = 635
+ANCHO_UTIL_TWIPS = 11906 - 2 * 1134
+ANCHO_UTIL_EMU = ANCHO_UTIL_TWIPS * EMU_POR_TWIP
+EMU_POR_PX = 9525  # 96 dpi
 
 
 def esc(t):
@@ -88,13 +94,61 @@ def tabla(filas):
     return "".join(out)
 
 
-def md_a_cuerpo(md):
+def dimensiones_png(ruta):
+    with open(ruta, "rb") as f:
+        cabecera = f.read(24)
+    if cabecera[:8] != b"\x89PNG\r\n\x1a\n":
+        raise ValueError(f"No es un PNG: {ruta}")
+    ancho, alto = struct.unpack(">II", cabecera[16:24])
+    return ancho, alto
+
+
+def imagen(alt, ruta, rid, numero):
+    ancho_px, alto_px = dimensiones_png(ruta)
+    ancho = min(ancho_px * EMU_POR_PX, ANCHO_UTIL_EMU)
+    alto = int(alto_px * ancho / (ancho_px * EMU_POR_PX))
+    nombre = f"Imagen {numero}"
+    dibujo = (
+        '<w:p><w:pPr><w:jc w:val="center"/><w:spacing w:before="120" w:after="60"/></w:pPr>'
+        '<w:r><w:drawing>'
+        f'<wp:inline distT="0" distB="0" distL="0" distR="0">'
+        f'<wp:extent cx="{ancho}" cy="{alto}"/>'
+        f'<wp:docPr id="{numero}" name="{esc(nombre)}" descr="{esc(alt)}"/>'
+        '<a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">'
+        '<pic:pic><pic:nvPicPr>'
+        f'<pic:cNvPr id="{numero}" name="{esc(nombre)}"/>'
+        '<pic:cNvPicPr/></pic:nvPicPr>'
+        f'<pic:blipFill><a:blip r:embed="{rid}"/>'
+        '<a:stretch><a:fillRect/></a:stretch></pic:blipFill>'
+        f'<pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="{ancho}" cy="{alto}"/>'
+        '</a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr>'
+        '</pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r></w:p>')
+    leyenda = parrafo(alt, cursiva=True) if alt else ""
+    return dibujo + leyenda
+
+
+def md_a_cuerpo(md, base_dir, imagenes):
     lineas = md.splitlines()
     cuerpo = []
     i = 0
     while i < len(lineas):
         ln = lineas[i].rstrip()
         if not ln.strip():
+            i += 1
+            continue
+        mimg = re.match(r"^!\[(.*?)\]\((.+?)\)\s*$", ln.strip())
+        if mimg:
+            alt = mimg.group(1).strip()
+            ruta_rel = mimg.group(2).strip()
+            ruta = ruta_rel if os.path.isabs(ruta_rel) else os.path.join(base_dir, ruta_rel)
+            if os.path.exists(ruta):
+                numero = len(imagenes) + 1
+                rid = f"rIdImg{numero}"
+                nombre_media = f"imagen-{numero}.png"
+                imagenes.append((rid, nombre_media, ruta))
+                cuerpo.append(imagen(alt, ruta, rid, numero))
+            else:
+                cuerpo.append(parrafo(f"[Imagen no encontrada: {ruta_rel}]", cursiva=True))
             i += 1
             continue
         if ln.startswith("|"):
@@ -176,15 +230,20 @@ STYLES = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 </w:styles>"""
 
 
-def construir(md, titulo):
-    cuerpo = md_a_cuerpo(md)
+def construir(md, titulo, base_dir="."):
+    imagenes = []
+    cuerpo = md_a_cuerpo(md, base_dir, imagenes)
     sect = (
         '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/>'
         '<w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" '
         'w:header="720" w:footer="720" w:gutter="0"/></w:sectPr>')
     document = (
         '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
-        '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">'
+        '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
+        'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" '
+        'xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" '
+        'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" '
+        'xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">'
         f"<w:body>{cuerpo}{sect}</w:body></w:document>")
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     core = (
@@ -201,7 +260,7 @@ def construir(md, titulo):
         '<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" '
         'xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">'
         "<Application>Grupo1-TISG</Application></Properties>")
-    return document, core, app
+    return document, core, app, imagenes
 
 
 def main():
@@ -211,18 +270,33 @@ def main():
     entrada, salida = sys.argv[1], sys.argv[2]
     with open(entrada, encoding="utf-8") as f:
         md = f.read()
+    base_dir = os.path.dirname(os.path.abspath(entrada))
     titulo = md.splitlines()[0].lstrip("# ").strip() if md else "Documento"
-    document, core, app = construir(md, titulo)
+    document, core, app, imagenes = construir(md, titulo, base_dir)
+    rels_img = "".join(
+        f'<Relationship Id="{rid}" '
+        'Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" '
+        f'Target="media/{nombre}"/>'
+        for rid, nombre, _ in imagenes)
+    doc_rels = DOC_RELS.replace("</Relationships>", rels_img + "</Relationships>")
+    content_types = CONTENT_TYPES
+    if imagenes:
+        content_types = content_types.replace(
+            '<Default Extension="xml" ContentType="application/xml"/>',
+            '<Default Extension="xml" ContentType="application/xml"/>\n'
+            '<Default Extension="png" ContentType="image/png"/>')
     os.makedirs(os.path.dirname(os.path.abspath(salida)), exist_ok=True)
     with zipfile.ZipFile(salida, "w", zipfile.ZIP_DEFLATED) as z:
-        z.writestr("[Content_Types].xml", CONTENT_TYPES)
+        z.writestr("[Content_Types].xml", content_types)
         z.writestr("_rels/.rels", RELS)
         z.writestr("word/document.xml", document)
-        z.writestr("word/_rels/document.xml.rels", DOC_RELS)
+        z.writestr("word/_rels/document.xml.rels", doc_rels)
         z.writestr("word/styles.xml", STYLES)
         z.writestr("docProps/core.xml", core)
         z.writestr("docProps/app.xml", app)
-    print(f"[OK] DOCX generado: {salida}")
+        for _, nombre, ruta in imagenes:
+            z.write(ruta, f"word/media/{nombre}")
+    print(f"[OK] DOCX generado: {salida} ({len(imagenes)} imagen(es))")
 
 
 if __name__ == "__main__":

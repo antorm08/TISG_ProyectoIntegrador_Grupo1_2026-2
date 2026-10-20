@@ -10,7 +10,7 @@
 - Equipo: Grupo 1
 - Periodo académico: 2026-2
 - Caso: Estrategia de transformación tecnológica para el control y la planificación económica de obras
-- Versión vigente: Semana 1
+- Versión vigente: Semana 5 (Hito I)
 
 > El equipo y los integrantes están identificados con sus datos reales.
 
@@ -56,25 +56,28 @@ La distribución identifica aportes principales, pero los cuatro integrantes son
 
 ## Estado de los artefactos acumulativos
 
-| Artefacto | Estado en Semana 1 | Próxima acción |
+| Artefacto | Estado en Semana 5 | Próxima acción |
 |---|---|---|
-| Technology Radar | Completado como hipótesis v0.1 | Actualizarlo con nueva evidencia |
-| Impact Canvas | Tres tendencias analizadas | Revisar cuando cambie el Top 3 |
-| AS-IS | Descripción funcional inicial | Elaborar el mapa arquitectónico |
-| TO-BE | No definido | Diseñarlo después de validar el AS-IS |
-| Registro de decisiones | Cinco decisiones iniciales | Agregar fecha, responsable y cambios |
-| Registro de riesgos | Riesgos identificados, matriz pendiente | Evaluar probabilidad, impacto y controles |
-| Roadmap 2026–2029 | Objetivo y secuencia preliminar | Definir horizontes, responsables y criterios |
-| PoC | No corresponde todavía | Registrar experimentos futuros |
+| Technology Radar | v0.1 definido; evidencia consolidada | Actualizar a v1.0 tras pilotaje |
+| AS-IS | Diagrama completado y con leyenda | Monitorear cambios operativos |
+| TO-BE | v0.1 definido con capacidades acotadas | Validar con piloto y revisar alcance |
+| Deuda técnica | DT-01 a DT-11 priorizadas | Ejecutar ruta crítica E-1–E-9 |
+| ADR | ADR-01 a ADR-06 + D-11–D-13 | Mantener registro de revisiones |
+| Mapa de dependencias | Definido (Figura 4) | Seguir orden mínimo |
+| PoC | H1 validado sintéticamente (S4) | Alinearlo con capa analítica |
 
 ## Entregas
 
 | Semana | Contenido | Versión | Estado |
 |---|---|---:|---|
-| 01 | Caso, Project Charter, Radar e Impact Canvas | — | Lista para validación final |
-| 02–14 | Según cronograma del curso | — | Pendiente |
+| 01 | Caso, Project Charter, Radar e Impact Canvas | v1.0 | Entregada |
+| 02 | Business Model Canvas y registro ampliado | v1.0 | Entregada |
+| 03 | Stakeholders, madurez y plan de adopción | v1.0 | Entregada |
+| 04 | Problema, propuesta de valor, hipótesis y PoC | v1.0 | Entregada |
+| 05 | Hito I: AS-IS / TO-BE v0.1 | v1.0 | Entregada |
+| 06–14 | Según cronograma del curso | — | Pendiente |
 
-Consultar [`entregas/semana-01/README.md`](entregas/semana-01/README.md) para revisar el manifiesto y la lista de verificación de la primera entrega.
+Consultar las respectivas carpetas en `entregas/` para ver el manifiesto de cada entrega.
 
 ## Reglas de trabajo
 
@@ -82,4 +85,5 @@ Consultar [`entregas/semana-01/README.md`](entregas/semana-01/README.md) para re
 2. No se fabricarán commits, capturas, enlaces ni fechas.
 3. Cada cambio relevante deberá relacionarse con una fuente, supuesto, decisión o experimento.
 4. Las carpetas de trabajo pueden evolucionar; las carpetas dentro de `entregas/` no se modifican después del cierre.
-5. Todo diagrama incluirá título, leyenda, fecha, versión y fuente o indicación de elaboración propia.
+6. Todo diagrama incluirá título, leyenda, fecha, versión y fuente o indicación de elaboración propia.
+7. El Hito I es fotografía hasta la semana 5; las correcciones se registran y justifican.

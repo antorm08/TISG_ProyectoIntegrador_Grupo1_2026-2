@@ -47,3 +47,26 @@ Este archivo resume los cambios relevantes del proyecto. Los detalles y las razo
 - Technology Radar v0.1.
 - Tres Impact Canvas.
 - Registro inicial de supuestos.
+
+## [Semana 5] — 2026-10-09 (Hito I)
+
+### Agregado
+
+- Documento consolidado `documentos/proyecto/Semana5_Hito_I.md` que integra las semanas 1–5.
+- Entrega `entregas/semana-05/` con `TISG_E01_S05_ProyectoIntegrador_2026-10-09.docx` e imágenes incrustadas.
+- Diagramas SVG/PNG/PDF: AS-IS (figuras 1–2) y TO-BE v0.1 (figuras 3–4) con leyenda.
+- Generadores `arquitectura/{svg_lib,figuras_a,figuras_b,generar_diagramas}.py` y verificador `render_diagramas.py` con Chrome headless.
+- Seis decisiones arquitectónicas (ADR-01 a ADR-06), deuda técnica DT-01 a DT-11 y mapa de dependencias E-1–E-10.
+- Extensión de `documentos/proyecto/md_to_docx.py` para incrustar imágenes PNG en DOCX.
+- Alcance explícito: fuera de alcance v0.1 (agentes, RAG, eventos, lakehouse, reemplazo de ERP).
+- Nota de reconciliación de IDs (D-06–D-08 S4 renumerados a D-11–D-13 en el Hito I).
+
+### Modificado
+
+- `README.md` actualizado a Semana 5 (Hito I) y tabla de entregas.
+- Arquitectura documentada para evolución por capas sin reemplazar Odoo 16.
+
+### Verificado
+
+- Los cuatro diagramas superan el umbral mínimo de contenido en PNG.
+- El DOCX contiene 4 dibujos e imágenes y pasa validación XML.
