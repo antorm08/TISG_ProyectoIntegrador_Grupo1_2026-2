@@ -10,7 +10,7 @@
 - Equipo: Grupo 1
 - Periodo académico: 2026-2
 - Caso: Estrategia de transformación tecnológica para el control y la planificación económica de obras
-- Versión vigente: Semana 1
+- Versión vigente: Semana 5 — Hito I v1.1 corregido el 24/10/2026 (pendiente de aprobación humana)
 
 > El equipo y los integrantes están identificados con sus datos reales.
 
@@ -18,7 +18,18 @@
 
 El proyecto analiza la evolución tecnológica del ecosistema ERP de una inmobiliaria-constructora peruana ficticia de tamaño mediano. El ERP registra obras, partidas de control, actividades, horas-hombre, metrados, materiales y costos, pero la información histórica todavía no se aprovecha de manera integrada para presupuestar nuevas obras y comparar lo previsto con lo ejecutado.
 
-La propuesta no consiste en reemplazar el ERP. Se busca diseñar una estrategia de adopción tecnológica 2026–2029 que evalúe integración, calidad de datos, BI, arquitectura analítica, IA supervisada, seguridad y operación de forma progresiva y proporcional.
+La propuesta no consiste en reemplazar el ERP. El equipo confirmó que es **propio, desarrollado en CodeIgniter y MySQL**; versiones, infraestructura y dotación no confirmadas. Las menciones de Odoo/PostgreSQL en el Hito I original fueron una caracterización incorrecta, corregida y conservada solo como antecedente histórico.
+
+Se diseña una estrategia de adopción tecnológica 2026–2029 que evalúa integración, calidad de datos, BI, arquitectura analítica, IA supervisada, seguridad y operación de forma proporcional. El diagnóstico de madurez es **hipotético y académico**, no una entrevista o auditoría empresarial.
+
+## Revisión vigente del Hito I
+
+- [Paquete corregido PDF/DOCX v1.1](entregas/semana-05/revision-v1.1/README.md).
+- [Documento fuente y consolidación de semanas 1–5](documentos/proyecto/Semana5_Hito_I_v1.1.md).
+- [Registros consolidados v1.1](gestion/registros/Registros_y_Radar_Semana5_v1.1.xlsx).
+- [Diagramas editables y exportados v1.1](arquitectura/revision-v1.1/).
+
+Las entregas originales de semanas 1–5 permanecen intactas. La revisión no acredita entrega retroactiva, aprobación del equipo ni nuevas contribuciones individuales. Los anexos de S2/S3 se reconstruyen ahora desde el contenido histórico. No se inventan entrevistas ni resultados para cubrir pendientes.
 
 ## Confidencialidad
 
@@ -56,25 +67,28 @@ La distribución identifica aportes principales, pero los cuatro integrantes son
 
 ## Estado de los artefactos acumulativos
 
-| Artefacto | Estado en Semana 1 | Próxima acción |
+| Artefacto | Estado en Semana 5 | Próxima acción |
 |---|---|---|
-| Technology Radar | Completado como hipótesis v0.1 | Actualizarlo con nueva evidencia |
-| Impact Canvas | Tres tendencias analizadas | Revisar cuando cambie el Top 3 |
-| AS-IS | Descripción funcional inicial | Elaborar el mapa arquitectónico |
-| TO-BE | No definido | Diseñarlo después de validar el AS-IS |
-| Registro de decisiones | Cinco decisiones iniciales | Agregar fecha, responsable y cambios |
-| Registro de riesgos | Riesgos identificados, matriz pendiente | Evaluar probabilidad, impacto y controles |
-| Roadmap 2026–2029 | Objetivo y secuencia preliminar | Definir horizontes, responsables y criterios |
-| PoC | No corresponde todavía | Registrar experimentos futuros |
+| Technology Radar | v0.1, sin cambios de anillo; T5 en Probar | Evolucionar con evidencia; v1.0 final en S14 |
+| AS-IS | ERP propio CodeIgniter/MySQL, diagramas v1.1 | Validar versiones, infraestructura y capacidades |
+| TO-BE | v0.1 revisada, lotes y almacenamiento analítico separado | Medir y aprobar antes de implementar |
+| Deuda técnica | DT-01 a DT-11; priorización cualitativa | Validar con responsables |
+| ADR | ADR-01 a ADR-06 revisadas; D-01–D-16 reconciliadas | Aprobación humana pendiente |
+| Mapa de dependencias | F-01, E-1–E-10 con criterios de avance | No es ruta crítica calculada |
+| PoC | Escenario sintético favorable; H2/H3 pendientes | No inferir ahorro real ni significancia |
 
 ## Entregas
 
 | Semana | Contenido | Versión | Estado |
 |---|---|---:|---|
-| 01 | Caso, Project Charter, Radar e Impact Canvas | — | Lista para validación final |
-| 02–14 | Según cronograma del curso | — | Pendiente |
+| 01 | Caso, Project Charter, Radar e Impact Canvas | Histórica | Archivos disponibles; cierre externo no verificado |
+| 02 | Business Model Canvas y registro ampliado | v1.0 histórica | Archivos disponibles; correcciones integradas en Hito I v1.1 |
+| 03 | Stakeholders, madurez y plan de adopción | v1.0 histórica | Diagnóstico aclarado como hipotético en v1.1 |
+| 04 | Problema, propuesta de valor, hipótesis y PoC | v1.0 histórica | Límites metodológicos corregidos en v1.1 |
+| 05 | Hito I revisado: ERP propio y TO-BE mínimo | v1.1 | PDF/DOCX, registros y diagramas; aprobación pendiente |
+| 06–14 | Según cronograma del curso | — | Pendiente |
 
-Consultar [`entregas/semana-01/README.md`](entregas/semana-01/README.md) para revisar el manifiesto y la lista de verificación de la primera entrega.
+Consultar las respectivas carpetas en `entregas/` para ver el manifiesto de cada entrega.
 
 ## Reglas de trabajo
 
@@ -83,3 +97,4 @@ Consultar [`entregas/semana-01/README.md`](entregas/semana-01/README.md) para re
 3. Cada cambio relevante deberá relacionarse con una fuente, supuesto, decisión o experimento.
 4. Las carpetas de trabajo pueden evolucionar; las carpetas dentro de `entregas/` no se modifican después del cierre.
 5. Todo diagrama incluirá título, leyenda, fecha, versión y fuente o indicación de elaboración propia.
+6. El Hito I es fotografía hasta la semana 5; las correcciones se registran con fecha real y sin sobrescribir históricos.

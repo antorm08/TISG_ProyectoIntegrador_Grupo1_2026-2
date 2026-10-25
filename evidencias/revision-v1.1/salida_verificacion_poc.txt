@@ -1,0 +1,34 @@
+Comando: C:\Users\MSI\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe D:\TISG_ProyectoIntegrador_Grupo1_2026-2\poc\POC-01-estimacion-historicos\pruebas\verificar_poc.py
+[OK] Datos sintéticos en D:\TISG_ProyectoIntegrador_Grupo1_2026-2\poc\POC-01-estimacion-historicos\datos
+     Obras cerradas: 6 | Partidas catalogo: 8
+     Filas metrados: 35 | costos: 35 | tareo: 35
+     Semilla: 20261002
+==================================================================
+POC-01 — Estimación con históricos vs. línea base manual
+==================================================================
+Obras cerradas usadas   : 6
+Partidas de la obra nueva: 6
+------------------------------------------------------------------
+MAPE línea base manual :  20.19 %
+MAPE método analítico  :  11.31 %
+Reducción de error     :  43.98 %
+------------------------------------------------------------------
+¿MAPE analítico <= 15%?  SÍ
+¿Reducción >= 30%?       SÍ
+DECISIÓN: CONTINUAR (solo escenario sintético descriptivo)
+==================================================================
+Limitación: datos sintéticos; el método subestima obras más difíciles
+porque el ratio histórico promedia tipos. Ajustar por tipo en la fase 2.
+El control usa ruido sobre el costo real conocido: no es un presupuesto humano observado.
+El MAPE es un promedio, no un límite por partida ni evidencia de significancia estadística.
+Detalle por partida: ..\resultados\resultados.csv
+[OK] Fixture sintética reproducida (no validación de negocio): MAPE 11.31% (reducción 43.98%).
+
+
+Comando: C:\Users\MSI\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m unittest discover -s D:\TISG_ProyectoIntegrador_Grupo1_2026-2\poc\POC-01-estimacion-historicos\pruebas -p test_*.py
+
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK

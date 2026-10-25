@@ -1,5 +1,7 @@
 # Arquitectura AS-IS
 
+> **Revisión vigente:** [diagramas v1.1](../revision-v1.1/) y [Hito I corregido](../../documentos/proyecto/Semana5_Hito_I_v1.1.md), 24/10/2026. El ERP es propio CodeIgniter/MySQL. Las figuras originales de esta carpeta se conservan como antecedente y contienen la caracterización errónea Odoo/PostgreSQL; no utilizarlas como AS-IS vigente. El texto siguiente es el estado inicial de S1.
+
 ## Estado
 
 Versión funcional inicial. En Semana 1 se describe el proceso y la brecha; el diagrama arquitectónico completo se elaborará después de validar los componentes y flujos reales.
@@ -57,4 +59,3 @@ Los supuestos `S-02` a `S-09` del registro de Semana 1 describen el ERP, las obr
 ## Requisitos del futuro diagrama
 
 El diagrama AS-IS deberá incluir título, leyenda, fecha, versión, límites del sistema, fuentes de datos, flujos principales y la indicación `Elaboración propia`. No se representarán nombres internos o configuraciones sensibles.
-

@@ -1,0 +1,6 @@
+# Dependencias de generación/verificación de la revisión v1.1 (no del ERP).
+openpyxl>=3.1,<4
+python-docx>=1.1,<2
+reportlab>=4,<5
+Pillow>=10,<13
+PyMuPDF>=1.24,<2

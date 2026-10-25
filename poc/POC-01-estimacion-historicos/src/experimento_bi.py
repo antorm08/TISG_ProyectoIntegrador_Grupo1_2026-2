@@ -21,6 +21,7 @@ SEED = 20261002
 SIGMA_MANUAL = 0.25  # variabilidad de estimación SIN histórico integrado (supuesto)
 UMBRAL_MAPE = 0.15   # H1: MAPE del método analítico <= 15%
 UMBRAL_REDUC = 0.30  # H1: reduccion >= 30% del error vs. base manual
+UMBRAL_ABANDONO = 0.30  # detener si MAPE analitico > 30%; meta interna
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATOS = os.path.join(os.path.dirname(BASE), "datos")
@@ -42,8 +43,22 @@ def escribir(nombre, header, rows):
 
 def mape(estimado, real):
     if real == 0:
-        return 0.0
+        raise ValueError("Error porcentual indefinido para costo real cero")
     return abs(estimado - real) / abs(real)
+
+
+def decidir(mape_modelo, mape_manual):
+    """Reglas fijadas en Hito I v1.1: sin retocar umbrales tras ejecutar."""
+    if mape_modelo < 0 or mape_manual < 0:
+        raise ValueError("MAPE no puede ser negativo")
+    if mape_modelo > UMBRAL_ABANDONO:
+        return "DETENER"
+    if mape_manual == 0:
+        return "MODIFICAR"  # no hay reduccion relativa definida
+    reduccion = (mape_manual - mape_modelo) / mape_manual
+    if mape_modelo <= UMBRAL_MAPE and reduccion >= UMBRAL_REDUC:
+        return "CONTINUAR"
+    return "MODIFICAR"
 
 
 def main():
@@ -99,7 +114,7 @@ def main():
         filas.append([
             pid, cantidad, f"{ratio_historico.get(pid, float(catalogo[pid]['costo_unitario_base'])):.2f}",
             origen, f"{costo_real_p:.2f}", f"{costo_manual:.2f}", f"{costo_modelo:.2f}",
-            f"{e_manual:.4f}", f"{e_modelo:.4f}",
+            f"{e_manual:.8f}", f"{e_modelo:.8f}",
         ])
 
     escribir(
@@ -129,15 +144,12 @@ def main():
     c_reduc = reduccion >= UMBRAL_REDUC
     print(f"¿MAPE analítico <= {UMBRAL_MAPE*100:.0f}%?  {'SÍ' if c_umbral else 'NO'}")
     print(f"¿Reducción >= {UMBRAL_REDUC*100:.0f}%?       {'SÍ' if c_reduc else 'NO'}")
-    if c_umbral and c_reduc:
-        print("DECISIÓN: CONTINUAR (H1 respaldada en este experimento sintético)")
-    elif c_umbral or c_reduc:
-        print("DECISIÓN: MODIFICAR el modelo o los umbrales")
-    else:
-        print("DECISIÓN: DETENER H1 (no se observa reducción)")
+    print(f"DECISIÓN: {decidir(mape_modelo, mape_manual)} (solo escenario sintético descriptivo)")
     print("=" * 66)
     print("Limitación: datos sintéticos; el método subestima obras más difíciles")
     print("porque el ratio histórico promedia tipos. Ajustar por tipo en la fase 2.")
+    print("El control usa ruido sobre el costo real conocido: no es un presupuesto humano observado.")
+    print("El MAPE es un promedio, no un límite por partida ni evidencia de significancia estadística.")
     print(f"Detalle por partida: {os.path.join('..', 'resultados', 'resultados.csv')}")
 
 
