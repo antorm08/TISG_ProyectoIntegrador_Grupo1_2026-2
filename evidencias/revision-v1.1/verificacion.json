@@ -1,0 +1,20 @@
+{
+  "fecha_revision": "2026-10-24",
+  "version": "v1.1",
+  "pdf_paginas": 18,
+  "python": "3.12.10",
+  "tablas_sincronizadas_docx": 22,
+  "figuras": 4,
+  "hojas_excel": 20,
+  "decisiones": 16,
+  "adr": 6,
+  "contribuciones_historicas_declaradas": 20,
+  "pruebas_unitarias": 9,
+  "mape_analitico_pct": 11.31,
+  "mape_control_pct": 20.19,
+  "reduccion_pct": 43.98,
+  "entregas_historicas_modificadas": false,
+  "aprobacion_humana": "pendiente",
+  "h2_h3": "pendientes",
+  "limite": "Comprobación técnica; no calificación ni evidencia de impacto empresarial"
+}

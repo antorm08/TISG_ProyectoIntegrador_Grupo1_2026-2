@@ -4,10 +4,21 @@ Este archivo resume los cambios relevantes del proyecto. Los detalles y las razo
 
 ## [No publicado]
 
+### Hito I v1.1 — corrección del 24/10/2026
+
+- Se conserva el Hito I v1.0 y las entregas S1–S4. La corrección se publica separada en `entregas/semana-05/revision-v1.1/`.
+- Se rectifica el stack: ERP propio CodeIgniter/MySQL, sin versiones ni inventario supuestos como hechos. Odoo/PostgreSQL en entradas históricas no describen el caso vigente.
+- Diagnóstico S3 declarado hipotético; anexos BMC, stakeholders, madurez, brechas, supuestos y contribuciones reconstruidos con procedencia.
+- Decisiones D-01–D-16 y ADR-01–ADR-06 sincronizadas con el documento fuente v1.1; S4 D-06/D-07/D-08 se reconcilian como D-11/D-12/D-13.
+- TO-BE mínimo por lotes y destino separado; herramientas avanzadas condicionadas a evidencia. No se conecta a producción ni se reemplaza el ERP.
+- Diagramas nuevos con metadatos y exportaciones; generación de PDF/DOCX desde la misma fuente, sin afirmar que píxeles no blancos demuestren legibilidad.
+- PoC: MAPE promedio, límites sintéticos, decisión uniforme y costo real cero rechazado explícitamente; pruebas adicionales. No se modifican umbrales para lograr aceptación.
+- Seis referencias oficiales consultadas; fuentes históricas no revalidadas separadas. Validación humana y medición empresarial pendientes.
+
 ### Pendiente
 
 - Los datos reales del Grupo 1 y sus integrantes ya fueron registrados.
-- Elaborar el mapa arquitectónico AS-IS.
+- Validar el AS-IS revisado (diagrama disponible en v1.1).
 - Validar volumen, frecuencia, latencia y calidad de los datos.
 - Formalizar la matriz de riesgos.
 - Desarrollar el roadmap 2026–2029.

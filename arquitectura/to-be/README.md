@@ -1,5 +1,7 @@
 # Arquitectura TO-BE
 
+> **Revisión vigente:** [diagramas v1.1](../revision-v1.1/) y [Hito I corregido](../../documentos/proyecto/Semana5_Hito_I_v1.1.md), 24/10/2026. Se conserva el ERP propio CodeIgniter/MySQL y se propone un piloto mínimo por lotes. Las figuras originales de esta carpeta son históricas y no constituyen la arquitectura vigente. El texto siguiente registra preguntas de S1, no el estado actual del diseño.
+
 ## Estado
 
 Pendiente de definición. Este archivo conserva los principios y preguntas que deberán guiar el diseño. No constituye todavía una arquitectura aprobada.
@@ -54,4 +56,3 @@ Diseñar una evolución proporcional del ERP que permita utilizar información h
 - [ ] Costos y capacidades humanas considerados.
 - [ ] Decisión arquitectónica registrada.
 - [ ] Diagrama con título, leyenda, versión, fecha y elaboración propia.
-

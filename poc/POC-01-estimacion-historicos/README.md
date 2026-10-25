@@ -9,7 +9,7 @@ Tendencia: BI y analítica operacional (anillo *Adoptar*).
 
 ## Hipótesis
 
-**H1 (valor):** si se integran los históricos de tareo, metrados y costos de obras cerradas en un modelo analítico y se usan para estimar las partidas de una obra nueva, entonces el desvío entre el costo estimado y el costo real se reduce a un máximo de **±15 %** (MAPE), frente a la línea base manual.
+**H1 revisada (24/10/2026):** en el escenario sintético, el método por ratios de costo/unidad alcanza **MAPE promedio ≤15 %** y reducción relativa ≥30 % frente a un control simulado. No se exige que cada partida esté dentro de ±15 % ni se afirma significancia estadística. El tareo generado no se utiliza en el estimador actual.
 
 ## Alcance y exclusiones
 
@@ -32,14 +32,16 @@ Tendencia: BI y analítica operacional (anillo *Adoptar*).
 | Reducción del error vs. base manual | ≥ 30 % | Continuar |
 | MAPE del método analítico | > 30 % | Detener |
 
-Los umbrales de exactitud se anclan en AACE International (2020) RP 18R-97.
+Los umbrales son **metas internas académicas**, no benchmarks de negocio. AACE 18R-97 no demuestra un umbral MAPE por partida para este caso. Reglas uniformes: continuar si se cumplen ambas metas; detener si MAPE analítico >30 %; modificar en cualquier otro caso. Si el MAPE del control es cero, la reducción relativa no se define: modificar el diseño, sin inventar un porcentaje. Un costo real cero produce error explícito, no un falso error de 0 %.
 
 ## Procedimiento (reproducible)
 
 ```bash
 cd poc/POC-01-estimacion-historicos
-python3 src/synthetic_erp_data.py    # genera ../datos/*.csv
+python3 src/synthetic_erp_data.py    # genera datos/*.csv desde la raiz de la PoC
 python3 src/experimento_bi.py        # calcula ratios, estima y evalúa
+python3 pruebas/verificar_poc.py    # fixture sintética y comparación reproducible
+python3 -m unittest discover -s pruebas -p "test_*.py"
 ```
 
 Solo requiere Python 3 estándar (sin dependencias externas).
@@ -63,12 +65,17 @@ Detalle por partida en `resultados/resultados.csv`.
 - Resultados **simulados**: validan el método y las métricas, no el desempeño real.
 - El modelo subestima obras más difíciles porque el ratio histórico promedia tipos de obra; se recomienda ajustar por tipo de obra en una segunda iteración.
 - La línea base manual es una simulación con variabilidad asumida (σ = 25 %), declarada como supuesto.
+- El control aplica ruido al costo real conocido; no es una estrategia de estimación que pueda usarse antes de conocer el real ni una medición humana.
+- Una semilla, una obra nueva y seis partidas no demuestran generalización. No hay prueba de significancia, tablero, benchmark de carga ERP ni medición de adopción.
+- CIM-01 e INS-02 superan 15 % de error individual; no ocultar esos resultados por cumplir el promedio.
+- El CSV de resultados conserva ocho decimales de error desde v1.1 para evitar la diferencia de 0,01 puntos en la reducción al recomputarla desde valores redondeados.
 
 ## Decisión
 
-**CONTINUAR.** H1 queda respaldada en este experimento sintético: el método analítico cumple ambos umbrales. La siguiente iteración (ajuste por tipo de obra) y la validación con datos anonimizados quedan para semanas posteriores. La decisión se registra en `gestion/registros/` (D-07).
+**CONTINUAR solo la experimentación.** El escenario fijo cumple ambas metas descriptivas; no autoriza despliegue ni demuestra beneficio real. H2 y H3 están pendientes. Conservar umbrales al cambiar escenarios, medir sensibilidad y revisar sesgo. La decisión corresponde a **D-12** en el registro reconciliado del Hito I v1.1 (antes D-07 de S4). Los resultados originales de la entrega no se reescriben.
 
 ## Trazabilidad
 
-- Documento Semana 4: `documentos/proyecto/Semana4_Proyecto_Integrador.md` (secciones 3, 4 y 5).
-- Fuentes: AACE International (2020); Abdelalim et al. (2025); Elserougy et al. (2024).
+- Documento histórico S4: `documentos/proyecto/Semana4_Proyecto_Integrador.md`.
+- Corrección vigente: `documentos/proyecto/Semana5_Hito_I_v1.1.md`, sección 5; supuestos S-17/S-19.
+- Las fuentes históricas no verificadas no se emplean como prueba de los umbrales internos.

@@ -1,55 +1,125 @@
 #!/usr/bin/env python3
-"""Consolida los registros de la Semana 1 y añade los de la Semana 5 (Hito I).
+"""Genera SOLO el libro S5 v1.1; conserva los libros históricos.
 
-Lee `Registros_y_Radar_Semana1.xlsx`, agrega filas en Decisiones, Contribuciones,
-Supuestos y Fuentes, y escribe `Registros_y_Radar_Semana5.xlsx` (sin dependencias
-externas). Incluye renumeración de decisiones S4 (D-06–D-08 → D-11–D-13)
-para preservar trazabilidad.
-
-Se reutiliza el parser minimalista de XLSX XML existente.
+Requiere openpyxl. Las tablas del Hito I v1.1 son la fuente única de los
+registros revisados. No ejecuta el antiguo script S4 ni reasigna IDs.
 """
 
-import os
-import zipfile
-import xml.etree.ElementTree as ET
+from pathlib import Path
+import sys
 
-NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
-RNS = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
-BASE = os.path.dirname(os.path.abspath(__file__))
-ENTRADA = os.path.join(BASE, "Registros_y_Radar_Semana1.xlsx")
-SALIDA = os.path.join(BASE, "Registros_y_Radar_Semana5.xlsx")
+from openpyxl import Workbook, load_workbook
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.utils import get_column_letter
 
-NUEVAS = {
-    "Decisiones": [
-        ["D-06", "18/09/2026", "Adoptar enfoque API-first interno antes de exponer APIs a terceros",
-         "Exponer externas desde inicio; punto a punto", "Valor es integración y eficiencia (Postman 2025)", "Equipo", "Inicial"],
-        ["D-07", "18/09/2026", "No priorizar provision del ERP o capa analítica como SaaS a terceros",
-         "Spin-off vertical para constructoras", "Implica cambiar de negocio", "Equipo", "Inicial"],
-        ["D-08", "18/09/2026", "Portal de cliente acotado como componente potencial de valor",
-         "Mantener información estrictamente interna", "Afecta bloques 3,4,7 del Canvas", "Equipo", "Inicial"],
-        ["D-09", "25/09/2026", "Limitar e-commerce a captación, reserva y pago digital",
-         "Venta inmobiliaria completa en línea", "Ticket alto, financiamiento y contrato (CAPECE 2026)", "Equipo", "Inicial"],
-        ["D-10", "02/10/2026", "Fijar BI y analítica operacional como tendencia principal (Semana 4)",
-         "Arquitectura de datos; IA generativa", "Ataca S-08 y anillo Adoptar del Radar v0.1", "Equipo", "Vigente"],
-        ["D-11", "02/10/2026", "Validar H1 con PoC de estimación por históricos sobre datos sintéticos",
-         "Encuesta; piloto en producción", "Mide desvío sin riesgo a escala académica", "Equipo", "Vigente"],
-        ["D-12", "02/10/2026", "Mantener IA generativa en Probar/Evaluar subordinada a H1 y H2",
-         "Priorizar IA como primera capa", "Depende de datos confiables (D-03)", "Equipo", "Vigente"],
-        ["D-13", "09/10/2026", "Documentar arquitectura AS-IS/TO-BE v0.1 como evolución por capas (sin reemplazar ERP)",
-         "Reemplazo; big bang", "Proporcionalidad, reversibilidad y alineado a ADR-01–ADR-06", "Equipo", "Vigente"],
-    ],
-    "Contribuciones": [
-        ["Anthony Romani", "Consolidación de stakeholders y AS-IS de actores e integraciones (S5)", "Sección 3, Figura 1", "09/10/2026", "Documento: Sección 3; arquitectura/as-is", "Registrado", "-"],
-        ["Max Astuhuaman", "Deuda técnica priorizada y ADR-01 a ADR-06 (S5)", "Secciones 4 y 6", "09/10/2026", "Documento: Secciones 4 y 6", "Registrado", "-"],
-        ["Guillermo Calle", "TO-BE v0.1, diagramas y mapa de dependencias (S5)", "Secciones 5 y 7", "09/10/2026", "Figuras 1–4; arquitectura/", "Registrado", "-"],
-        ["Pablo Mendoza", "Trazabilidad S1–S5, riesgos y consolidación Hito I (S5)", "Secciones 2 y 9", "09/10/2026", "Documento: Secciones 2 y 9; revisión integral", "Registrado", "-"],
-    ],
-    "Supuestos": [
-        ["S-13", "Todo componente del TO-BE requiere función de negocio definida antes de adoptar", "Arquitectura", "Vigente", "No adoptar tecnología por moda (Hito I)", "Equipo (Semana 5)"],
-    ],
-    "Fuentes": [
-        ["F-25", "1", "ISO/IEC/IEEE 42010:2011 Systems and software engineering — Architecture description", "2011", "Descripción arquitectónica y buenas prácticas", "https://standards.ieee.org/ieee/42010/5692/"],
-        ["F-26", "2", "Thoughtworks Technology Radar Vol. 33", "2025", "Tendencias y ubicación de anillos", "https://www.thoughtworks.com/radar"],
-        ["F-27", "4", "Kruchten P., Nord R.L., Ozkaya I. Technical debt: From metaphor to theory and practice", "2012", "Marco para deuda técnica priorizada", "https://doi.org/10.1109/MS.2012.167"],
-    ],
-}
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "documentos" / "proyecto"))
+from artefactos_hito import leer_tablas  # noqa: E402
+
+DOCUMENTO = ROOT / "documentos/proyecto/Semana5_Hito_I_v1.1.md"
+SALIDA = ROOT / "gestion/registros/Registros_y_Radar_Semana5_v1.1.xlsx"
+
+
+def construir():
+    tablas = leer_tablas(DOCUMENTO.read_text(encoding="utf-8"))
+
+    def tabla(inicio):
+        candidatas = [t for t in tablas if t[0][0] == inicio]
+        if len(candidatas) != 1:
+            raise ValueError(f"Se esperaba una tabla {inicio!r}; hay {len(candidatas)}")
+        return candidatas[0]
+
+    def id_tabla(identificador):
+        candidatas = [t for t in tablas if len(t) > 1 and t[1][0] == identificador]
+        if len(candidatas) != 1:
+            raise ValueError(f"Tabla no única: {identificador}")
+        return candidatas[0]
+
+    libro = Workbook()
+    libro.remove(libro.active)
+
+    def agregar(nombre, filas):
+        hoja = libro.create_sheet(nombre)
+        for fila in filas:
+            hoja.append(fila)
+        hoja.freeze_panes = "A2"
+        hoja.auto_filter.ref = hoja.dimensions
+        hoja.sheet_view.zoomScale = 85
+        for celda in hoja[1]:
+            celda.font = Font(bold=True, color="FFFFFF")
+            celda.fill = PatternFill("solid", fgColor="1F4E79")
+        for fila in hoja.iter_rows():
+            for celda in fila:
+                celda.alignment = Alignment(vertical="top", wrap_text=True)
+        for columna in range(1, hoja.max_column + 1):
+            longitud = max(len(str(hoja.cell(f, columna).value or ""))
+                           for f in range(1, hoja.max_row + 1))
+            hoja.column_dimensions[get_column_letter(columna)].width = min(58, max(15, longitud * .65))
+        for fila in range(2, hoja.max_row + 1):
+            hoja.row_dimensions[fila].height = 65
+        return hoja
+
+    agregar("Control", [
+        ["Campo", "Valor"],
+        ["Versión", "v1.1 — corrección del Hito I; 24/10/2026"],
+        ["Fuente única revisada", str(DOCUMENTO.relative_to(ROOT)).replace("\\", "/")],
+        ["Regla", "Históricos intactos; reconstrucción documental, no entrega retroactiva"],
+        ["Datos confirmados por equipo", "ERP propio CodeIgniter/MySQL; versiones desconocidas"],
+        ["Madurez", "Diagnóstico hipotético, no entrevistas ni medición empresarial"],
+        ["Contribuciones", "Declaraciones históricas; no se inventan aportes de la corrección"],
+        ["Aprobación", "Revisión y validación humana del equipo pendientes"],
+        ["Referencias", "Fuentes consultadas separadas de citas históricas no revalidadas"],
+    ])
+    agregar("Decisiones", id_tabla("D-01"))
+    agregar("ADR", id_tabla("ADR-01"))
+    agregar("Radar_Data", id_tabla("T1"))
+
+    historico = load_workbook(ROOT / "gestion/registros/Registros_y_Radar_Semana1.xlsx", data_only=True)
+    supuestos = [["ID", "Enunciado", "Tipo", "Estado", "Validación / alcance"]]
+    for r in list(historico["Supuestos"].values)[1:]:
+        if r[0]:
+            supuestos.append([r[0], r[1], r[2], f"Histórico S1: {r[3]}",
+                              f"Escenario académico, no nueva verificación. {r[4] or ''} Fuente: {r[5] or ''}"])
+    # Corrige referencia interna sin alterar el libro original.
+    for fila in supuestos[1:]:
+        fila[4] = fila[4].replace("sección 3.3", "sección 3.1")
+    supuestos.extend(id_tabla("S-11")[1:])
+    agregar("Supuestos", supuestos)
+    agregar("Supuestos_Economicos", id_tabla("SE-01"))
+    agregar("Contribuciones", next(
+        t for t in tablas if t[0][:2] == ["Semana", "Integrante"]))
+    agregar("Canvas_Data", tabla("Bloque BMC AS-IS"))
+    agregar("Propuestas", tabla("Propuesta"))
+    agregar("Stakeholders", tabla("Stakeholder"))
+    agregar("Madurez_SocioTecnica", tabla("Dimensión"))
+    agregar("Skills Gap", tabla("Rol actual del escenario"))
+    agregar("Impact_Canvas", tabla("Tendencia"))
+    agregar("Hipotesis", id_tabla("H1"))
+    agregar("Deuda_Trazabilidad", id_tabla("DT-01"))
+    agregar("Dependencias", id_tabla("F-01"))
+    agregar("Riesgos", tabla("Riesgo"))
+    agregar("Cambios", tabla("Cambio"))
+    agregar("Fuentes", id_tabla("FV-01"))
+
+    fuentes = [["ID original", "Nivel declarado", "Fuente histórica", "Año", "Uso declarado",
+                "URL declarada", "Procedencia", "Estado en revisión v1.1"]]
+    for nombre in ("Registros_y_Radar_Semana1.xlsx", "Registros_y_Radar_Semana4.xlsx"):
+        anterior = load_workbook(ROOT / "gestion/registros" / nombre, data_only=True)
+        for r in list(anterior["Fuentes"].values)[1:]:
+            if r[0] and not any(f[0] == r[0] for f in fuentes[1:]):
+                fuentes.append([*r[:6], nombre, "Cita histórica; no revalidada. No usar cifras sin verificar original"])
+        anterior.close()
+    agregar("Fuentes_Historicas", fuentes)
+    historico.close()
+
+    # Identificadores y número de contribuciones controlados antes de exportar.
+    assert [r[0] for r in list(libro["Decisiones"].values)[1:]] == [f"D-{i:02}" for i in range(1, 17)]
+    assert libro["Contribuciones"].max_row == 21
+    assert libro["Supuestos"].max_row == 22
+    libro.save(SALIDA)
+    print(f"[OK] {SALIDA.relative_to(ROOT)} ({len(libro.sheetnames)} hojas)")
+    return SALIDA
+
+
+if __name__ == "__main__":
+    construir()

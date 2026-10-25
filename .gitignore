@@ -2,3 +2,6 @@
 *.formula_errors.ndjson
 qa_*/
 ~$*
+__pycache__/
+*.pyc
+proyectoIntegrador (1).pdf

@@ -40,7 +40,7 @@ def main():
 
     assert mape_modelo <= 0.15, f"MAPE analítico {mape_modelo:.2%} > 15%"
     assert reduccion >= 0.30, f"Reducción {reduccion:.2%} < 30%"
-    print(f"[OK] H1 validada en el experimento sintético: "
+    print(f"[OK] Fixture sintética reproducida (no validación de negocio): "
           f"MAPE {mape_modelo:.2%} (reducción {reduccion:.2%}).")
 
 
