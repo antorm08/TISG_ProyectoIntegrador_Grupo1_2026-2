@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-26T17:26:21.347593+00:00",
+  "modelo": "GPT-6.1 Sol",
+  "proveedor": "openai",
+  "herramienta": "OpenCode",
+  "alcance": "Contexto separado; mismo modelo/herramienta/proveedor; sin aislamiento material ni independencia total.",
+  "antes_de_leer_o_ejecutar_src": true,
+  "sha256": {
+    "evaluacion_v02/casos.json": "3037226684071e5c7670ffbb8c53ae886e58bda2c51250b9b1113e11c078474b",
+    "evaluacion_v02/runner.py": "b626c4edcbc8d1d4c3ba488e86704eda9913b0ed25b58ae6b18f74034e9c0b9a",
+    "evaluacion_v02/congelar.py": "32977ca51a7cd21559a08ed25d36e773077b3ce52e74ed0e144bde55199e3bed",
+    "CONTRATO.md": "89628ba79fa2b11d1b865b7ef5ef75479c8396c490a2a92a02120d939c5519d0",
+    "pruebas/casos.json": "48179eb12d2500a4cb06f89fb77557e856d3cefc2c30b39691ea824f6430b4e8"
+  }
+}

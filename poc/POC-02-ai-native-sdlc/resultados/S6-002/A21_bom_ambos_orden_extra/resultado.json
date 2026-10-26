@@ -1,0 +1,111 @@
+{
+  "id": "A21_bom_ambos_orden_extra",
+  "rf": [
+    "RF-01"
+  ],
+  "motivo": "Ambos archivos con BOM, órdenes distintos, cabeceras extra únicas y CRLF.",
+  "passed": false,
+  "issues": [
+    "Conteos de archivos no son enteros no negativos por archivo lógico"
+  ],
+  "ambiguities": [],
+  "seconds": 0.47002449999854434,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A21_bom_ambos_orden_extra\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A21_bom_ambos_orden_extra\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 0,
+      "seconds": 0.15930349999871396,
+      "stdout_sha256": "062eaf10367dfcf5c8f8c9b2c873eb20f9f95522938afabae1b55f97cebd530e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A21_bom_ambos_orden_extra\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A21_bom_ambos_orden_extra\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 0,
+      "seconds": 0.16612150000037218,
+      "stdout_sha256": "062eaf10367dfcf5c8f8c9b2c873eb20f9f95522938afabae1b55f97cebd530e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A21_bom_ambos_orden_extra\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A21_bom_ambos_orden_extra\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 0,
+      "seconds": 0.1445994999994582,
+      "stdout_sha256": "062eaf10367dfcf5c8f8c9b2c873eb20f9f95522938afabae1b55f97cebd530e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    }
+  ]
+}

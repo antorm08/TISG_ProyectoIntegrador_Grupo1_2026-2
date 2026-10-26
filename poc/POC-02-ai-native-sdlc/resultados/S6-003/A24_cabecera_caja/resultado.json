@@ -1,0 +1,133 @@
+{
+  "id": "A24_cabecera_caja",
+  "rf": [
+    "RF-01"
+  ],
+  "motivo": "Cabecera exacta distingue mayúsculas, incluso en metrados.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [],
+  "seconds": 0.4816430999999284,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A24_cabecera_caja\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A24_cabecera_caja\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.1633029999993596,
+      "stdout_sha256": "a6ccb82f843d21ef9e48278d468dfeaae0013e4add5f2b621ccaa7cf5d7110b9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 0
+          }
+        },
+        "errores": [
+          {
+            "archivo": "metrados",
+            "fila": 0,
+            "campo": "cantidad",
+            "codigo": "E_COLUMNA_FALTANTE",
+            "mensaje": "Falta una columna obligatoria."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A24_cabecera_caja\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A24_cabecera_caja\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.15759650000109104,
+      "stdout_sha256": "a6ccb82f843d21ef9e48278d468dfeaae0013e4add5f2b621ccaa7cf5d7110b9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 0
+          }
+        },
+        "errores": [
+          {
+            "archivo": "metrados",
+            "fila": 0,
+            "campo": "cantidad",
+            "codigo": "E_COLUMNA_FALTANTE",
+            "mensaje": "Falta una columna obligatoria."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A24_cabecera_caja\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A24_cabecera_caja\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.16074359999947774,
+      "stdout_sha256": "a6ccb82f843d21ef9e48278d468dfeaae0013e4add5f2b621ccaa7cf5d7110b9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 0
+          }
+        },
+        "errores": [
+          {
+            "archivo": "metrados",
+            "fila": 0,
+            "campo": "cantidad",
+            "codigo": "E_COLUMNA_FALTANTE",
+            "mensaje": "Falta una columna obligatoria."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

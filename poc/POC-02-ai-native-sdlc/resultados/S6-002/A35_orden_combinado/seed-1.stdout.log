@@ -1,0 +1,77 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 3
+    },
+    "metrados": {
+      "filas": 2
+    }
+  },
+  "errores": [
+    {
+      "archivo": "costos",
+      "fila": 2,
+      "campo": "costo_real",
+      "codigo": "E_NUMERO_FORMATO",
+      "mensaje": "El número no cumple el formato permitido."
+    },
+    {
+      "archivo": "costos",
+      "fila": 2,
+      "campo": "obra_id,partida_id",
+      "codigo": "E_SIN_METRADO",
+      "mensaje": "La clave no tiene correspondencia en el otro archivo."
+    },
+    {
+      "archivo": "costos",
+      "fila": 3,
+      "campo": "obra_id,partida_id",
+      "codigo": "E_CLAVE_DUPLICADA",
+      "mensaje": "Clave repetida; primera aparición en fila 2."
+    },
+    {
+      "archivo": "costos",
+      "fila": 4,
+      "campo": "costo_real",
+      "codigo": "E_NUMERO_FORMATO",
+      "mensaje": "El número no cumple el formato permitido."
+    },
+    {
+      "archivo": "costos",
+      "fila": 4,
+      "campo": "obra_id",
+      "codigo": "E_ID_VACIO",
+      "mensaje": "El identificador no puede estar vacío."
+    },
+    {
+      "archivo": "costos",
+      "fila": 4,
+      "campo": "partida_id",
+      "codigo": "E_ID_VACIO",
+      "mensaje": "El identificador no puede estar vacío."
+    },
+    {
+      "archivo": "metrados",
+      "fila": 2,
+      "campo": "cantidad",
+      "codigo": "E_NO_POSITIVO",
+      "mensaje": "El valor debe ser estrictamente positivo."
+    },
+    {
+      "archivo": "metrados",
+      "fila": 2,
+      "campo": "obra_id,partida_id",
+      "codigo": "E_SIN_COSTO",
+      "mensaje": "La clave no tiene correspondencia en el otro archivo."
+    },
+    {
+      "archivo": "metrados",
+      "fila": 3,
+      "campo": "obra_id,partida_id",
+      "codigo": "E_CLAVE_DUPLICADA",
+      "mensaje": "Clave repetida; primera aparición en fila 2."
+    }
+  ]
+}

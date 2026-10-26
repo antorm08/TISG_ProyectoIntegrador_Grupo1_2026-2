@@ -1,0 +1,198 @@
+{
+  "id": "A13_gramatica_ascii",
+  "rf": [
+    "RF-03"
+  ],
+  "motivo": "Espacio interior, hexadecimal, exponente incompleto y menos Unicode no son decimales ASCII.",
+  "passed": false,
+  "issues": [
+    "Conteos de archivos no son enteros no negativos por archivo lógico"
+  ],
+  "ambiguities": [],
+  "seconds": 0.45909699999720033,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A13_gramatica_ascii\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A13_gramatica_ascii\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.1615855999989435,
+      "stdout_sha256": "21d4a8a9542147f158a6d6d0c1c81e9819329338f68b354c76e733358745da95",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 4
+          },
+          "metrados": {
+            "filas": 4
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 5,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A13_gramatica_ascii\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A13_gramatica_ascii\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.14568899999903806,
+      "stdout_sha256": "21d4a8a9542147f158a6d6d0c1c81e9819329338f68b354c76e733358745da95",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 4
+          },
+          "metrados": {
+            "filas": 4
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 5,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A13_gramatica_ascii\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A13_gramatica_ascii\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.15182239999921876,
+      "stdout_sha256": "21d4a8a9542147f158a6d6d0c1c81e9819329338f68b354c76e733358745da95",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 4
+          },
+          "metrados": {
+            "filas": 4
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 5,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

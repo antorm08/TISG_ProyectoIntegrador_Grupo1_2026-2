@@ -1,0 +1,21 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 1
+    },
+    "metrados": {
+      "filas": 1
+    }
+  },
+  "errores": [
+    {
+      "archivo": "metrados",
+      "fila": 2,
+      "campo": "",
+      "codigo": "E_FILA_ESTRUCTURA",
+      "mensaje": "La fila no cumple la estructura o los límites."
+    }
+  ]
+}

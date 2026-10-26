@@ -1,0 +1,2077 @@
+{
+  "utc": "2026-10-26T17:28:43.065918+00:00",
+  "nature": "POST HOC: errores del evaluador identificados tras leer salidas e implementación; no es nueva aceptación precongelada.",
+  "frozen_passed": 0,
+  "total": 35,
+  "posthoc_cases_without_validator_defect": 35,
+  "evaluator_defects": [
+    {
+      "id": "EV-01",
+      "affects": "35/35",
+      "reason": "El contrato no obliga archivos.costos a ser entero; {filas: entero} satisface filas leídas por archivo lógico."
+    },
+    {
+      "id": "EV-02",
+      "affects": "A20",
+      "reason": "Cabecera línea 1; primer registro líneas 2-3; segundo registro línea 4, no 5."
+    }
+  ],
+  "reuse_id_refused": true,
+  "reuse_returncode": 1,
+  "existing_evidence_unchanged_during_refusal": true,
+  "frozen_files_unchanged": true,
+  "originals_still_unchanged": true,
+  "inputs_still_unchanged": true,
+  "cases": [
+    {
+      "id": "A01_ids_128",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.166661600000225
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14546549999977287
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14532920000056038
+        }
+      ]
+    },
+    {
+      "id": "A02_id_129",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1584167000000889
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1496086999995896
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1508566000011342
+        }
+      ]
+    },
+    {
+      "id": "A03_128_tras_strip",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14594360000046436
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1434097000001202
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14384789999894565
+        }
+      ]
+    },
+    {
+      "id": "A04_tab_interior",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15218259999892325
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14945510000143258
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14667479999843636
+        }
+      ]
+    },
+    {
+      "id": "A05_del_permitido",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1438545000000886
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14599989999987883
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15090980000059062
+        }
+      ]
+    },
+    {
+      "id": "A06_mayusculas",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14953649999915797
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15383470000051602
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15099089999966964
+        }
+      ]
+    },
+    {
+      "id": "A07_unicode_sin_nfc",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.148813900001187
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1454346999998961
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14454680000017106
+        }
+      ]
+    },
+    {
+      "id": "A08_numero_128",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.17649879999953555
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15968199999952049
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1545843000003515
+        }
+      ]
+    },
+    {
+      "id": "A09_numero_129",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14463939999950526
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14634990000013204
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.16244299999925715
+        }
+      ]
+    },
+    {
+      "id": "A10_digitos_unicode",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.16421450000052573
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.1518461000014213
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.17608730000029027
+        }
+      ]
+    },
+    {
+      "id": "A11_formas_decimales_extremas",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 5
+            },
+            "metrados": {
+              "filas": 5
+            }
+          },
+          "seconds": 0.1455227999995259
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 5
+            },
+            "metrados": {
+              "filas": 5
+            }
+          },
+          "seconds": 0.15144820000023174
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 5
+            },
+            "metrados": {
+              "filas": 5
+            }
+          },
+          "seconds": 0.14171340000029886
+        }
+      ]
+    },
+    {
+      "id": "A12_ceros_exponente",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NO_POSITIVO": 3
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 3
+            }
+          },
+          "seconds": 0.14390970000022207
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NO_POSITIVO": 3
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 3
+            }
+          },
+          "seconds": 0.15047229999981937
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NO_POSITIVO": 3
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 3
+            }
+          },
+          "seconds": 0.16381919999912498
+        }
+      ]
+    },
+    {
+      "id": "A13_gramatica_ascii",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 4
+          },
+          "archivos": {
+            "costos": {
+              "filas": 4
+            },
+            "metrados": {
+              "filas": 4
+            }
+          },
+          "seconds": 0.1615855999989435
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 4
+          },
+          "archivos": {
+            "costos": {
+              "filas": 4
+            },
+            "metrados": {
+              "filas": 4
+            }
+          },
+          "seconds": 0.14568899999903806
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 4
+          },
+          "archivos": {
+            "costos": {
+              "filas": 4
+            },
+            "metrados": {
+              "filas": 4
+            }
+          },
+          "seconds": 0.15182239999921876
+        }
+      ]
+    },
+    {
+      "id": "A14_duplicados_combinados",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1,
+            "E_CLAVE_DUPLICADA": 4,
+            "E_NO_POSITIVO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 3
+            }
+          },
+          "seconds": 0.15205760000026203
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1,
+            "E_CLAVE_DUPLICADA": 4,
+            "E_NO_POSITIVO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 3
+            }
+          },
+          "seconds": 0.14512920000015583
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1,
+            "E_CLAVE_DUPLICADA": 4,
+            "E_NO_POSITIVO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 3
+            }
+          },
+          "seconds": 0.15428379999866593
+        }
+      ]
+    },
+    {
+      "id": "A15_duplicados_ids_invalidos",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_VACIO": 2,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15311520000068413
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_VACIO": 2,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14221749999887834
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_VACIO": 2,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14947310000025027
+        }
+      ]
+    },
+    {
+      "id": "A16_numeros_invalidos_desparejados",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2,
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.16026700000111305
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2,
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14782259999992675
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2,
+            "E_SIN_METRADO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15351389999887033
+        }
+      ]
+    },
+    {
+      "id": "A17_clave_tupla_no_concatenada",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 4
+            },
+            "metrados": {
+              "filas": 4
+            }
+          },
+          "seconds": 0.1635377000002336
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 4
+            },
+            "metrados": {
+              "filas": 4
+            }
+          },
+          "seconds": 0.1704213000011805
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 4
+            },
+            "metrados": {
+              "filas": 4
+            }
+          },
+          "seconds": 0.14730240000062622
+        }
+      ]
+    },
+    {
+      "id": "A18_multilinea_extra",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.1500685999999405
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.14705379999941215
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.14878790000148
+        }
+      ]
+    },
+    {
+      "id": "A19_multilinea_id",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15377110000008543
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1506998000004387
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ID_FORMATO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14135259999966365
+        }
+      ]
+    },
+    {
+      "id": "A20_multilinea_correspondencia",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14478499999859196
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14520850000008068
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_SIN_METRADO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 2
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14681149999887566
+        }
+      ]
+    },
+    {
+      "id": "A21_bom_ambos_orden_extra",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15930349999871396
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.16612150000037218
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1445994999994582
+        }
+      ]
+    },
+    {
+      "id": "A22_extra_duplicada",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CABECERA_DUPLICADA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15763739999965765
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CABECERA_DUPLICADA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14495719999831636
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CABECERA_DUPLICADA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1413486000001285
+        }
+      ]
+    },
+    {
+      "id": "A23_cabecera_espaciada",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_COLUMNA_FALTANTE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15044579999994312
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_COLUMNA_FALTANTE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1465410000000702
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_COLUMNA_FALTANTE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14160719999927096
+        }
+      ]
+    },
+    {
+      "id": "A24_cabecera_caja",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_COLUMNA_FALTANTE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 0
+            }
+          },
+          "seconds": 0.14420769999924232
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_COLUMNA_FALTANTE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 0
+            }
+          },
+          "seconds": 0.144623700000011
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_COLUMNA_FALTANTE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 0
+            }
+          },
+          "seconds": 0.149604599999293
+        }
+      ]
+    },
+    {
+      "id": "A25_linea_vacia_interior",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1567756999993435
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15165439999873342
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1476529000010487
+        }
+      ]
+    },
+    {
+      "id": "A26_fila_larga",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1476158999994368
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1607782999999472
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.41624490000140213
+        }
+      ]
+    },
+    {
+      "id": "A27_campo_4096",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.16350710000006075
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15890630000103556
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1545762999994622
+        }
+      ]
+    },
+    {
+      "id": "A28_campo_4097",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1509368999995786
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.16357140000036452
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_FILA_ESTRUCTURA": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.15267889999995532
+        }
+      ]
+    },
+    {
+      "id": "A29_archivo_1mib",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 300
+            },
+            "metrados": {
+              "filas": 300
+            }
+          },
+          "seconds": 0.16470339999978023
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 300
+            },
+            "metrados": {
+              "filas": 300
+            }
+          },
+          "seconds": 0.15577080000002752
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 300
+            },
+            "metrados": {
+              "filas": 300
+            }
+          },
+          "seconds": 0.16057350000119186
+        }
+      ]
+    },
+    {
+      "id": "A30_archivo_1mib_mas1",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_LIMITE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1500223000002734
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_LIMITE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.1530801999997493
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_LIMITE": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14973319999990053
+        }
+      ]
+    },
+    {
+      "id": "A31_1mib_utf8_bom",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 300
+            },
+            "metrados": {
+              "filas": 300
+            }
+          },
+          "seconds": 0.15735169999970822
+        },
+        {
+          "seed": "987654321",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 300
+            },
+            "metrados": {
+              "filas": 300
+            }
+          },
+          "seconds": 0.1695863000004465
+        },
+        {
+          "seed": "random",
+          "returncode": 0,
+          "estado": "VALIDO",
+          "codigos": {},
+          "archivos": {
+            "costos": {
+              "filas": 300
+            },
+            "metrados": {
+              "filas": 300
+            }
+          },
+          "seconds": 0.14495920000081242
+        }
+      ]
+    },
+    {
+      "id": "A32_csv_roto_despues_fila",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CSV": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.13660749999871769
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CSV": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14262740000049234
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CSV": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 1
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.13448160000007192
+        }
+      ]
+    },
+    {
+      "id": "A33_utf8_roto_despues_fila",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CODIFICACION": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14638919999924838
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CODIFICACION": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.13981740000053833
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_CODIFICACION": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.14450490000126592
+        }
+      ]
+    },
+    {
+      "id": "A34_directorio",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ARCHIVO_TIPO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.13606370000161405
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ARCHIVO_TIPO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.13392980000026
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_ARCHIVO_TIPO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 0
+            },
+            "metrados": {
+              "filas": 1
+            }
+          },
+          "seconds": 0.13482119999935094
+        }
+      ]
+    },
+    {
+      "id": "A35_orden_combinado",
+      "frozen_passed": false,
+      "posthoc_no_validator_defect": true,
+      "residual_issues": [],
+      "runs": [
+        {
+          "seed": "1",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2,
+            "E_SIN_METRADO": 1,
+            "E_CLAVE_DUPLICADA": 2,
+            "E_ID_VACIO": 2,
+            "E_NO_POSITIVO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.15671300000030897
+        },
+        {
+          "seed": "987654321",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2,
+            "E_SIN_METRADO": 1,
+            "E_CLAVE_DUPLICADA": 2,
+            "E_ID_VACIO": 2,
+            "E_NO_POSITIVO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.15101710000089952
+        },
+        {
+          "seed": "random",
+          "returncode": 1,
+          "estado": "INVALIDO",
+          "codigos": {
+            "E_NUMERO_FORMATO": 2,
+            "E_SIN_METRADO": 1,
+            "E_CLAVE_DUPLICADA": 2,
+            "E_ID_VACIO": 2,
+            "E_NO_POSITIVO": 1,
+            "E_SIN_COSTO": 1
+          },
+          "archivos": {
+            "costos": {
+              "filas": 3
+            },
+            "metrados": {
+              "filas": 2
+            }
+          },
+          "seconds": 0.13725940000040282
+        }
+      ]
+    }
+  ]
+}

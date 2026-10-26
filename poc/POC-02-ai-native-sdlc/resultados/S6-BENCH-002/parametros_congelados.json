@@ -1,0 +1,24 @@
+{
+  "id": "S6-BENCH-002",
+  "inicio_utc": "2026-10-26T17:38:10.049668+00:00",
+  "repeticiones_api_cli": 30,
+  "calentamientos_api_cli": 3,
+  "repeticiones_suite": 5,
+  "calentamientos_suite": 1,
+  "orden": "35 API, 35 CLI, 1000 API, 1000 CLI, suite; secuencial sin paralelismo del runner",
+  "reloj": "namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26200-SP0",
+  "maquina": "AMD64",
+  "procesadores_logicos": 8,
+  "temporizador": "time.perf_counter",
+  "hashes_antes": {
+    "poc/POC-01-estimacion-historicos/datos/costos.csv": "d9d0b48515862631428c7ca583b9ef4df002839fb39717e194b0f1df4dfb73f1",
+    "poc/POC-01-estimacion-historicos/datos/metrados.csv": "b26a57349f35ebd977cd12b4d29fd6913d448e4af73118247b1a8ff1092ba4c4",
+    "poc/POC-02-ai-native-sdlc/src/validador.py": "38e9bdaac54ecf76d92969ff931c1b43cee03556528da8c88f7bf9c161c67e85",
+    "poc/POC-02-ai-native-sdlc/pruebas/test_validador.py": "d236a97505fb17c15688f2544ca46236c1fbb92663f7b1db816c077229e8a7b3",
+    "poc/POC-02-ai-native-sdlc/pruebas/casos.json": "48179eb12d2500a4cb06f89fb77557e856d3cefc2c30b39691ea824f6430b4e8"
+  },
+  "script_sha256": "ba74fb2a9f8ebf773f0d3a77321f94fe74cf459ab8926bb1b39b8e40ecfc9d11",
+  "limites": "Cache del SO caliente, carga externa/afinidad/frecuencia no controladas; no benchmark comparativo ni tiempo humano"
+}

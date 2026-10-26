@@ -1,0 +1,2 @@
+usage: validador.py [-h] --costos COSTOS --metrados METRADOS
+validador.py: error: the following arguments are required: --costos, --metrados

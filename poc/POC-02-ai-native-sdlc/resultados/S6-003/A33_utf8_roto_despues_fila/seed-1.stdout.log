@@ -1,0 +1,21 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 0
+    },
+    "metrados": {
+      "filas": 1
+    }
+  },
+  "errores": [
+    {
+      "archivo": "costos",
+      "fila": 0,
+      "campo": "",
+      "codigo": "E_CODIFICACION",
+      "mensaje": "El archivo debe usar UTF-8 válido."
+    }
+  ]
+}

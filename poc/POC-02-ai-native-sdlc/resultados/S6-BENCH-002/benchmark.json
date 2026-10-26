@@ -1,0 +1,720 @@
+{
+  "parametros": {
+    "id": "S6-BENCH-002",
+    "inicio_utc": "2026-10-26T17:38:10.049668+00:00",
+    "repeticiones_api_cli": 30,
+    "calentamientos_api_cli": 3,
+    "repeticiones_suite": 5,
+    "calentamientos_suite": 1,
+    "orden": "35 API, 35 CLI, 1000 API, 1000 CLI, suite; secuencial sin paralelismo del runner",
+    "reloj": "namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "plataforma": "Windows-11-10.0.26200-SP0",
+    "maquina": "AMD64",
+    "procesadores_logicos": 8,
+    "temporizador": "time.perf_counter",
+    "hashes_antes": {
+      "poc/POC-01-estimacion-historicos/datos/costos.csv": "d9d0b48515862631428c7ca583b9ef4df002839fb39717e194b0f1df4dfb73f1",
+      "poc/POC-01-estimacion-historicos/datos/metrados.csv": "b26a57349f35ebd977cd12b4d29fd6913d448e4af73118247b1a8ff1092ba4c4",
+      "poc/POC-02-ai-native-sdlc/src/validador.py": "38e9bdaac54ecf76d92969ff931c1b43cee03556528da8c88f7bf9c161c67e85",
+      "poc/POC-02-ai-native-sdlc/pruebas/test_validador.py": "d236a97505fb17c15688f2544ca46236c1fbb92663f7b1db816c077229e8a7b3",
+      "poc/POC-02-ai-native-sdlc/pruebas/casos.json": "48179eb12d2500a4cb06f89fb77557e856d3cefc2c30b39691ea824f6430b4e8"
+    },
+    "script_sha256": "ba74fb2a9f8ebf773f0d3a77321f94fe74cf459ab8926bb1b39b8e40ecfc9d11",
+    "limites": "Cache del SO caliente, carga externa/afinidad/frecuencia no controladas; no benchmark comparativo ni tiempo humano"
+  },
+  "fin_utc": "2026-10-26T17:38:24.702834+00:00",
+  "resumen": {
+    "API_35": {
+      "n": 30,
+      "mediana_s": 0.0008957499994721729,
+      "min_s": 0.0008796999991318444,
+      "max_s": 0.0013001000006624963
+    },
+    "CLI_35": {
+      "n": 30,
+      "mediana_s": 0.1367808499999228,
+      "min_s": 0.12891169999966223,
+      "max_s": 0.1460319999987405
+    },
+    "API_1000": {
+      "n": 30,
+      "mediana_s": 0.010758800000076008,
+      "min_s": 0.010304299999916111,
+      "max_s": 0.02656320000096457
+    },
+    "CLI_1000": {
+      "n": 30,
+      "mediana_s": 0.1464175000000978,
+      "min_s": 0.14090399999986403,
+      "max_s": 0.17130899999938265
+    },
+    "SUITE_48": {
+      "n": 5,
+      "mediana_s": 0.6922108000017033,
+      "min_s": 0.6575322999997297,
+      "max_s": 0.7787194000011368
+    }
+  },
+  "tiempos_individuales": [
+    {
+      "grupo": "API_35",
+      "repeticion": 1,
+      "segundos": 0.0013001000006624963
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 2,
+      "segundos": 0.0009100999996007886
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 3,
+      "segundos": 0.0008975000000646105
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 4,
+      "segundos": 0.0008901000001060311
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 5,
+      "segundos": 0.0008959999995568069
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 6,
+      "segundos": 0.0008820999992167344
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 7,
+      "segundos": 0.0009695000007923227
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 8,
+      "segundos": 0.0009599000004527625
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 9,
+      "segundos": 0.000935800000661402
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 10,
+      "segundos": 0.0009124999996856786
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 11,
+      "segundos": 0.000895499999387539
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 12,
+      "segundos": 0.0008926000009523705
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 13,
+      "segundos": 0.0008917999984987546
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 14,
+      "segundos": 0.0008904000005713897
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 15,
+      "segundos": 0.0008796999991318444
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 16,
+      "segundos": 0.0008999000001495006
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 17,
+      "segundos": 0.0008851000002323417
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 18,
+      "segundos": 0.0008913000001484761
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 19,
+      "segundos": 0.0008921000007831026
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 20,
+      "segundos": 0.0008926999998948304
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 21,
+      "segundos": 0.0008985000004031463
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 22,
+      "segundos": 0.0008834999989630887
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 23,
+      "segundos": 0.0008920000000216532
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 24,
+      "segundos": 0.0009114999993471429
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 25,
+      "segundos": 0.0010504999991098884
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 26,
+      "segundos": 0.0009184999998979038
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 27,
+      "segundos": 0.00090720000116562
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 28,
+      "segundos": 0.0008931000011216383
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 29,
+      "segundos": 0.0008963000000221655
+    },
+    {
+      "grupo": "API_35",
+      "repeticion": 30,
+      "segundos": 0.0008859999998094281
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 1,
+      "segundos": 0.13567330000114453
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 2,
+      "segundos": 0.1374898000012763
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 3,
+      "segundos": 0.1367422000002989
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 4,
+      "segundos": 0.14016420000007201
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 5,
+      "segundos": 0.1369078999996418
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 6,
+      "segundos": 0.1426050000009127
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 7,
+      "segundos": 0.14101660000051197
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 8,
+      "segundos": 0.14114470000095025
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 9,
+      "segundos": 0.1454420999998547
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 10,
+      "segundos": 0.13502859999971406
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 11,
+      "segundos": 0.13341340000079072
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 12,
+      "segundos": 0.13414279999960854
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 13,
+      "segundos": 0.13689640000120562
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 14,
+      "segundos": 0.13499959999899147
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 15,
+      "segundos": 0.13923150000118767
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 16,
+      "segundos": 0.13664369999969495
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 17,
+      "segundos": 0.13681949999954668
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 18,
+      "segundos": 0.12891169999966223
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 19,
+      "segundos": 0.1460319999987405
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 20,
+      "segundos": 0.13400479999836534
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 21,
+      "segundos": 0.13593500000024505
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 22,
+      "segundos": 0.1308724999998958
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 23,
+      "segundos": 0.13191569999980857
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 24,
+      "segundos": 0.13636089999999967
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 25,
+      "segundos": 0.13528560000122525
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 26,
+      "segundos": 0.13356860000021697
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 27,
+      "segundos": 0.14380700000037905
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 28,
+      "segundos": 0.14090020000003278
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 29,
+      "segundos": 0.13977870000053372
+    },
+    {
+      "grupo": "CLI_35",
+      "repeticion": 30,
+      "segundos": 0.13925919999928738
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 1,
+      "segundos": 0.010563899999397108
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 2,
+      "segundos": 0.01053460000002815
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 3,
+      "segundos": 0.010980499999277527
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 4,
+      "segundos": 0.010544300001129159
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 5,
+      "segundos": 0.015677800000048592
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 6,
+      "segundos": 0.01081019999946875
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 7,
+      "segundos": 0.012188200000309735
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 8,
+      "segundos": 0.010589600000457722
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 9,
+      "segundos": 0.025340400001368835
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 10,
+      "segundos": 0.02656320000096457
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 11,
+      "segundos": 0.01347409999834781
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 12,
+      "segundos": 0.010571799999524956
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 13,
+      "segundos": 0.010534999999435968
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 14,
+      "segundos": 0.010531399999308633
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 15,
+      "segundos": 0.010464900000442867
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 16,
+      "segundos": 0.010568800000328338
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 17,
+      "segundos": 0.010862099999940256
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 18,
+      "segundos": 0.010509800000363612
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 19,
+      "segundos": 0.011022599999705562
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 20,
+      "segundos": 0.012127199999667937
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 21,
+      "segundos": 0.01371109999854525
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 22,
+      "segundos": 0.01061189999927592
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 23,
+      "segundos": 0.011520199999722536
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 24,
+      "segundos": 0.011080399999627843
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 25,
+      "segundos": 0.010304299999916111
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 26,
+      "segundos": 0.011131100000056904
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 27,
+      "segundos": 0.010707400000683265
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 28,
+      "segundos": 0.010326000001441571
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 29,
+      "segundos": 0.010381699999925331
+    },
+    {
+      "grupo": "API_1000",
+      "repeticion": 30,
+      "segundos": 0.01134479999927862
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 1,
+      "segundos": 0.1477123999993637
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 2,
+      "segundos": 0.1494313000002876
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 3,
+      "segundos": 0.14530850000119244
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 4,
+      "segundos": 0.14090399999986403
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 5,
+      "segundos": 0.15018740000050457
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 6,
+      "segundos": 0.14672280000013416
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 7,
+      "segundos": 0.14361419999841019
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 8,
+      "segundos": 0.14101819999996223
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 9,
+      "segundos": 0.14500779999980296
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 10,
+      "segundos": 0.1433489000010013
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 11,
+      "segundos": 0.1464679000000615
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 12,
+      "segundos": 0.14775860000008834
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 13,
+      "segundos": 0.14680960000077903
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 14,
+      "segundos": 0.14796089999981632
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 15,
+      "segundos": 0.14398249999976542
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 16,
+      "segundos": 0.1463671000001341
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 17,
+      "segundos": 0.1411645000007411
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 18,
+      "segundos": 0.14269899999999325
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 19,
+      "segundos": 0.14602670000022044
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 20,
+      "segundos": 0.16395190000002913
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 21,
+      "segundos": 0.14963859999988927
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 22,
+      "segundos": 0.1431510000002163
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 23,
+      "segundos": 0.14865909999934956
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 24,
+      "segundos": 0.14436290000048757
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 25,
+      "segundos": 0.17130899999938265
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 26,
+      "segundos": 0.15856679999888001
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 27,
+      "segundos": 0.1556137999996281
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 28,
+      "segundos": 0.1435620000011113
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 29,
+      "segundos": 0.1594796999997925
+    },
+    {
+      "grupo": "CLI_1000",
+      "repeticion": 30,
+      "segundos": 0.14209389999996347
+    },
+    {
+      "grupo": "SUITE_48",
+      "repeticion": 1,
+      "segundos": 0.6659122999990359
+    },
+    {
+      "grupo": "SUITE_48",
+      "repeticion": 2,
+      "segundos": 0.7787194000011368
+    },
+    {
+      "grupo": "SUITE_48",
+      "repeticion": 3,
+      "segundos": 0.6922108000017033
+    },
+    {
+      "grupo": "SUITE_48",
+      "repeticion": 4,
+      "segundos": 0.7308382999999594
+    },
+    {
+      "grupo": "SUITE_48",
+      "repeticion": 5,
+      "segundos": 0.6575322999997297
+    }
+  ],
+  "comandos_cli": [
+    {
+      "filas": 35,
+      "argv": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-01-estimacion-historicos\\datos\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-01-estimacion-historicos\\datos\\metrados.csv"
+      ]
+    },
+    {
+      "filas": 1000,
+      "argv": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-BENCH-002\\datos_1000\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-BENCH-002\\datos_1000\\metrados.csv"
+      ]
+    }
+  ],
+  "entradas_fuente_intactas": true,
+  "esfuerzo_desarrollo": "NO DETERMINADO",
+  "revision_humana": "NO DETERMINADO",
+  "ahorro_manual": "NO DETERMINADO"
+}

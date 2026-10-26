@@ -1,0 +1,35 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 3
+    },
+    "metrados": {
+      "filas": 3
+    }
+  },
+  "errores": [
+    {
+      "archivo": "costos",
+      "fila": 2,
+      "campo": "costo_real",
+      "codigo": "E_NO_POSITIVO",
+      "mensaje": "El valor debe ser estrictamente positivo."
+    },
+    {
+      "archivo": "costos",
+      "fila": 3,
+      "campo": "costo_real",
+      "codigo": "E_NO_POSITIVO",
+      "mensaje": "El valor debe ser estrictamente positivo."
+    },
+    {
+      "archivo": "costos",
+      "fila": 4,
+      "campo": "costo_real",
+      "codigo": "E_NO_POSITIVO",
+      "mensaje": "El valor debe ser estrictamente positivo."
+    }
+  ]
+}

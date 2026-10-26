@@ -1,0 +1,159 @@
+{
+  "id": "A28_campo_4097",
+  "rf": [
+    "RF-07",
+    "RF-10"
+  ],
+  "motivo": "4097 caracteres deben invalidar y suprimir relaciones. RF-07 no asigna inequívocamente E_LIMITE/E_FILA_ESTRUCTURA/E_CSV al límite de campo.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [
+    {
+      "codigo": "E_LIMITE",
+      "observado": 0,
+      "rango": [
+        0,
+        1
+      ]
+    },
+    {
+      "codigo": "E_FILA_ESTRUCTURA",
+      "observado": 1,
+      "rango": [
+        0,
+        1
+      ]
+    },
+    {
+      "codigo": "E_CSV",
+      "observado": 0,
+      "rango": [
+        0,
+        1
+      ]
+    }
+  ],
+  "seconds": 0.6354041999984474,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A28_campo_4097\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A28_campo_4097\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.17569279999952414,
+      "stdout_sha256": "a0b683ff14a3bb403a6a6b4792c52205bf848d1e57a41b2964da1f14e3b194ae",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "",
+            "codigo": "E_FILA_ESTRUCTURA",
+            "mensaje": "La fila no cumple la estructura o los límites."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A28_campo_4097\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A28_campo_4097\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.2428273999994417,
+      "stdout_sha256": "a0b683ff14a3bb403a6a6b4792c52205bf848d1e57a41b2964da1f14e3b194ae",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "",
+            "codigo": "E_FILA_ESTRUCTURA",
+            "mensaje": "La fila no cumple la estructura o los límites."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A28_campo_4097\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A28_campo_4097\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.2168839999994816,
+      "stdout_sha256": "a0b683ff14a3bb403a6a6b4792c52205bf848d1e57a41b2964da1f14e3b194ae",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "",
+            "codigo": "E_FILA_ESTRUCTURA",
+            "mensaje": "La fila no cumple la estructura o los límites."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

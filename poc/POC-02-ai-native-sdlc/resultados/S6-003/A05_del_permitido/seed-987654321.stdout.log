@@ -1,0 +1,13 @@
+{
+  "version_contrato": "1.0",
+  "estado": "VALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 1
+    },
+    "metrados": {
+      "filas": 1
+    }
+  },
+  "errores": []
+}

@@ -1,0 +1,21 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 1
+    },
+    "metrados": {
+      "filas": 0
+    }
+  },
+  "errores": [
+    {
+      "archivo": "metrados",
+      "fila": 0,
+      "campo": "cantidad",
+      "codigo": "E_COLUMNA_FALTANTE",
+      "mensaje": "Falta una columna obligatoria."
+    }
+  ]
+}

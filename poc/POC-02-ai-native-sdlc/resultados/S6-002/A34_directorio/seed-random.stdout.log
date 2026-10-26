@@ -1,0 +1,21 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 0
+    },
+    "metrados": {
+      "filas": 1
+    }
+  },
+  "errores": [
+    {
+      "archivo": "costos",
+      "fila": 0,
+      "campo": "",
+      "codigo": "E_ARCHIVO_TIPO",
+      "mensaje": "Se requiere un archivo regular sin enlace simbólico."
+    }
+  ]
+}

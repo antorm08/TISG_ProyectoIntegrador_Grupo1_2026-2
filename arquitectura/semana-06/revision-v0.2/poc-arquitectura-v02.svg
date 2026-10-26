@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="255" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 255" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="255"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-255)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="170" width="150" height="76" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="242" width="150" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="12" y="222" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,444) scale(1,-1)">ERP conservado</text>
+			<text x="12" y="202" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,404) scale(1,-1)">CodeIgniter / MySQL</text>
+			<text x="12" y="187" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,374) scale(1,-1)">Sin acceso en esta PoC</text>
+			<rect x="170" y="170" width="150" height="76" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="170" y="242" width="150" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="182" y="222" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,444) scale(1,-1)">Extracción</text>
+			<text x="182" y="202" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,404) scale(1,-1)">Autorizada y acotada</text>
+			<text x="182" y="187" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,374) scale(1,-1)">Propuesta, no ejecutada</text>
+			<rect x="340" y="170" width="150" height="76" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(89%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="340" y="242" width="150" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="352" y="222" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,444) scale(1,-1)">POC-02</text>
+			<text x="352" y="202" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,404) scale(1,-1)">Puerta de validación</text>
+			<text x="352" y="187" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,374) scale(1,-1)">CSV sintéticos locales</text>
+			<path d="M 151,208 L 167,208 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="167 208, 162 211, 162 205" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 322,208 L 337,208 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="337 208, 332 211, 332 205" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<rect x="0" y="70" width="150" height="76" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="142" width="150" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="12" y="122" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,244) scale(1,-1)">Staging y SQL/Python</text>
+			<text x="12" y="102" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,204) scale(1,-1)">Contrato, transformaciones</text>
+			<text x="12" y="87" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,174) scale(1,-1)">Propuesto en Hito I</text>
+			<rect x="170" y="70" width="150" height="76" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="170" y="142" width="150" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="182" y="122" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,244) scale(1,-1)">Analítica y BI</text>
+			<text x="182" y="102" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,204) scale(1,-1)">Históricos comparables</text>
+			<text x="182" y="87" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,174) scale(1,-1)">Propuesto, no desplegado</text>
+			<rect x="340" y="70" width="150" height="76" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="340" y="142" width="150" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="352" y="122" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,244) scale(1,-1)">Revisión humana</text>
+			<text x="352" y="102" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,204) scale(1,-1)">Interpretar y autorizar</text>
+			<text x="352" y="87" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,174) scale(1,-1)">No decisiones automáticas</text>
+			<path d="M 415,168 L 415,158 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<path d="M 415,158 L 75,158 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<path d="M 75,158 L 75,149 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="75 149, 72 154, 78 154" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 151,108 L 167,108 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="167 108, 162 111, 162 105" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 322,108 L 337,108 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="337 108, 332 111, 332 105" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="0" y="40" style="font-family: EditorialBold; font-size: 9px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,80) scale(1,-1)">Secuencia lógica: extracción → POC-02 → staging → analítica → revisión.</text>
+			<text x="0" y="23" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,46) scale(1,-1)">Solo el recuadro verde está implementado como componente local en S6.</text>
+			<text x="0" y="6" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,12) scale(1,-1)">APU futuro exige recursos, unidades, tarifas vigentes y gobierno; no se calcula aquí.</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 2
+    },
+    "metrados": {
+      "filas": 2
+    }
+  },
+  "errores": [
+    {
+      "archivo": "costos",
+      "fila": 5,
+      "campo": "costo_real",
+      "codigo": "E_NUMERO_FORMATO",
+      "mensaje": "El número no cumple el formato permitido."
+    }
+  ]
+}

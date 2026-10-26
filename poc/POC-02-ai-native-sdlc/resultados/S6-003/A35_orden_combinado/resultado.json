@@ -1,0 +1,305 @@
+{
+  "id": "A35_orden_combinado",
+  "rf": [
+    "RF-02",
+    "RF-03",
+    "RF-05",
+    "RF-06",
+    "RF-08"
+  ],
+  "motivo": "Orden global estable con varios campos, duplicados y relaciones; conserva multiplicidades.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [],
+  "seconds": 0.4367316000007122,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A35_orden_combinado\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A35_orden_combinado\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.1451935000004596,
+      "stdout_sha256": "4413e2a41de936febd5cf7384edaf05b95ff81e9bf1bd0f43cee33b2e21a47c7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 2
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "partida_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "cantidad",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A35_orden_combinado\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A35_orden_combinado\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.13878219999969588,
+      "stdout_sha256": "4413e2a41de936febd5cf7384edaf05b95ff81e9bf1bd0f43cee33b2e21a47c7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 2
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "partida_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "cantidad",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A35_orden_combinado\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A35_orden_combinado\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.15275590000055672,
+      "stdout_sha256": "4413e2a41de936febd5cf7384edaf05b95ff81e9bf1bd0f43cee33b2e21a47c7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 2
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "partida_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "cantidad",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

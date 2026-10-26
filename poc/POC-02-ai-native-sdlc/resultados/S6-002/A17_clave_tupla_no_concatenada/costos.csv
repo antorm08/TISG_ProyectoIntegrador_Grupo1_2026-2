@@ -1,0 +1,5 @@
+obra_id,partida_id,costo_real
+A,BC,1
+AB,C,1
+A|B,C,1
+A,B|C,1
