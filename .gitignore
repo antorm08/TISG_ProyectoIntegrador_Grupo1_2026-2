@@ -12,3 +12,13 @@ proyectoIntegrador (1).pdf
 /skills-lock.json
 AUDITORIA_CUMPLIMIENTO_S01_S05.md
 documentos/herramientas/AGENT_SKILLS.md
+
+# Secretos locales: las plantillas sin valores reales sí pueden compartirse.
+.env
+.env.*
+!.env.example
+!.env.template
+/credentials.json
+/service-account.json
+id_rsa
+id_ed25519

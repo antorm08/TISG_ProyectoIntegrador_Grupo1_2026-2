@@ -1,0 +1,790 @@
+{
+  "formato": "inventario-repositorio-1",
+  "fecha_utc": "2026-10-26T15:07:41.335061+00:00",
+  "modo": "git",
+  "head_observado": "7f962facba3abc78c38921e656fadb6852c17fe4",
+  "commit_fotografia": "7f962facba3abc78c38921e656fadb6852c17fe4",
+  "alcance": "Blobs de un commit exacto, no bytes del árbol de trabajo ni aprobación humana",
+  "archivos": {
+    ".gitignore": {
+      "sha256": "d13e734faaafb7ea093c8598fe75637a3dc6cecacccd70271de255697c43afa2",
+      "bytes": 240,
+      "blob_git": "b4b541475062ac5663739aa7813cd99950b46a94"
+    },
+    "AUDITORIA_POST_CORRECCIONES_S01_S05_v1.2.md": {
+      "sha256": "a5448eff626e8b065da8e844c16fa00bc535ab875a813313deecaa96b6435322",
+      "bytes": 20110,
+      "blob_git": "a372a8ce6e5c643f981b54c8ccbbc7392eb43613"
+    },
+    "CHANGELOG.md": {
+      "sha256": "d4ee6d72f0db9b7d36308d49b3469c42d98af450cc283cd365249f98b4e1643c",
+      "bytes": 3968,
+      "blob_git": "083c127f147b531cb25d303429adcaa9ba2bca0b"
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "485364fd2431fc57afefc53210e8b5a742040e99d9596d375fbea407791eb6c1",
+      "bytes": 3371,
+      "blob_git": "02f19640a1d8efaf9487264653d12350ddeb5812"
+    },
+    "CORRECCIONES_ACADEMICAS_S01_S05_v1.2.md": {
+      "sha256": "c473552bd9e9817237f0873f164c847df10077f638f4f51f199bffd83052ff0e",
+      "bytes": 9828,
+      "blob_git": "08fc6b1a1f7fc70671fdfc8daac531c0b58f776a"
+    },
+    "README.md": {
+      "sha256": "f2f836df2fcc330755d26b83a918b5fdbf6dba69b5f3c222a8842eb644eac91b",
+      "bytes": 7346,
+      "blob_git": "89514db9c5d7d004c8a93bc0e02e3f0554b4b531"
+    },
+    "arquitectura/__pycache__/figuras_a.cpython-314.pyc": {
+      "sha256": "9b1db8489c32411bd988b1f7e08968c4670aa50b2594658bf7579617eeca885e",
+      "bytes": 11131,
+      "blob_git": "6b0e3e8b056629ab79c1d0130449e40f0d1f7edd"
+    },
+    "arquitectura/__pycache__/figuras_b.cpython-314.pyc": {
+      "sha256": "94801b445d02ec0a24e5e7b94ab5c1feaff085910a0e178b58f3b7fade4c7992",
+      "bytes": 12771,
+      "blob_git": "a6d6eabb8ae941413b533b36508131e7e612b8fa"
+    },
+    "arquitectura/__pycache__/svg_lib.cpython-314.pyc": {
+      "sha256": "d42bdf4711e7782958bb8e9873fd6b34734940c26c65f89d98d6feb3e1ae8a98",
+      "bytes": 7735,
+      "blob_git": "55024981cf919166fde51bf0d7200b6e6c113e2d"
+    },
+    "arquitectura/as-is/README.md": {
+      "sha256": "1ea14f0c203be944f927bdd319895ab084fde852194285be38e91f07ad102657",
+      "bytes": 3135,
+      "blob_git": "0e67ed67685be656a51f01e068d703ce21cacb4b"
+    },
+    "arquitectura/as-is/figura-01-arquitectura-as-is.pdf": {
+      "sha256": "48e63aa1dc9815abab1588b5bf38707d205ce5102e7c6b11bb77b6cfdb196dc9",
+      "bytes": 102479,
+      "blob_git": "650faaea02fc94f44c00a861a0429c147de6ec22"
+    },
+    "arquitectura/as-is/figura-01-arquitectura-as-is.png": {
+      "sha256": "416ead457a2d471c9123f10585edfc95c46d9c434c5c0e507925ef2f55c9c604",
+      "bytes": 95282,
+      "blob_git": "f65aed43518faa9933bb57ba956c536daa3240e3"
+    },
+    "arquitectura/as-is/figura-01-arquitectura-as-is.svg": {
+      "sha256": "f9f9e05f4045427d2a4eceb0ae1ff01f13823192da91fa597b22da1f0362163f",
+      "bytes": 15938,
+      "blob_git": "b6ea5dd2af6763b2dc21da3f8cecb20803362e35"
+    },
+    "arquitectura/as-is/figura-02-flujo-de-informacion-as-is.pdf": {
+      "sha256": "5e8d519b24c829cc5910605889dd49518a9c41a34cb12dbdf5f1753ec396782f",
+      "bytes": 72168,
+      "blob_git": "2cd9ec50a14a74b338b43bbbbfd39f70b6d8d1b6"
+    },
+    "arquitectura/as-is/figura-02-flujo-de-informacion-as-is.png": {
+      "sha256": "7d8bfda07022e294cab05fd6335bd16d7f7fcc8401f9265172abaa65f8cc0b65",
+      "bytes": 63361,
+      "blob_git": "26727f31dac27f8684cf3e336ce4d28fdc70eae9"
+    },
+    "arquitectura/as-is/figura-02-flujo-de-informacion-as-is.svg": {
+      "sha256": "11a47370cbe31f53314603e06c149c3901617a8bbe2c2556dacabe056998dc0f",
+      "bytes": 8730,
+      "blob_git": "7d3b964abf5fefa87478962b333fd0cbcd65d955"
+    },
+    "arquitectura/figuras_a.py": {
+      "sha256": "748e1ef54fa8db0526eb3dad560372a23c7f0787a649dccbaf9ffadebe256a45",
+      "bytes": 7980,
+      "blob_git": "04f130dd4b4b6d1ab18fa4e50d14b1dcf5667be9"
+    },
+    "arquitectura/figuras_b.py": {
+      "sha256": "15767050cfebe2bd5c903e61d59d5a49c29c568761b68ecd2535406cf6146b15",
+      "bytes": 9359,
+      "blob_git": "67534fa6d5b864e3d7aaf6f82e453f0ae66b1602"
+    },
+    "arquitectura/figuras_revision.py": {
+      "sha256": "84181893e2da1e9230ac09154a1675efb25798db0f7c6df725ef037bc9103cff",
+      "bytes": 8312,
+      "blob_git": "5a465084c1c5db4e65515e2f0e37b41b1c94baf7"
+    },
+    "arquitectura/generar_diagramas.py": {
+      "sha256": "d71a63cac3774339f596e063ab6b3bfe176752cf9519d08a4c9c4ef63d288561",
+      "bytes": 1316,
+      "blob_git": "11d10280f34005e9451794e05b9dd350ed2fc50f"
+    },
+    "arquitectura/generar_revision_v12.py": {
+      "sha256": "61dc22c2a25ea557081dec2ce8ceacd81a8afa62417342a0baf4a22e3d6f1b9b",
+      "bytes": 12323,
+      "blob_git": "ace23cdde8d6b77253f7d2062d4a38a2f260c6a3"
+    },
+    "arquitectura/render_diagramas.py": {
+      "sha256": "10815bbfb558059fa90c354754bf95047cf96c9529c438950a0f1e3f76ad605f",
+      "bytes": 1198,
+      "blob_git": "deecd26e2494a7fc00f428a5cbeaed291df35300"
+    },
+    "arquitectura/revision-v1.1/figura-01-arquitectura-as-is.pdf": {
+      "sha256": "9c1a54402d66e29cccea8fafb0f131683d16f2380cdb1aa6f1bf588f62a678a8",
+      "bytes": 68584,
+      "blob_git": "5b1b0c114c7de6bef0b7abe12efd8818c62d5398"
+    },
+    "arquitectura/revision-v1.1/figura-01-arquitectura-as-is.png": {
+      "sha256": "7c1b96a34cdb854a56020548ca3012d2024f5d1a9aa6c9909825dc03b7c559a0",
+      "bytes": 171145,
+      "blob_git": "f66af07e9ff2d6f444c6a6671d5bb80a34eea664"
+    },
+    "arquitectura/revision-v1.1/figura-01-arquitectura-as-is.svg": {
+      "sha256": "952c97deb541c88963e4a6af7aa8b9fa495a63a9bf519db958bc97ada483b5c8",
+      "bytes": 4843,
+      "blob_git": "ffbb673e87b403a0c4708746101c8a914d63f356"
+    },
+    "arquitectura/revision-v1.1/figura-02-flujo-de-informacion-as-is.pdf": {
+      "sha256": "bfdaa02760f8834ce0fa66a19b21314f7790c5856efd00da140840884e51947e",
+      "bytes": 68236,
+      "blob_git": "fe34dd6f9bdf2bc2813c5cad3afac669fcf3bc14"
+    },
+    "arquitectura/revision-v1.1/figura-02-flujo-de-informacion-as-is.png": {
+      "sha256": "b83d02f43a5f04b77097aee8a3e78315163ebff161ee3130005c25652632e6e4",
+      "bytes": 123770,
+      "blob_git": "50d0469a9e5d7478a8ab3033f3b882ef2a7bcdfe"
+    },
+    "arquitectura/revision-v1.1/figura-02-flujo-de-informacion-as-is.svg": {
+      "sha256": "247235db6edcd4a45336803d8202fd732d2120322e276559c74ca7d50c5a718d",
+      "bytes": 4070,
+      "blob_git": "ba5d24debcea60e0821d17e98e88f1c6cccab694"
+    },
+    "arquitectura/revision-v1.1/figura-03-arquitectura-to-be-v0-1.pdf": {
+      "sha256": "bb6c70a1110d865f49d120e759f5df2e93d4a25963aa6266a5adcd6dabaac30a",
+      "bytes": 69086,
+      "blob_git": "30bdb269ff8c01c26ef5a90914acfdf4369268d3"
+    },
+    "arquitectura/revision-v1.1/figura-03-arquitectura-to-be-v0-1.png": {
+      "sha256": "fbf309cefdf0de88fd175097da9a02cadc70b02d83e23d5e141326eeafcee226",
+      "bytes": 216279,
+      "blob_git": "76d46cbb592bd1a8ea1678547001f87fc8c12696"
+    },
+    "arquitectura/revision-v1.1/figura-03-arquitectura-to-be-v0-1.svg": {
+      "sha256": "9836135eaa70c06f94d0bf4baa1608f66ce07d0de8c646313c103d163b4f203e",
+      "bytes": 6923,
+      "blob_git": "79cb88ab9ef1659cd6179c0554f0aef870c9b20b"
+    },
+    "arquitectura/revision-v1.1/figura-04-mapa-de-dependencias.pdf": {
+      "sha256": "7167407d7fafe511598c9a888885de458fb6d51a3dc720d61242f489f9b5a853",
+      "bytes": 68795,
+      "blob_git": "958fc337e152570700b5ff4cee347cd277b7f227"
+    },
+    "arquitectura/revision-v1.1/figura-04-mapa-de-dependencias.png": {
+      "sha256": "ffc89786ac7036cb8f853c05d818855e19eadfc24902b39314627a31be67b79c",
+      "bytes": 150402,
+      "blob_git": "5527f4298e1cc9a9025cdc09ea4d8e9c9a817240"
+    },
+    "arquitectura/revision-v1.1/figura-04-mapa-de-dependencias.svg": {
+      "sha256": "147f7e34e7d706f946ab98b9dcad1c259100a6717eaf485f4920abe1b9f6d60d",
+      "bytes": 7627,
+      "blob_git": "df469501101f2724a809dffbcc66155af33ca184"
+    },
+    "arquitectura/revision-v1.2/figura-01-arquitectura-as-is.pdf": {
+      "sha256": "21897ac695674878519d7642c6bf925ec7785fc970a8bfb6a213c57ce44ba546",
+      "bytes": 68952,
+      "blob_git": "2ca6764ebd78a7643a6ab13cd1c1acd94e9cbc64"
+    },
+    "arquitectura/revision-v1.2/figura-01-arquitectura-as-is.png": {
+      "sha256": "fb87be01ee294e7e58faced3f7557020ae60201ddc9797c8901302bd05c34065",
+      "bytes": 239068,
+      "blob_git": "623ef22e5e43877d5a9ee66b887720143f8c909c"
+    },
+    "arquitectura/revision-v1.2/figura-01-arquitectura-as-is.svg": {
+      "sha256": "31b81fb52d7bb365a67e2d1d5eb75cf184f382f83a4c1910153c9d83255e765f",
+      "bytes": 5777,
+      "blob_git": "965b35ad9347c3cc5ec686537b8b44f2b1b0dd59"
+    },
+    "arquitectura/revision-v1.2/figura-02-relaciones-datos.pdf": {
+      "sha256": "30d9604880bdfd4b7172fafa451a77737aa85b14de7e78b60d915501bdf03010",
+      "bytes": 68767,
+      "blob_git": "c49d13ca3ae53d28fec52dbf0cdbc1eb17e32825"
+    },
+    "arquitectura/revision-v1.2/figura-02-relaciones-datos.png": {
+      "sha256": "49ea928afebe834cc489719e9e13d4d0f7d33f7f6f0aa159033ad7d418f9c9c9",
+      "bytes": 183122,
+      "blob_git": "09f9eb2cf755189dda93a00b1428adc938734cf8"
+    },
+    "arquitectura/revision-v1.2/figura-02-relaciones-datos.svg": {
+      "sha256": "0e488cfdd07f9730addf810254ab71e33c32a059a6644c6c0fef9f3431a67a65",
+      "bytes": 6744,
+      "blob_git": "ba72841046a0cb6339d2289a641a69af5550d8bf"
+    },
+    "arquitectura/revision-v1.2/figura-03-arquitectura-to-be-v0-1.pdf": {
+      "sha256": "a725e8a694b8c6b5a81275cdb65aa74bdac0b1ee7289bd9201e88afc033aa23c",
+      "bytes": 69091,
+      "blob_git": "ab698efa5794312a7b916f67cd795c75fae9b9a2"
+    },
+    "arquitectura/revision-v1.2/figura-03-arquitectura-to-be-v0-1.png": {
+      "sha256": "7818276b4820ce3c743766e598eb57840cf1c83d578a2bf9653e5bb0345f501a",
+      "bytes": 216764,
+      "blob_git": "9afa32938978bd3d7de779ec263836af191116f6"
+    },
+    "arquitectura/revision-v1.2/figura-03-arquitectura-to-be-v0-1.svg": {
+      "sha256": "4ade8d3461c9ff9709d612cc1fae2c575f4c6ed102d93b6c6dd3b47f0132f865",
+      "bytes": 6924,
+      "blob_git": "48cb99d830d86367f6ffb45e8f5566b3b21f9231"
+    },
+    "arquitectura/revision-v1.2/figura-04-mapa-de-dependencias.pdf": {
+      "sha256": "2081491539f18cea826e0fb6e6f6c41c2f34f7e62aaf6011124d6c438bdb2b76",
+      "bytes": 68796,
+      "blob_git": "c8e157e0426bb3c33edf2d7d287b5aff0505db20"
+    },
+    "arquitectura/revision-v1.2/figura-04-mapa-de-dependencias.png": {
+      "sha256": "e485a954727244fb9db3c08dbf80d5edc877fbaf120bff9eaf7d5230a0cd69e4",
+      "bytes": 150421,
+      "blob_git": "2d4e388ee5555ac1cd832d745d3401a64f506b26"
+    },
+    "arquitectura/revision-v1.2/figura-04-mapa-de-dependencias.svg": {
+      "sha256": "c1f4813e38f2bb26e6134c8fe17a779db8ecc7f1433d5caa64c5a51204ed11d8",
+      "bytes": 7628,
+      "blob_git": "4223869e16effd66d3a7234e200d2ec7b824dade"
+    },
+    "arquitectura/svg_lib.py": {
+      "sha256": "9119288a9b9f6b9c7260298e2b75dc672237e104fc68bff6cc4c2a6b1eb946a7",
+      "bytes": 4491,
+      "blob_git": "494de892a916ee509f7e5306362b399c8402175f"
+    },
+    "arquitectura/to-be/README.md": {
+      "sha256": "4222aae2372a5ef04928f6823ee7ca3df85567ffd7addcc12b9f8de525d4d087",
+      "bytes": 3226,
+      "blob_git": "e5cb27b3a1f909850d8be92d791827c16a0d906b"
+    },
+    "arquitectura/to-be/figura-03-arquitectura-to-be-v0-1.pdf": {
+      "sha256": "4849ffa933e83a36549306400005cf010b6e049144f33cfafbd180cf99c65a62",
+      "bytes": 102972,
+      "blob_git": "213f03102905973d0d8e81f8caf8bd9f7a835bdb"
+    },
+    "arquitectura/to-be/figura-03-arquitectura-to-be-v0-1.png": {
+      "sha256": "91efe697bd568f915ec6dd00bbbfe5cf8aeae8873966cf737730e99afd52c382",
+      "bytes": 107651,
+      "blob_git": "f6e243bc677aaf736d3072dcfde644b5a868f59d"
+    },
+    "arquitectura/to-be/figura-03-arquitectura-to-be-v0-1.svg": {
+      "sha256": "686588e1b81268f63a4758ec292e7f82d0925fb0171800745682254323ba8c20",
+      "bytes": 16461,
+      "blob_git": "f8ea03f3501a289155ff14a52d04b4dae10f1a0e"
+    },
+    "arquitectura/to-be/figura-04-mapa-de-dependencias.pdf": {
+      "sha256": "0223c7563decd6f2ae894e37b59ced2d2f854c4445f556419242fee23a00af55",
+      "bytes": 79383,
+      "blob_git": "486b281938c002412f6b0caed6cb6adafe980a24"
+    },
+    "arquitectura/to-be/figura-04-mapa-de-dependencias.png": {
+      "sha256": "ddfd556f33f070bd8a1f23969f3afa873f4392b71e2fb09c3c6d5a61c9297d34",
+      "bytes": 68068,
+      "blob_git": "091da9288db98333290c8971ce3938f6a2b08ba2"
+    },
+    "arquitectura/to-be/figura-04-mapa-de-dependencias.svg": {
+      "sha256": "134646c9d604dd81d167f86767e909647a5349e2332b19587830b121e37d4cfc",
+      "bytes": 11564,
+      "blob_git": "fb804a0fa833c588720c50f20fbf5cbe5256a73e"
+    },
+    "documentos/proyecto/Semana1_Proyecto_Integrador.docx": {
+      "sha256": "383629e0d544b713d49d5a9173c183a3bf4f5c7ee4859ff71a45a710fc2700ab",
+      "bytes": 439635,
+      "blob_git": "c5bdb1a63aeffe13d2a7fa16c83957daa472372c"
+    },
+    "documentos/proyecto/Semana1_Proyecto_Integrador.pdf": {
+      "sha256": "b82561f7fc8c1530d1ec0bc8a508526801e4fbc840827ef9859b70c3f61f783a",
+      "bytes": 561724,
+      "blob_git": "758b739e79cb54c6b7b9a684719acad85cba7b4c"
+    },
+    "documentos/proyecto/Semana2_MaterialComplementario_v1.2.md": {
+      "sha256": "1a6b0991bc013bb2ae8bfc65ffaa4043a42cd5e196547d2dded332ccd7d3fce5",
+      "bytes": 4069,
+      "blob_git": "a14a9de28c9f05216f51dba1159456aebf7da3ca"
+    },
+    "documentos/proyecto/Semana4_Proyecto_Integrador.md": {
+      "sha256": "8195f909b7ef58d6edbd2dc7e516deb218dd3f96fc7f1c95adc0218b4071f418",
+      "bytes": 16667,
+      "blob_git": "e9aef735b7e059cdb0975a16280ffc7a490bd978"
+    },
+    "documentos/proyecto/Semana5_Hito_I.md": {
+      "sha256": "ef7e55841e7c6b79671ea080a09c61b87902f7d4a8e6d7b0fa648fc52c1923c9",
+      "bytes": 22528,
+      "blob_git": "199d0316166adae57c3bb674a658c949b36ecabc"
+    },
+    "documentos/proyecto/Semana5_Hito_I_v1.1.md": {
+      "sha256": "f8ef525fcaca2cdae05fb8f20a648fc33d5030bd40f9fecfd305f8fd61e65c4b",
+      "bytes": 47635,
+      "blob_git": "6eed673256b75810c0599af88e6dfbb8dd57833b"
+    },
+    "documentos/proyecto/Semana5_Hito_I_v1.2.md": {
+      "sha256": "814d34fd3c3d9c4f6d794594497b527789e2474b6d9202887efdaffb289ddecb",
+      "bytes": 52874,
+      "blob_git": "b3e835daba25529424d5a9c79ed69bd5857f917e"
+    },
+    "documentos/proyecto/artefactos_hito.py": {
+      "sha256": "29804f06f17d4d55b14f1f1ae8b1323292a6850c76e833fbb7e158841237efdd",
+      "bytes": 8649,
+      "blob_git": "d74f22d273e424a645a16531cec9f8451d78b6f6"
+    },
+    "documentos/proyecto/generar_hito_v12.py": {
+      "sha256": "62a008a59ac705507f112f65fe18a93825e08374bebc0c689a84d04c15a794af",
+      "bytes": 13027,
+      "blob_git": "c99b3098c8790c4f5e993f604d2575d1a3eebfe7"
+    },
+    "documentos/proyecto/md_to_docx.py": {
+      "sha256": "241029a05c5acc2925ecba96ef3f27dc2bf38ddcd389a0cbddb13b4da0d5ffde",
+      "bytes": 14029,
+      "blob_git": "51d99e585b56da033f2aaff92fb897725faa611f"
+    },
+    "documentos/proyecto/requirements-hito.txt": {
+      "sha256": "fd253e436e119a0b68d1aa857a9ce160d69e9478decacd446553fc192c1eee51",
+      "bytes": 164,
+      "blob_git": "c78c3eb48f65c48bdd95b5db99235bd2c016c6ff"
+    },
+    "documentos/proyecto/verificar_hito.py": {
+      "sha256": "f379a923444f7247ea2b122107280b1e8c41ba46ac2e8fb95e343ba9ef2a2b3f",
+      "bytes": 7701,
+      "blob_git": "35da58e91b8630215c31b026af745ac5b9d7e90e"
+    },
+    "documentos/proyecto/verificar_hito_v12.py": {
+      "sha256": "66426376fcd7d4783c09fc9d3966ae0f915b4c06fda394ad40eb4502b1d5a8d6",
+      "bytes": 9520,
+      "blob_git": "de4d2b08119ea0e093a39af197630aaa8bec3a34"
+    },
+    "entregas/semana-01/README.md": {
+      "sha256": "64ca1a8da55418b7d9aa573e119f9b5de7e53cdd8089cccde2232ec61604daa9",
+      "bytes": 3068,
+      "blob_git": "efda3dc5e122d1932b2e45ba651f6681adcf6299"
+    },
+    "entregas/semana-01/TISG_E01_S01_EvidenciasParticipacion_2026-09-04.docx": {
+      "sha256": "a7795984c7887d9dfff039977ade193bf13f0cb811f7ee727be47d87f0a4f660",
+      "bytes": 29371,
+      "blob_git": "f7dff55a259c7d04cb3de78cf9cffa0b4b7caa4b"
+    },
+    "entregas/semana-01/TISG_E01_S01_EvidenciasParticipacion_2026-09-04.pdf": {
+      "sha256": "e7bf5bc2e898d17bc700a312282175e5de545ff70a04235b6523c33077ac7e77",
+      "bytes": 154895,
+      "blob_git": "69a13d0aa7d1034edd101324febcde11afe4d4fe"
+    },
+    "entregas/semana-01/TISG_E01_S01_ProyectoIntegrador_2026-09-04.docx": {
+      "sha256": "383629e0d544b713d49d5a9173c183a3bf4f5c7ee4859ff71a45a710fc2700ab",
+      "bytes": 439635,
+      "blob_git": "c5bdb1a63aeffe13d2a7fa16c83957daa472372c"
+    },
+    "entregas/semana-01/TISG_E01_S01_ProyectoIntegrador_2026-09-04.pdf": {
+      "sha256": "b82561f7fc8c1530d1ec0bc8a508526801e4fbc840827ef9859b70c3f61f783a",
+      "bytes": 561724,
+      "blob_git": "758b739e79cb54c6b7b9a684719acad85cba7b4c"
+    },
+    "entregas/semana-01/TISG_E01_S01_RegistrosRadar_2026-09-04.xlsx": {
+      "sha256": "35fa1188580022885fb99709825fbac8e7b23647658fb67316b0ba95d137e73c",
+      "bytes": 20062,
+      "blob_git": "97f49d7ebb9f3d4c1f82623406fdd4a8a8cdb6ca"
+    },
+    "entregas/semana-01/TISG_E01_S01_TechnologyRadar_v0.1_2026-09-04.pdf": {
+      "sha256": "9c347aa7614af2e7c94f109d70903159af8f665683b3ff187865929211333651",
+      "bytes": 39529,
+      "blob_git": "224c27588c54af72197631239528643f0d327f4f"
+    },
+    "entregas/semana-01/TISG_E01_S01_TechnologyRadar_v0.1_2026-09-04.png": {
+      "sha256": "8e33af673fb4f6df92b4f0e2e4c6230b2fd4951f9d1430afb49bd46932235896",
+      "bytes": 426447,
+      "blob_git": "1efc7848ed54fcffeff241037aac01e9a6e600e1"
+    },
+    "entregas/semana-01/TISG_E01_S01_TechnologyRadar_v0.1_2026-09-04.svg": {
+      "sha256": "14f332e2c7973d4e85892fadc9b6082a5d332c513fb282abfcb4dda07175faab",
+      "bytes": 29913,
+      "blob_git": "f95bd56278d0a4bd1b614c096283c606821b724b"
+    },
+    "entregas/semana-02/Grupo 1 - Proyecto - S2.pdf": {
+      "sha256": "ac185c7ba6f40bd03256d4a0002d59e37246c5e3eb7f7b724a2a0c891834179c",
+      "bytes": 3433145,
+      "blob_git": "387f7a2f33589537561bccc95ea9e079131bde2a"
+    },
+    "entregas/semana-02/TISG_E01_S02_ProyectoIntegrador_2026-09-18.docx": {
+      "sha256": "0c8a135c8cda81422c0a2d56dd075cf53a0a198985e22d1894d928bf3a4ce8b4",
+      "bytes": 56965,
+      "blob_git": "9c7c9ca7f4ee1b4a5f78b21ef29ea22a34b08c54"
+    },
+    "entregas/semana-02/TISG_E01_S02_ProyectoIntegrador_2026-09-18.pdf": {
+      "sha256": "93961d6560aaf3d06ab3a8886605262d6d18d4ad950db864da6a6e806aaa2589",
+      "bytes": 501759,
+      "blob_git": "64b94bfaee69bc340a8dbee83926582c24c63793"
+    },
+    "entregas/semana-02/revision-v1.2/MaterialComplementario_S2_v1.2.docx": {
+      "sha256": "340c56b98853aa145970d4b50212930c5009c7f86866f03ec4707e9a8b8a4330",
+      "bytes": 39719,
+      "blob_git": "a4bd3cb5b2d68e279ccc1012597c861ee71e159e"
+    },
+    "entregas/semana-02/revision-v1.2/Presentacion_S2_v1.2.pdf": {
+      "sha256": "1756a715dd59fb0416da5329bf7b4db57b1040761d6eb0b2f62dbf47b11c943b",
+      "bytes": 339900,
+      "blob_git": "96f85e34fdc870a5233d3754661905fae7895533"
+    },
+    "entregas/semana-02/revision-v1.2/README.md": {
+      "sha256": "ffd72a6bb66feeec2e098424bfbeaf5326f513a8d8773a76146f0be8d8924fa4",
+      "bytes": 1600,
+      "blob_git": "98d54b10f81e28690be8e06682f1d883c2ec5eb2"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-01.pdf": {
+      "sha256": "a7c63c64bc4122c853738fb6864a8a6dc26fc1854f421f08c0d3595fde46a9a2",
+      "bytes": 68651,
+      "blob_git": "89de54f39eb768c3f041cde9f93a55ff003b594f"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-01.png": {
+      "sha256": "9a1556f4b15ffc349087f891c48e5419a5b5cbc8b06affadb818043a1fb59a76",
+      "bytes": 196777,
+      "blob_git": "29ccf4ce3a23227be0e8de1c9baf94ba61aba830"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-01.svg": {
+      "sha256": "8cb3ef238075d2c7eff152f81424735c88b605d251bc7454c890ac773dc43c8b",
+      "bytes": 6057,
+      "blob_git": "3da809297cc3af82b7dc78702f9f9f1550527868"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-02.pdf": {
+      "sha256": "6fe2ed2c622b9d8c9fe2ad951c1019b21aee75e93383439a8f2bcdc78038f634",
+      "bytes": 68089,
+      "blob_git": "ebf9138c9df0475b9252d8206a5bc880d8dfb9da"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-02.png": {
+      "sha256": "7f48716adec8ef121f9a29349e10f6eb190ab0591b630bee409ef495e30d6320",
+      "bytes": 143797,
+      "blob_git": "8bcdea5f1af1274ce0c5e7c7ddc9175d226993f9"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-02.svg": {
+      "sha256": "1df75c73c6a50c1f11b835d735c02a597b4bfa9fd148fdbd49df93e421fba48a",
+      "bytes": 2903,
+      "blob_git": "096b4a13412296ba364d837a50ff46be09004305"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-03.pdf": {
+      "sha256": "125ef79555a14fc4e532feac3253b99723b40bc100dc18287563c7aca1693596",
+      "bytes": 68052,
+      "blob_git": "d92529986f9abe3d0edc49d07a340c3feb44e458"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-03.png": {
+      "sha256": "f34199e7b96b95c7299e6aa6a731996534aeb5cd6b6d4771120554576b2ddbfa",
+      "bytes": 151849,
+      "blob_git": "c5e355435a80af97da0cbdf99a9c9372df8903b1"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-03.svg": {
+      "sha256": "312c17e9b9e757992e6648840a8bb528b71e478e253c676defb3cec9a9f67ac4",
+      "bytes": 2894,
+      "blob_git": "266f88ff22461b989e5c77061568e93f7d39ebcc"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-04.pdf": {
+      "sha256": "6a8d51c5a812fa53e68c92a3d8f3f3eaaff8dfbb2d85cbb3f150dfdd82661624",
+      "bytes": 68144,
+      "blob_git": "c517769632ddcfba477b7a2544edc7e87bf38abb"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-04.png": {
+      "sha256": "18caa8ff0fe9dd596dfb0c49ca49ca6122e2ba2f42a0df7bc5f5bc67bbe736ec",
+      "bytes": 152476,
+      "blob_git": "428c0876e76e4d7d4fa3a6c2410ccd0daa5935e4"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-04.svg": {
+      "sha256": "b5edcdeaf189dda37fa09485f27d543d2bf0f08e16f62ce19f642711e546ce5a",
+      "bytes": 2921,
+      "blob_git": "151ffb096f56a95031a0b3006e8de9ccb2dafa39"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-05.pdf": {
+      "sha256": "ed49d06f41420ce4fa190b2fd48af71f43aa5b1d55066aafe1e29f72b21e7374",
+      "bytes": 68071,
+      "blob_git": "1cc9f8b982bfe79d4b0ed2b7eb1b70a4272fd8dc"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-05.png": {
+      "sha256": "0b2d5cf8473d19ee0d2a6a2a30162663140cd2ad181f5fd07108fa59f9cd6fc5",
+      "bytes": 151440,
+      "blob_git": "33a688d0f33689faa56359f6dcf351a4da07bf04"
+    },
+    "entregas/semana-02/revision-v1.2/lamina-05.svg": {
+      "sha256": "ce16916e478e7b3e2c7ed4cef1e44ef77c8e141052c076714151d18b7513d2bb",
+      "bytes": 2887,
+      "blob_git": "ea1489ba2224c268738befacb58ad4177714887c"
+    },
+    "entregas/semana-03/TISG_E01_S03_ProyectoIntegrador_2026-09-25.pdf": {
+      "sha256": "86a0cef5e214edcacca5fd6f6eba104ed5ec9b4549e0c0743fb2058654f7be48",
+      "bytes": 334782,
+      "blob_git": "f5e33221dcf9edc267283759d35e3f9a730bd713"
+    },
+    "entregas/semana-04/README.md": {
+      "sha256": "f3a157326babc44a19ce7b74c9b828dca904b24936c362c10adff2d0a05eb016",
+      "bytes": 2982,
+      "blob_git": "856e0a132a321beef5dd9cc9f6a5a479ce4e566e"
+    },
+    "entregas/semana-04/TISG_E01_S04_ProyectoIntegrador_2026-10-02.docx": {
+      "sha256": "df19d17ae24fd000095d61591f12ebda5ded4ad27ca1e2bbecdc0ace7f3bd7c4",
+      "bytes": 25245,
+      "blob_git": "ff89a11c9900ae525b1feb6e7e2d754694e44913"
+    },
+    "entregas/semana-04/TISG_E01_S04_ProyectoIntegrador_2026-10-02.pdf": {
+      "sha256": "517a013f6d88929cab61fc41cb1dba196ec3302e27eb2d28aecb9cc99abc5395",
+      "bytes": 316366,
+      "blob_git": "bf01b48b4bd80d8be615cd1c83f6ec5c8cb01fe6"
+    },
+    "entregas/semana-05/README.md": {
+      "sha256": "91ae262a1c87381ee687f97bdf12fdb9e173db929a068c760fe3e51529de1b32",
+      "bytes": 3493,
+      "blob_git": "7191e3f3c0a7b873b636c216972b4e5e3fe76913"
+    },
+    "entregas/semana-05/TISG_E01_S05_ProyectoIntegrador_2026-10-09.docx": {
+      "sha256": "1d076312ffc91fe17ce5f461887cb03dd6bab49db0d6b22cb1529f8161db400b",
+      "bytes": 367086,
+      "blob_git": "6ef9d2876293aaa2e833631d20729f4b59e49e74"
+    },
+    "entregas/semana-05/TISG_E01_S05_ProyectoIntegrador_2026-10-09.pdf": {
+      "sha256": "0bb9bec2617bf23f3b5b2e7de0c7e150d9c60567b23c19259c4f45846f3260ca",
+      "bytes": 408700,
+      "blob_git": "8324de914929aee1361a1cc014bc87b00bac0da2"
+    },
+    "entregas/semana-05/revision-v1.1/README.md": {
+      "sha256": "7d8f87161d2cd0688fcdcb24cf94176fdfc969cd2549fa6a2d2faa2162f5ba08",
+      "bytes": 2159,
+      "blob_git": "d8fab8acb9b29b0139f6dbeea17bae07be364347"
+    },
+    "entregas/semana-05/revision-v1.1/TISG_E01_S05_HitoI_v1.1_2026-10-24.docx": {
+      "sha256": "3839165970ccb887e7f75fafe2dbcd8c92495c98ba69ac46231a7ae459e83dd4",
+      "bytes": 647482,
+      "blob_git": "4e6e255320e14c10a8dce330a8173ee25ac3bb78"
+    },
+    "entregas/semana-05/revision-v1.1/TISG_E01_S05_HitoI_v1.1_2026-10-24.pdf": {
+      "sha256": "bdf0f516ce2004c0461d2842ef87d808649ca234929813fe4da57759d347cefe",
+      "bytes": 933312,
+      "blob_git": "ae352f471b0529f860472d5aee954c0113d5f3b4"
+    },
+    "entregas/semana-05/revision-v1.2/README.md": {
+      "sha256": "14d3722d5b1d8fa962cc9884ad6b9e1f606e80dd6caae3255e009d1b3a3fef5b",
+      "bytes": 2082,
+      "blob_git": "5f18eaae1a7aa1d000ea5d1df57d6626dd951e36"
+    },
+    "entregas/semana-05/revision-v1.2/TISG_E01_S05_HitoI_v1.2_2026-10-25.docx": {
+      "sha256": "b8891e746b017131f8319f29a62dd0aa7d30138ceadfa54881fc8b0498226650",
+      "bytes": 764699,
+      "blob_git": "90ff465259c9546188353cffd822198b4532da18"
+    },
+    "entregas/semana-05/revision-v1.2/TISG_E01_S05_HitoI_v1.2_2026-10-25.pdf": {
+      "sha256": "8b32f3ea9d4cf5bdda3fe094d487ea94f7dea6638cfe1ad8655830bebcd7409e",
+      "bytes": 1093725,
+      "blob_git": "b58c88365cbd04f06da2871a8ec673e5174398b0"
+    },
+    "evidencias/revision-v1.1/README.md": {
+      "sha256": "5ce1186f6531dcb6d5d236ddf84b986e348da2ee44e46dd232e4284be1e87799",
+      "bytes": 1993,
+      "blob_git": "b63beccfb764e86455dee14e605e4b61bc2a7d9f"
+    },
+    "evidencias/revision-v1.1/salida_verificacion_poc.txt": {
+      "sha256": "4f435cbe20bc7304717e1acbfb49f080f463ed074d999c9a3f29a6eec775a1da",
+      "bytes": 1956,
+      "blob_git": "22833d41527bec8e04cf156c72d287c3444e5fa3"
+    },
+    "evidencias/revision-v1.1/verificacion.json": {
+      "sha256": "f15baaab523c12a4d7c6c17cc1ffe9724421606cabac2e6e51a42d1eda716353",
+      "bytes": 561,
+      "blob_git": "31b89be3c56d110ca71a9da6a87bd58d664bbc47"
+    },
+    "evidencias/revision-v1.2/README.md": {
+      "sha256": "b5552337b48919b210052fcb085deda75cabeb287079ed898af753a7ebee80fd",
+      "bytes": 4423,
+      "blob_git": "8ff3f9e18aef4abf15c976663e7b5c70e286152f"
+    },
+    "evidencias/revision-v1.2/fuentes_locales_antes.json": {
+      "sha256": "6b63873294eed2084d1647071a21afcb6842fd8b5c66e7741bfe7f2aeebe59f2",
+      "bytes": 306,
+      "blob_git": "89f98f2293ed4b088b2de9d62d518b133827bea6"
+    },
+    "evidencias/revision-v1.2/integridad_antes.json": {
+      "sha256": "0d9feb6f411e760d08bced8c5ba09a00bb3bd4ca106b5ccdbe418bcc60ca41ab",
+      "bytes": 13641,
+      "blob_git": "5c2a07194905a4acd2aa9f12757e3b3676eb486c"
+    },
+    "evidencias/revision-v1.2/inventario_final.json": {
+      "sha256": "0b564b6f1b7d1ef21e75c70b562c5b7aedce6a2f8fc9abe8d444a4dc86304800",
+      "bytes": 12511,
+      "blob_git": "f56a4d5dab2c6a86e554eb517faea8047591e636"
+    },
+    "evidencias/revision-v1.2/verificacion_tecnica.json": {
+      "sha256": "7f9c395b31e9e1c3ca3aa8c05fd02c3e1b8b32adf47aa52bec2b7b93231509d9",
+      "bytes": 839,
+      "blob_git": "caa9ec59a904e207c41f63c147f629d6a81b3c80"
+    },
+    "evidencias/semana-01/Evidencias_Participacion_Semana1.docx": {
+      "sha256": "a7795984c7887d9dfff039977ade193bf13f0cb811f7ee727be47d87f0a4f660",
+      "bytes": 29371,
+      "blob_git": "f7dff55a259c7d04cb3de78cf9cffa0b4b7caa4b"
+    },
+    "evidencias/semana-01/Evidencias_Participacion_Semana1.pdf": {
+      "sha256": "e7bf5bc2e898d17bc700a312282175e5de545ff70a04235b6523c33077ac7e77",
+      "bytes": 154895,
+      "blob_git": "69a13d0aa7d1034edd101324febcde11afe4d4fe"
+    },
+    "evidencias/semana-01/README.md": {
+      "sha256": "50fb97ed49e00325cc9e57a3a0e572319eaed531f19af1c6562c3bf9c8407d21",
+      "bytes": 3057,
+      "blob_git": "df0feb5e0b5b519f85af77f9aea68a480cb3c239"
+    },
+    "evidencias/semana-01/capturas/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "blob_git": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "fuentes/revision-v1.1/README.md": {
+      "sha256": "7d1256bb2ebe7ccc5953fb3697da905f0252f34551e46a3bd5750e15ead5eecc",
+      "bytes": 2250,
+      "blob_git": "3a3136c1ac7390bacba91dc8dd637b1126cac7a7"
+    },
+    "fuentes/revision-v1.2/VERIFICACION_FUENTES.md": {
+      "sha256": "9aee1c645a01c2eb55f19957220c4b20ab7f7cddc3c2567a495cd0e3fbdc8530",
+      "bytes": 7922,
+      "blob_git": "c552092f02a5593f542afcf7e35740b3dbe3925e"
+    },
+    "fuentes/semana-01/bibliografia.md": {
+      "sha256": "71c9add48b068ab391f53af68801652cb45a58628d28f929a5a7862bf5a934d2",
+      "bytes": 6398,
+      "blob_git": "825eaa07a65119e1789090198f663d0869bb7a22"
+    },
+    "gestion/registros/Contribuciones_Evidencia_v1.2.md": {
+      "sha256": "6c585aca5499a2c27de372931849f0c9b85f04472f673a96ec296a3e624ac92c",
+      "bytes": 2591,
+      "blob_git": "8c6b5116d54f715c8003312c1ee6eaa910659638"
+    },
+    "gestion/registros/Registros_y_Radar_Semana1.xlsx": {
+      "sha256": "35fa1188580022885fb99709825fbac8e7b23647658fb67316b0ba95d137e73c",
+      "bytes": 20062,
+      "blob_git": "97f49d7ebb9f3d4c1f82623406fdd4a8a8cdb6ca"
+    },
+    "gestion/registros/Registros_y_Radar_Semana4.xlsx": {
+      "sha256": "5e000206fa69744876274ce56e7d58dd01461867d768070f2cf210c033dec48d",
+      "bytes": 12397,
+      "blob_git": "1b9bced60e39f8fa06f4e87966ef686847e86fb7"
+    },
+    "gestion/registros/Registros_y_Radar_Semana5.xlsx": {
+      "sha256": "35fa1188580022885fb99709825fbac8e7b23647658fb67316b0ba95d137e73c",
+      "bytes": 20062,
+      "blob_git": "97f49d7ebb9f3d4c1f82623406fdd4a8a8cdb6ca"
+    },
+    "gestion/registros/Registros_y_Radar_Semana5_v1.1.xlsx": {
+      "sha256": "8fccfa5c28231cc0e0d9ee11396ddad2a1700d90cce5277c93f9bb4bb606702a",
+      "bytes": 38550,
+      "blob_git": "074003c85719813ef2142f58bbfac9259a03cd6f"
+    },
+    "gestion/registros/Registros_y_Radar_Semana5_v1.2.xlsx": {
+      "sha256": "1eb442bdf7bc1d8e679e6e1efa3a8545b291848389f0bdacbdabe8357b0ee14b",
+      "bytes": 63577,
+      "blob_git": "dd89cefbd7213b22160068a9428c98160de290e9"
+    },
+    "gestion/registros/__pycache__/actualizar_registros_semana4.cpython-314.pyc": {
+      "sha256": "9ebc9cb8b1c6e45b305d25ad3f25d6ed013318759ae35690fe140c5d988e35bd",
+      "bytes": 11461,
+      "blob_git": "ccb57ba157a508b1d579073015fe7e0b5708f455"
+    },
+    "gestion/registros/actualizar_registros_semana4.py": {
+      "sha256": "e670d3797691809ace51b6af0801c4814dfb94cbb2fd356eb264a0e823734bc6",
+      "bytes": 8483,
+      "blob_git": "6ccaeeee46e609f726ea0b63dc5ec6716054d830"
+    },
+    "gestion/registros/actualizar_registros_semana5.py": {
+      "sha256": "abe66f57dfe9007af73472da7be6ab77b7ec22aff0eb3542854df23e615f3ae6",
+      "bytes": 5746,
+      "blob_git": "72ac0272ff33bddad331848e6901c206e55660d6"
+    },
+    "gestion/riesgos/README.md": {
+      "sha256": "d3b9a6dff8f14596932c08ae69ccab98a47b737f3c1c865daf7448151c255106",
+      "bytes": 2933,
+      "blob_git": "1b335997275a80f3881d4870bdee28fb571aed98"
+    },
+    "gestion/roadmap/README.md": {
+      "sha256": "78e0cfbb9aa33f05e8cb911fb7171af2611d9938306eff4198f297a80438739b",
+      "bytes": 2833,
+      "blob_git": "19469cde5f3d6ac2414a604061df1b495f8be1e0"
+    },
+    "poc/POC-01-estimacion-historicos/README.md": {
+      "sha256": "3b4b788ad581ecae590e0d2fefde7e15d953f703ec12a3f02be453a703d487e4",
+      "bytes": 4801,
+      "blob_git": "bf56d9be34253fb0657704b6b6e1da1ad49038c1"
+    },
+    "poc/POC-01-estimacion-historicos/datos/catalogo_partidas.csv": {
+      "sha256": "63e015ff8c53e11440767833ecf0b26bb7df177c72a42cd96bd8fa72a726406c",
+      "bytes": 436,
+      "blob_git": "2edd3f745092e6726b04b757d7cbeae219cf26e1"
+    },
+    "poc/POC-01-estimacion-historicos/datos/costos.csv": {
+      "sha256": "dd7bf829afb7e0824116424072801bfdf6ad34ec37678aef241f475193195a5d",
+      "bytes": 851,
+      "blob_git": "eb0217646201eab46a02576540c4bb233abda156"
+    },
+    "poc/POC-01-estimacion-historicos/datos/metrados.csv": {
+      "sha256": "ec3cb142e9df6639d6b039e23b26c927cd9da2f69ea58de955523da0965628db",
+      "bytes": 726,
+      "blob_git": "1d3c4b49267b7a1f83efceb6c34e856aaebf9528"
+    },
+    "poc/POC-01-estimacion-historicos/datos/obra_nueva.csv": {
+      "sha256": "31322123b980b4e59f5387113730fa91eae8cc45afca0430a0ffdac7fee2b03c",
+      "bytes": 112,
+      "blob_git": "7b7eaad19302a9a653291baf7f57a5e79751d961"
+    },
+    "poc/POC-01-estimacion-historicos/datos/obra_nueva_real.csv": {
+      "sha256": "742d9c26b9a8eda4bd8ac9a08c876db3daa69380704ec8660fcbe639f4e39baa",
+      "bytes": 121,
+      "blob_git": "5d6784ce88e65c9b08f4ecbed543b06a4f3cc36e"
+    },
+    "poc/POC-01-estimacion-historicos/datos/obras.csv": {
+      "sha256": "a43207621940f3c887c4d3dbd55ebafbe4067b10652de56272bbfa0cd3dcac5d",
+      "bytes": 483,
+      "blob_git": "a26f2f6b268e26419ea4d937c5c9600bccfb63fd"
+    },
+    "poc/POC-01-estimacion-historicos/datos/tareo.csv": {
+      "sha256": "10d4b2e08334d8b8a33893f6739d6c829438a9e8552d271f712b8d1d2f46a466",
+      "bytes": 737,
+      "blob_git": "b7a0ab9369d919709aa92685ca137cfed0d4c673"
+    },
+    "poc/POC-01-estimacion-historicos/evidencias/salida_experimento.txt": {
+      "sha256": "3d3b94273fee4772e84afef1ead7395760d8c7ee7b0f26e4b3cb26610431f0b0",
+      "bytes": 1225,
+      "blob_git": "b4074763baebbceb0909d34c22e8b76bcc360029"
+    },
+    "poc/POC-01-estimacion-historicos/pruebas/test_metricas.py": {
+      "sha256": "b9cfa1118c2358ef3e290f9751ed5368f70ec8b6655361dd19529677a74a34c2",
+      "bytes": 1392,
+      "blob_git": "935a6c0362afbea61be73240672c9e4ecb2ab241"
+    },
+    "poc/POC-01-estimacion-historicos/pruebas/verificar_poc.py": {
+      "sha256": "358c0a7db26454342bff658f25cb7269206600fbf1086b958492f760761258e1",
+      "bytes": 1633,
+      "blob_git": "5220f466f50281b547dc31bd32d7f9d9c677914a"
+    },
+    "poc/POC-01-estimacion-historicos/resultados/resultados.csv": {
+      "sha256": "79ff253ae2ecf16cf8af9fd4724cedd82b2ea2c4090c646bedc19b6e3b15bca0",
+      "bytes": 586,
+      "blob_git": "770783caeec1e458e160d90aedb66f77fcc3baa5"
+    },
+    "poc/POC-01-estimacion-historicos/revision-v1.2/DISENO_EXPERIMENTAL.md": {
+      "sha256": "84f5bbda8568d4b62fbc38cbde94dbda6f8a900ef5a386dafce207c36cdc0062",
+      "bytes": 7871,
+      "blob_git": "8d49d0faa032eb465d185372fef594383b1cf430"
+    },
+    "poc/POC-01-estimacion-historicos/src/experimento_bi.py": {
+      "sha256": "7d27ab12688ad2d5468096212ee26575fa30ac1bd4a5d89153bed2b0f955aaef",
+      "bytes": 6320,
+      "blob_git": "0aa168e2a08ef9ae36d439356289bb161840f588"
+    },
+    "poc/POC-01-estimacion-historicos/src/synthetic_erp_data.py": {
+      "sha256": "76ad3adea9bd72de086d43778a52544f2a22edb2114912f1012a5c2119d44ac5",
+      "bytes": 4447,
+      "blob_git": "841296e5995fdbbedcea874bc598e39b403d981c"
+    },
+    "poc/README.md": {
+      "sha256": "a41bb7cb27a03af37ec91368c513385683f3bf274f430c87b6a39ca24f24608f",
+      "bytes": 2130,
+      "blob_git": "415e656a420cf4b62f500bd7c0a070e265912326"
+    },
+    "proyectoIntegrador.pdf": {
+      "sha256": "548030c6bb4b5367a3c35f742e6244015ef39c60853e659148d859d6484f74c8",
+      "bytes": 456584,
+      "blob_git": "4e97684bbeecc085846efeb300551cd9c34f4863"
+    },
+    "radar/editable/Technology_Radar_v0.1.svg": {
+      "sha256": "14f332e2c7973d4e85892fadc9b6082a5d332c513fb282abfcb4dda07175faab",
+      "bytes": 29913,
+      "blob_git": "f95bd56278d0a4bd1b614c096283c606821b724b"
+    },
+    "radar/exportado/Technology_Radar_v0.1.pdf": {
+      "sha256": "9c347aa7614af2e7c94f109d70903159af8f665683b3ff187865929211333651",
+      "bytes": 39529,
+      "blob_git": "224c27588c54af72197631239528643f0d327f4f"
+    },
+    "radar/exportado/Technology_Radar_v0.1.png": {
+      "sha256": "8e33af673fb4f6df92b4f0e2e4c6230b2fd4951f9d1430afb49bd46932235896",
+      "bytes": 426447,
+      "blob_git": "1efc7848ed54fcffeff241037aac01e9a6e600e1"
+    }
+  }
+}

@@ -48,7 +48,7 @@ TISG_EXX_S##_NombreEntregable_vX.Y_AAAA-MM-DD.ext
 Ejemplo:
 
 ```text
-TISG_E03_S01_ProyectoIntegrador_2026-09-04.pdf
+TISG_E01_S06_AI-Native-SDLC_v1.0_AAAA-MM-DD.pdf
 ```
 
 ## Control de versiones
@@ -57,6 +57,20 @@ TISG_E03_S01_ProyectoIntegrador_2026-09-04.pdf
 - Incremento mayor (`v0.x` a `v1.0`): artefacto validado o cambio sustancial acordado.
 - Cada entrega semanal debe registrar fecha, versión, cambio y responsable.
 - Los cambios de decisiones deben conservar el motivo; no se eliminan silenciosamente.
+
+Para documentos nuevos: fuente `Semana6_AI_Native_SDLC_v0.1.md` durante trabajo;
+exportaciones `TISG_E01_S06_AI-Native-SDLC_v1.0_AAAA-MM-DD.ext` al publicar,
+sustituyendo la fecha por la real. Usar `semana-06` para carpetas y rutas relativas
+con `/`. No renombrar retrospectivamente entregables existentes ni confundir
+`v1.0` con aprobación humana automática.
+
+## Verificar, generar y publicar
+
+- **verify:** inspección sin escribir entregables. Usar el [verificador actual](documentos/proyecto/verificar_repositorio.py) con `python -X utf8 -B`.
+- **generate:** salidas futuras en un directorio nuevo por identificador de ejecución; creación exclusiva, fallo si existe y ninguna escritura a históricos.
+- **publish:** copia explícita de una ejecución revisada a una versión nueva de entrega; registrar hashes y revisión humana real. Nunca sobrescribir un destino publicado.
+
+No todos los scripts llamados `verificar` son de solo lectura. Ver la [matriz de efectos y preparación S6](documentos/mantenimiento/PREPARACION_SEMANA_06.md) antes de ejecutarlos. Los scripts históricos conservan su comportamiento; este mantenimiento no los convierte en comandos seguros.
 
 ## Fuentes y citas
 

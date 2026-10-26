@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-10-26T15:08:58.162892+00:00",
+  "ruta": "poc/POC-01-estimacion-historicos/revision-v1.2/DISENO_EXPERIMENTAL.md",
+  "sha256_inventario_historico": "7949e0f75f20c864ff2b18140543f63b48fe797fde211e50acef6207df6a22e3",
+  "bytes_inventario_historico": 7938,
+  "sha256_actual": "4a2f7a6a873552d91ef830fcf07fa751f360e448e672408770d1336fcc0b5648",
+  "bytes_actuales": 7993,
+  "bytes_actuales_LF": 7871,
+  "sha256_reconstruccion_solo_memoria": "7949e0f75f20c864ff2b18140543f63b48fe797fde211e50acef6207df6a22e3",
+  "bytes_reconstruccion": 7938,
+  "linea_retirada": "**Estado: diseño no ejecutado; pendiente de validación humana.**",
+  "metodo": "Normalizar CRLF a LF y reinsertar la linea tras identificacion, solo en memoria. Coincidencia exacta con hash anterior. No se escribe el protocolo.",
+  "primer_commit_con_ruta": "7f962facba3abc78c38921e656fadb6852c17fe4 | 2026-10-26T09:04:44-05:00",
+  "limite": "No hay version previa de esta ruta en Git para fechar o atribuir la edicion intermedia. No se declara corrupcion."
+}
