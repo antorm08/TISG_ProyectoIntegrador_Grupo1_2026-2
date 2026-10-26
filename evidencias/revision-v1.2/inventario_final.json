@@ -1,0 +1,359 @@
+{
+  "fecha_verificacion": "2026-10-26T08:50:07",
+  "head": "038ce87e1cb6e4d13478a0f83a94c2bf34b3ce0e",
+  "enlaces_locales_comprobados": 31,
+  "enlaces_rotos": [],
+  "nota": "Excluye este inventario para evitar hash autorreferente. Sin commits ni push.",
+  "archivos": [
+    {
+      "ruta": ".gitignore",
+      "estado_git": " M",
+      "origen": "cambio preexistente del usuario",
+      "bytes": 246,
+      "sha256": "d9c84c7a724856907ab43d615bb20780f029642cc77646b51fb2c4ef22f80065"
+    },
+    {
+      "ruta": "README.md",
+      "estado_git": " M",
+      "origen": "revision v1.2",
+      "bytes": 7433,
+      "sha256": "7009c43a1e2222c5e369a8a7d07d8587f28419642e61f85907402115b1876a9a"
+    },
+    {
+      "ruta": "AUDITORIA_POST_CORRECCIONES_S01_S05_v1.2.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 20110,
+      "sha256": "a5448eff626e8b065da8e844c16fa00bc535ab875a813313deecaa96b6435322"
+    },
+    {
+      "ruta": "CORRECCIONES_ACADEMICAS_S01_S05_v1.2.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 9828,
+      "sha256": "c473552bd9e9817237f0873f164c847df10077f638f4f51f199bffd83052ff0e"
+    },
+    {
+      "ruta": "arquitectura/generar_revision_v12.py",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 12323,
+      "sha256": "61dc22c2a25ea557081dec2ce8ceacd81a8afa62417342a0baf4a22e3d6f1b9b"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-01-arquitectura-as-is.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68952,
+      "sha256": "21897ac695674878519d7642c6bf925ec7785fc970a8bfb6a213c57ce44ba546"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-01-arquitectura-as-is.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 239068,
+      "sha256": "fb87be01ee294e7e58faced3f7557020ae60201ddc9797c8901302bd05c34065"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-01-arquitectura-as-is.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 5781,
+      "sha256": "06d42d6c1fea5df6c4696af936e30843c6b55780e62d8facaff88a2999990de3"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-02-relaciones-datos.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68767,
+      "sha256": "30d9604880bdfd4b7172fafa451a77737aa85b14de7e78b60d915501bdf03010"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-02-relaciones-datos.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 183122,
+      "sha256": "49ea928afebe834cc489719e9e13d4d0f7d33f7f6f0aa159033ad7d418f9c9c9"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-02-relaciones-datos.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 6748,
+      "sha256": "a14a8d3d846851e001addc312a74daeb2694e5f42fc6dc31598a9f13022a27ac"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-03-arquitectura-to-be-v0-1.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 69091,
+      "sha256": "a725e8a694b8c6b5a81275cdb65aa74bdac0b1ee7289bd9201e88afc033aa23c"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-03-arquitectura-to-be-v0-1.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 216764,
+      "sha256": "7818276b4820ce3c743766e598eb57840cf1c83d578a2bf9653e5bb0345f501a"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-03-arquitectura-to-be-v0-1.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 6928,
+      "sha256": "d4c4962b81671f67663fc8d18074508d5971144a40baf6283c831040a81b7717"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-04-mapa-de-dependencias.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68796,
+      "sha256": "2081491539f18cea826e0fb6e6f6c41c2f34f7e62aaf6011124d6c438bdb2b76"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-04-mapa-de-dependencias.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 150421,
+      "sha256": "e485a954727244fb9db3c08dbf80d5edc877fbaf120bff9eaf7d5230a0cd69e4"
+    },
+    {
+      "ruta": "arquitectura/revision-v1.2/figura-04-mapa-de-dependencias.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 7632,
+      "sha256": "1928e004f2a0f9f2ee2aaccd21914a055a6d5bcdc891ce75139dbdd881689318"
+    },
+    {
+      "ruta": "documentos/proyecto/Semana2_MaterialComplementario_v1.2.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 4069,
+      "sha256": "1a6b0991bc013bb2ae8bfc65ffaa4043a42cd5e196547d2dded332ccd7d3fce5"
+    },
+    {
+      "ruta": "documentos/proyecto/Semana5_Hito_I_v1.2.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 52874,
+      "sha256": "814d34fd3c3d9c4f6d794594497b527789e2474b6d9202887efdaffb289ddecb"
+    },
+    {
+      "ruta": "documentos/proyecto/generar_hito_v12.py",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 13027,
+      "sha256": "62a008a59ac705507f112f65fe18a93825e08374bebc0c689a84d04c15a794af"
+    },
+    {
+      "ruta": "documentos/proyecto/verificar_hito_v12.py",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 9520,
+      "sha256": "66426376fcd7d4783c09fc9d3966ae0f915b4c06fda394ad40eb4502b1d5a8d6"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/MaterialComplementario_S2_v1.2.docx",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 39719,
+      "sha256": "340c56b98853aa145970d4b50212930c5009c7f86866f03ec4707e9a8b8a4330"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/Presentacion_S2_v1.2.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 339900,
+      "sha256": "1756a715dd59fb0416da5329bf7b4db57b1040761d6eb0b2f62dbf47b11c943b"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/README.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 1600,
+      "sha256": "ffd72a6bb66feeec2e098424bfbeaf5326f513a8d8773a76146f0be8d8924fa4"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-01.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68651,
+      "sha256": "a7c63c64bc4122c853738fb6864a8a6dc26fc1854f421f08c0d3595fde46a9a2"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-01.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 196777,
+      "sha256": "9a1556f4b15ffc349087f891c48e5419a5b5cbc8b06affadb818043a1fb59a76"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-01.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 6061,
+      "sha256": "3f0c7b81785444e73678d45535ac813e53613c9e75e8f71115ef7987e9d0fd99"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-02.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68089,
+      "sha256": "6fe2ed2c622b9d8c9fe2ad951c1019b21aee75e93383439a8f2bcdc78038f634"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-02.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 143797,
+      "sha256": "7f48716adec8ef121f9a29349e10f6eb190ab0591b630bee409ef495e30d6320"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-02.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 2907,
+      "sha256": "21ee211e7e9d1d967ed47883594e58c981caac3c1f172d350b5bc107fb593523"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-03.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68052,
+      "sha256": "125ef79555a14fc4e532feac3253b99723b40bc100dc18287563c7aca1693596"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-03.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 151849,
+      "sha256": "f34199e7b96b95c7299e6aa6a731996534aeb5cd6b6d4771120554576b2ddbfa"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-03.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 2898,
+      "sha256": "b65541a69c6db6dacb9dda7f7c2af08a7fbd8357512ea8fc1ad2962a7b26ad4f"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-04.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68144,
+      "sha256": "6a8d51c5a812fa53e68c92a3d8f3f3eaaff8dfbb2d85cbb3f150dfdd82661624"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-04.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 152476,
+      "sha256": "18caa8ff0fe9dd596dfb0c49ca49ca6122e2ba2f42a0df7bc5f5bc67bbe736ec"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-04.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 2925,
+      "sha256": "149ba39e3178c83197e5572a337a14967bd54de6a38bcf7794f266bb275438ec"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-05.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 68071,
+      "sha256": "ed49d06f41420ce4fa190b2fd48af71f43aa5b1d55066aafe1e29f72b21e7374"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-05.png",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 151440,
+      "sha256": "0b2d5cf8473d19ee0d2a6a2a30162663140cd2ad181f5fd07108fa59f9cd6fc5"
+    },
+    {
+      "ruta": "entregas/semana-02/revision-v1.2/lamina-05.svg",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 2891,
+      "sha256": "f03bb86d5bec81b99675a3aeb1cf474fe96d93135e7618cd437e82fbf6b0d3bd"
+    },
+    {
+      "ruta": "entregas/semana-05/revision-v1.2/README.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 2082,
+      "sha256": "14d3722d5b1d8fa962cc9884ad6b9e1f606e80dd6caae3255e009d1b3a3fef5b"
+    },
+    {
+      "ruta": "entregas/semana-05/revision-v1.2/TISG_E01_S05_HitoI_v1.2_2026-10-25.docx",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 764699,
+      "sha256": "b8891e746b017131f8319f29a62dd0aa7d30138ceadfa54881fc8b0498226650"
+    },
+    {
+      "ruta": "entregas/semana-05/revision-v1.2/TISG_E01_S05_HitoI_v1.2_2026-10-25.pdf",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 1093725,
+      "sha256": "8b32f3ea9d4cf5bdda3fe094d487ea94f7dea6638cfe1ad8655830bebcd7409e"
+    },
+    {
+      "ruta": "evidencias/revision-v1.2/README.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 4423,
+      "sha256": "b5552337b48919b210052fcb085deda75cabeb287079ed898af753a7ebee80fd"
+    },
+    {
+      "ruta": "evidencias/revision-v1.2/fuentes_locales_antes.json",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 310,
+      "sha256": "e3a98f8a638b9bc882de5fce07f9d9fe5c63a91573bd4428de33846f4435d261"
+    },
+    {
+      "ruta": "evidencias/revision-v1.2/integridad_antes.json",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 13755,
+      "sha256": "e61e1d5e5a9a025da5982aa05ed73fe161ff1452451f402115ea34794f8dd280"
+    },
+    {
+      "ruta": "evidencias/revision-v1.2/verificacion_tecnica.json",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 868,
+      "sha256": "e627646639f712ce47935365dc90e1a5527f4d5adc08daf58b215db6d441f738"
+    },
+    {
+      "ruta": "fuentes/revision-v1.2/VERIFICACION_FUENTES.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 7922,
+      "sha256": "9aee1c645a01c2eb55f19957220c4b20ab7f7cddc3c2567a495cd0e3fbdc8530"
+    },
+    {
+      "ruta": "gestion/registros/Contribuciones_Evidencia_v1.2.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 2591,
+      "sha256": "6c585aca5499a2c27de372931849f0c9b85f04472f673a96ec296a3e624ac92c"
+    },
+    {
+      "ruta": "gestion/registros/Registros_y_Radar_Semana5_v1.2.xlsx",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 63577,
+      "sha256": "1eb442bdf7bc1d8e679e6e1efa3a8545b291848389f0bdacbdabe8357b0ee14b"
+    },
+    {
+      "ruta": "poc/POC-01-estimacion-historicos/revision-v1.2/DISENO_EXPERIMENTAL.md",
+      "estado_git": "??",
+      "origen": "revision v1.2",
+      "bytes": 7938,
+      "sha256": "7949e0f75f20c864ff2b18140543f63b48fe797fde211e50acef6207df6a22e3"
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 - Equipo: Grupo 1
 - Periodo académico: 2026-2
 - Caso: Estrategia de transformación tecnológica para el control y la planificación económica de obras
-- Versión vigente: Semana 5 — Hito I v1.1 corregido el 24/10/2026 (pendiente de aprobación humana)
+- Versión vigente: Semana 5 — Hito I v1.2, revisión académica del 25/10/2026 (**Pendiente de validación humana**)
 
 > El equipo y los integrantes están identificados con sus datos reales.
 
@@ -24,12 +24,18 @@ Se diseña una estrategia de adopción tecnológica 2026–2029 que evalúa inte
 
 ## Revisión vigente del Hito I
 
-- [Paquete corregido PDF/DOCX v1.1](entregas/semana-05/revision-v1.1/README.md).
-- [Documento fuente y consolidación de semanas 1–5](documentos/proyecto/Semana5_Hito_I_v1.1.md).
-- [Registros consolidados v1.1](gestion/registros/Registros_y_Radar_Semana5_v1.1.xlsx).
-- [Diagramas editables y exportados v1.1](arquitectura/revision-v1.1/).
+- [Paquete vigente PDF/DOCX v1.2 y límites de validación](entregas/semana-05/revision-v1.2/README.md).
+- [Documento fuente v1.2 y consolidación de semanas 1–5](documentos/proyecto/Semana5_Hito_I_v1.2.md).
+- [Registros consolidados v1.2](gestion/registros/Registros_y_Radar_Semana5_v1.2.xlsx).
+- [Diagramas editables y exportados v1.2](arquitectura/revision-v1.2/).
+- [Presentación S2 corregida y fuentes editables](entregas/semana-02/revision-v1.2/README.md).
+- [Nuevo diseño experimental: no ejecutado](poc/POC-01-estimacion-historicos/revision-v1.2/DISENO_EXPERIMENTAL.md).
+- [Correcciones y pendientes](CORRECCIONES_ACADEMICAS_S01_S05_v1.2.md).
+- [Auditoría posterior de los mismos 69 criterios](AUDITORIA_POST_CORRECCIONES_S01_S05_v1.2.md).
+- [Verificación de fuentes](fuentes/revision-v1.2/VERIFICACION_FUENTES.md).
+- [Revisión v1.1 conservada como antecedente](entregas/semana-05/revision-v1.1/README.md).
 
-Las entregas originales de semanas 1–5 permanecen intactas. La revisión no acredita entrega retroactiva, aprobación del equipo ni nuevas contribuciones individuales. Los anexos de S2/S3 se reconstruyen ahora desde el contenido histórico. No se inventan entrevistas ni resultados para cubrir pendientes.
+Las entregas originales de semanas 1–5 y la v1.1 permanecen intactas: son históricos, no versiones vigentes contradictorias. La revisión no acredita entrega retroactiva, aprobación del equipo ni nuevas contribuciones individuales. Los anexos reconstruidos en v1.1 se conservan con su procedencia; v1.2 añade instrumento, metodología y correcciones explícitas. No se inventan entrevistas ni resultados para cubrir pendientes.
 
 ## Confidencialidad
 
@@ -70,22 +76,22 @@ La distribución identifica aportes principales, pero los cuatro integrantes son
 | Artefacto | Estado en Semana 5 | Próxima acción |
 |---|---|---|
 | Technology Radar | v0.1, sin cambios de anillo; T5 en Probar | Evolucionar con evidencia; v1.0 final en S14 |
-| AS-IS | ERP propio CodeIgniter/MySQL, diagramas v1.1 | Validar versiones, infraestructura y capacidades |
+| AS-IS | ERP propio CodeIgniter/MySQL, topología lógica y datos v1.2 | Validar supuestos; no confundir nodos lógicos con servidores reales |
 | TO-BE | v0.1 revisada, lotes y almacenamiento analítico separado | Medir y aprobar antes de implementar |
 | Deuda técnica | DT-01 a DT-11; priorización cualitativa | Validar con responsables |
-| ADR | ADR-01 a ADR-06 revisadas; D-01–D-16 reconciliadas | Aprobación humana pendiente |
+| ADR | ADR-01 a ADR-06 precisadas; D-01–D-22 trazables | Validación humana pendiente |
 | Mapa de dependencias | F-01, E-1–E-10 con criterios de avance | No es ruta crítica calculada |
-| PoC | Escenario sintético favorable; H2/H3 pendientes | No inferir ahorro real ni significancia |
+| PoC | Resultado sintético anterior histórico; nuevo protocolo B0/M1 no ejecutado | Evaluación futura separada; H2/H3 pendientes; no inferir ahorro |
 
 ## Entregas
 
 | Semana | Contenido | Versión | Estado |
 |---|---|---:|---|
 | 01 | Caso, Project Charter, Radar e Impact Canvas | Histórica | Archivos disponibles; cierre externo no verificado |
-| 02 | Business Model Canvas y registro ampliado | v1.0 histórica | Archivos disponibles; correcciones integradas en Hito I v1.1 |
-| 03 | Stakeholders, madurez y plan de adopción | v1.0 histórica | Diagnóstico aclarado como hipotético en v1.1 |
-| 04 | Problema, propuesta de valor, hipótesis y PoC | v1.0 histórica | Límites metodológicos corregidos en v1.1 |
-| 05 | Hito I revisado: ERP propio y TO-BE mínimo | v1.1 | PDF/DOCX, registros y diagramas; aprobación pendiente |
+| 02 | Business Model Canvas y registro ampliado | v1.0 histórica + complemento v1.2 | Usar nueva presentación; cifras CAPECE no respaldadas retiradas del material vigente |
+| 03 | Stakeholders, madurez y plan de adopción | v1.0 histórica + revisión v1.2 | Instrumento propio; ND donde falta sustento, no entrevistas simuladas |
+| 04 | Problema, propuesta de valor, hipótesis y PoC | v1.0 histórica + diseño v1.2 | Baseline independiente diseñado; resultado histórico no se transfiere al nuevo método |
+| 05 | Hito I revisado: ERP propio y TO-BE mínimo | v1.2 | PDF/DOCX, registros y diagramas; validación humana pendiente |
 | 06–14 | Según cronograma del curso | — | Pendiente |
 
 Consultar las respectivas carpetas en `entregas/` para ver el manifiesto de cada entrega.

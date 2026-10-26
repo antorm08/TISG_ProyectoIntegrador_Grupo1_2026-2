@@ -1,0 +1,29 @@
+{
+  "historicos_y_auditoria_original_intactos": true,
+  "archivos_previos_comparados": 111,
+  "diferencias_previas_permitidas": [
+    "README.md"
+  ],
+  "head_sin_cambios": "038ce87e1cb6e4d13478a0f83a94c2bf34b3ce0e",
+  "tablas_docx_identicas": 23,
+  "imagenes_docx": 4,
+  "contenido_parrafos_docx": "OK; no renderizado Word",
+  "pdf_paginas": 17,
+  "pdf_tablas_parrafos_figuras": "Contenido íntegro; revisión visual por separado",
+  "texto_fuera_de_pagina": [],
+  "integridad_zip_xml": "OK",
+  "hojas_excel": 34,
+  "formulas_originales_preservadas": 0,
+  "excel_sin_recalculo_simulado": true,
+  "contribuciones_originales_conservadas": 20,
+  "figuras_laminas": [
+    4,
+    5
+  ],
+  "experimento_v12": "NO EJECUTADO: solo diseño",
+  "revision_humana": "PENDIENTE",
+  "auditoria_69_criterios": {
+    "CUMPLE": 67,
+    "PARCIAL": 2
+  }
+}
