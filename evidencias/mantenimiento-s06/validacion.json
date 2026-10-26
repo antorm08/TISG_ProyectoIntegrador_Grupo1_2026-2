@@ -1,0 +1,115 @@
+{
+  "fecha_utc": "2026-10-26T15:10:46.241384+00:00",
+  "head_base": "7f962facba3abc78c38921e656fadb6852c17fe4",
+  "rama": "chore/preparacion-semana-06",
+  "modo": "mantenimiento, sin experimentos ni generadores documentales",
+  "verificacion_actual": {
+    "modo": "estado_actual_solo_lectura",
+    "revision_humana": "PENDIENTE",
+    "archivos_previos_protegidos": 149,
+    "solo_conversion_LF_CRLF": [],
+    "base_de_preservacion": "7f962facba3abc78c38921e656fadb6852c17fe4",
+    "alcance_preservacion": "Bytes locales iniciales, no equivalencia con HEAD ni aprobación histórica",
+    "guia_canonica": "proyectoIntegrador.pdf",
+    "copia_local_opcional": "idéntica",
+    "pdf_paginas": 17,
+    "tablas_docx": 23,
+    "figuras_docx": 4,
+    "hojas_excel": 34,
+    "contribuciones_preservadas": 20,
+    "formulas_previas": 0,
+    "auditoria_inicial_opcional": "contrastada localmente",
+    "enlaces_locales": 105,
+    "limites": "Sin ejecución experimental, render Office, recálculo, revisión humana ni nueva auditoría académica"
+  },
+  "sin_escrituras_verify_y_pruebas": true,
+  "pruebas_unitarias": {
+    "cantidad": 8,
+    "resultado": "OK",
+    "salida": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.045s\n\nOK"
+  },
+  "fotografia_git": {
+    "estado": "OK",
+    "modo": "git",
+    "archivos": 156,
+    "diferencias": [],
+    "alcance": "Verifica las rutas registradas; worktree no certifica ausencia de archivos añadidos después. git exige conjunto exacto del commit."
+  },
+  "patrones_gitignore_comprobados": 17,
+  "exportacion_limpia": {
+    "metodo": "git archive HEAD + cambios compartibles propuestos, sin staging ni commit",
+    "sin_git_ni_archivos_ignorados": true,
+    "resultado": {
+      "modo": "estado_actual_solo_lectura",
+      "revision_humana": "PENDIENTE",
+      "archivos_previos_protegidos": 149,
+      "solo_conversion_LF_CRLF": [
+        "AUDITORIA_POST_CORRECCIONES_S01_S05_v1.2.md",
+        "CORRECCIONES_ACADEMICAS_S01_S05_v1.2.md",
+        "arquitectura/generar_revision_v12.py",
+        "documentos/proyecto/Semana2_MaterialComplementario_v1.2.md",
+        "documentos/proyecto/Semana5_Hito_I_v1.2.md",
+        "documentos/proyecto/generar_hito_v12.py",
+        "documentos/proyecto/verificar_hito_v12.py",
+        "entregas/semana-01/README.md",
+        "entregas/semana-01/TISG_E01_S01_TechnologyRadar_v0.1_2026-09-04.svg",
+        "entregas/semana-02/revision-v1.2/README.md",
+        "entregas/semana-05/revision-v1.2/README.md",
+        "evidencias/revision-v1.2/README.md",
+        "evidencias/semana-01/README.md",
+        "fuentes/revision-v1.2/VERIFICACION_FUENTES.md",
+        "fuentes/semana-01/bibliografia.md",
+        "gestion/registros/Contribuciones_Evidencia_v1.2.md",
+        "gestion/riesgos/README.md",
+        "gestion/roadmap/README.md",
+        "poc/README.md",
+        "radar/editable/Technology_Radar_v0.1.svg"
+      ],
+      "base_de_preservacion": "7f962facba3abc78c38921e656fadb6852c17fe4",
+      "alcance_preservacion": "Bytes locales iniciales, no equivalencia con HEAD ni aprobación histórica",
+      "guia_canonica": "proyectoIntegrador.pdf",
+      "copia_local_opcional": "ausente; no requerida",
+      "pdf_paginas": 17,
+      "tablas_docx": 23,
+      "figuras_docx": 4,
+      "hojas_excel": 34,
+      "contribuciones_preservadas": 20,
+      "formulas_previas": 0,
+      "auditoria_inicial_opcional": "ausente; sin contraste de nombres con el original",
+      "enlaces_locales": 105,
+      "limites": "Sin ejecución experimental, render Office, recálculo, revisión humana ni nueva auditoría académica"
+    },
+    "sin_escrituras": true,
+    "directorio_temporal": "tisg-preparacion-s06-44ofvwsv (directorio temporal local de OpenCode; no requerido para reproducir)"
+  },
+  "pruebas_negativas": {
+    "csv_alterado_rechazado": {
+      "estado": "ERROR",
+      "detalle": "Artefactos preservados diferentes del inicio del mantenimiento: ['poc/POC-01-estimacion-historicos/resultados/resultados.csv']"
+    },
+    "enlace_roto_rechazado": {
+      "estado": "ERROR",
+      "detalle": "Enlace roto en README.md: archivo-inexistente-fixture.md"
+    },
+    "hash_git_alterado_rechazado": {
+      "estado": "DIVERGENCIA",
+      "modo": "git",
+      "archivos": 156,
+      "diferencias": [
+        "README.md"
+      ],
+      "alcance": "Verifica las rutas registradas; worktree no certifica ausencia de archivos añadidos después. git exige conjunto exacto del commit."
+    },
+    "sobrescritura_evidencia_rechazada": {
+      "estado": "ERROR",
+      "tipo": "ValueError",
+      "detalle": "El destino ya existe; no se sobrescribe evidencia"
+    }
+  },
+  "limites": [
+    "Sin instalaciones ni llamadas a modelos",
+    "Sin render Office o recalculo",
+    "Sin revision humana ni auditoria academica nueva",
+    "Sin ejecucion PoC historica o v1.2"
+  ]
+}

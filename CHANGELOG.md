@@ -4,6 +4,25 @@ Este archivo resume los cambios relevantes del proyecto. Los detalles y las razo
 
 ## [No publicado]
 
+### Mantenimiento previo a Semana 6 — 26/10/2026
+
+- Rama de trabajo `chore/preparacion-semana-06`, basada en `7f962fa`; sin commit ni push de esta intervención.
+- Navegación hacia Hito I v1.2, índice actual de originales y revisiones, y convención para documentos futuros.
+- Verificación actual de solo lectura separada de herramientas/evidencias históricas; inventarios nuevos sin sustituir los anteriores.
+- Guía compartida `proyectoIntegrador.pdf` idéntica a la copia local citada históricamente; archivos personales siguen opcionales/ignorados.
+- Matriz de comandos con escritura, flujo verify/generate/publish aislado y plan de ubicaciones S6, sin desarrollar su entregable ni ejecutar experimentos.
+- Protección preventiva de `.env` y credenciales locales. Los cuatro `.pyc` versionados se identifican, pero no se retiran sin autorización.
+- Detalles, pruebas y pendientes: [informe de mantenimiento](documentos/mantenimiento/INFORME_MANTENIMIENTO_S06.md).
+
+### Hito I v1.2 — revisión del 25/10/2026, incorporada a Git el 26/10/2026
+
+- Revisión consolidada vigente, **Pendiente de validación humana**, publicada separadamente en `entregas/semana-05/revision-v1.2/`.
+- AS-IS lógico y datos conceptuales; instrumento de madurez con ND; métricas y umbrales con fundamento interno retrospectivo; seis dimensiones de capacidades recomendadas.
+- Nuevo protocolo B0/M1 **diseñado, no ejecutado**; resultados sintéticos anteriores preservados. Presentación S2 sustituida y atribuciones CAPECE rectificadas.
+- [Registro completo de correcciones](CORRECCIONES_ACADEMICAS_S01_S05_v1.2.md) y [auditoría posterior histórica](AUDITORIA_POST_CORRECCIONES_S01_S05_v1.2.md); no equivalen a aprobación humana o nueva nota.
+
+Las entradas anteriores se conservan como historia: las menciones de Odoo y Chrome describen estados/instrucciones antiguos, no el stack ni los comandos vigentes. Los generadores actuales antiguos siguen requiriendo cautela; consultar la matriz de mantenimiento.
+
 ### Hito I v1.1 — corrección del 24/10/2026
 
 - Se conserva el Hito I v1.0 y las entregas S1–S4. La corrección se publica separada en `entregas/semana-05/revision-v1.1/`.

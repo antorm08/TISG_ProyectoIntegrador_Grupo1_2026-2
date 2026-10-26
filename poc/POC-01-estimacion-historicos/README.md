@@ -3,6 +3,8 @@
 **Semana 4 · Proyecto Integrador · Grupo 1 · Constructora Andina S.A.C.**
 Tendencia: BI y analítica operacional (anillo *Adoptar*).
 
+> **Vigente:** [Hito I v1.2, §5](../../documentos/proyecto/Semana5_Hito_I_v1.2.md) y [protocolo independiente v1.2](revision-v1.2/DISENO_EXPERIMENTAL.md), **diseño no ejecutado** y pendiente de validación humana. El contenido siguiente describe el experimento histórico, no el nuevo comparador. No transferir sus resultados al protocolo v1.2.
+
 ## Pregunta
 
 ¿Usar los históricos de obras cerradas para estimar partidas de una obra nueva reduce el error de estimación frente a la estimación manual sin base integrada?
@@ -35,6 +37,8 @@ Tendencia: BI y analítica operacional (anillo *Adoptar*).
 Los umbrales son **metas internas académicas**, no benchmarks de negocio. AACE 18R-97 no demuestra un umbral MAPE por partida para este caso. Reglas uniformes: continuar si se cumplen ambas metas; detener si MAPE analítico >30 %; modificar en cualquier otro caso. Si el MAPE del control es cero, la reducción relativa no se define: modificar el diseño, sin inventar un porcentaje. Un costo real cero produce error explícito, no un falso error de 0 %.
 
 ## Procedimiento (reproducible)
+
+**Procedimiento histórico con escritura: no ejecutarlo sobre este repositorio para verificarlo.** Regenera `datos/*.csv` y `resultados/resultados.csv`; `verificar_poc.py` también los sobrescribe. El bloque se conserva como antecedente. Para comprobación actual de solo lectura y trabajo futuro aislado, consultar el [flujo seguro](../../documentos/mantenimiento/PREPARACION_SEMANA_06.md).
 
 ```bash
 cd poc/POC-01-estimacion-historicos
@@ -76,6 +80,7 @@ Detalle por partida en `resultados/resultados.csv`.
 
 ## Trazabilidad
 
-- Documento histórico S4: `documentos/proyecto/Semana4_Proyecto_Integrador.md`.
-- Corrección vigente: `documentos/proyecto/Semana5_Hito_I_v1.1.md`, sección 5; supuestos S-17/S-19.
+- [Documento histórico S4](../../documentos/proyecto/Semana4_Proyecto_Integrador.md).
+- [Corrección histórica v1.1](../../documentos/proyecto/Semana5_Hito_I_v1.1.md), sección 5; supuestos S-17/S-19.
+- [Revisión vigente v1.2](../../documentos/proyecto/Semana5_Hito_I_v1.2.md), sección 5, y [nuevo diseño no ejecutado](revision-v1.2/DISENO_EXPERIMENTAL.md).
 - Las fuentes históricas no verificadas no se emplean como prueba de los umbrales internos.

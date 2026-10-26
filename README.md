@@ -24,6 +24,9 @@ Se diseña una estrategia de adopción tecnológica 2026–2029 que evalúa inte
 
 ## Revisión vigente del Hito I
 
+- [Guía oficial compartida](proyectoIntegrador.pdf): referencia canónica operativa; coincide por SHA-256 con la copia local `proyectoIntegrador (1).pdf`. Las citas históricas conservan su nombre original.
+- [Guía de contribución](CONTRIBUTING.md), [índice actual de entregas S1–S5](entregas/INDICE_ACTUAL.md) y [mantenimiento/preparación S6](documentos/mantenimiento/PREPARACION_SEMANA_06.md).
+
 - [Paquete vigente PDF/DOCX v1.2 y límites de validación](entregas/semana-05/revision-v1.2/README.md).
 - [Documento fuente v1.2 y consolidación de semanas 1–5](documentos/proyecto/Semana5_Hito_I_v1.2.md).
 - [Registros consolidados v1.2](gestion/registros/Registros_y_Radar_Semana5_v1.2.xlsx).
@@ -87,14 +90,23 @@ La distribución identifica aportes principales, pero los cuatro integrantes son
 
 | Semana | Contenido | Versión | Estado |
 |---|---|---:|---|
-| 01 | Caso, Project Charter, Radar e Impact Canvas | Histórica | Archivos disponibles; cierre externo no verificado |
-| 02 | Business Model Canvas y registro ampliado | v1.0 histórica + complemento v1.2 | Usar nueva presentación; cifras CAPECE no respaldadas retiradas del material vigente |
-| 03 | Stakeholders, madurez y plan de adopción | v1.0 histórica + revisión v1.2 | Instrumento propio; ND donde falta sustento, no entrevistas simuladas |
-| 04 | Problema, propuesta de valor, hipótesis y PoC | v1.0 histórica + diseño v1.2 | Baseline independiente diseñado; resultado histórico no se transfiere al nuevo método |
-| 05 | Hito I revisado: ERP propio y TO-BE mínimo | v1.2 | PDF/DOCX, registros y diagramas; validación humana pendiente |
+| [01](entregas/semana-01/) | Caso, Project Charter, Radar e Impact Canvas | Histórica | Archivos disponibles; cierre externo no verificado |
+| [02](entregas/semana-02/) | Business Model Canvas y registro ampliado | v1.0 histórica + complemento v1.2 | Usar nueva presentación; cifras CAPECE no respaldadas retiradas del material vigente |
+| [03](entregas/semana-03/) | Stakeholders, madurez y plan de adopción | v1.0 histórica + revisión v1.2 | Instrumento propio; ND donde falta sustento, no entrevistas simuladas |
+| [04](entregas/semana-04/) | Problema, propuesta de valor, hipótesis y PoC | v1.0 histórica + diseño v1.2 | Baseline independiente diseñado; resultado histórico no se transfiere al nuevo método |
+| [05](entregas/semana-05/revision-v1.2/) | Hito I revisado: ERP propio y TO-BE mínimo | v1.2 | PDF/DOCX, registros y diagramas; validación humana pendiente |
 | 06–14 | Según cronograma del curso | — | Pendiente |
 
-Consultar las respectivas carpetas en `entregas/` para ver el manifiesto de cada entrega.
+Consultar el [índice actual](entregas/INDICE_ACTUAL.md): complementa los manifiestos históricos sin modificarlos e identifica PDFs existentes y revisiones posteriores.
+
+## Comprobación actual de solo lectura
+
+```powershell
+python -X utf8 -B documentos/proyecto/verificar_repositorio.py
+python -X utf8 -B documentos/proyecto/inventario_repositorio.py verify evidencias/mantenimiento-s06/inventario_actual.json
+```
+
+El [verificador v1.2 original](documentos/proyecto/verificar_hito_v12.py) se conserva como herramienta histórica de aquella intervención, no como comando de comprobación actual. No requiere publicarse la auditoría inicial local para ejecutar el nuevo verificador. Su eventual distribución sigue pendiente de autorización del equipo; véase el [informe de mantenimiento](documentos/mantenimiento/INFORME_MANTENIMIENTO_S06.md).
 
 ## Reglas de trabajo
 

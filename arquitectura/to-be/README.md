@@ -1,6 +1,6 @@
 # Arquitectura TO-BE
 
-> **Revisión vigente:** [diagramas v1.1](../revision-v1.1/) y [Hito I corregido](../../documentos/proyecto/Semana5_Hito_I_v1.1.md), 24/10/2026. Se conserva el ERP propio CodeIgniter/MySQL y se propone un piloto mínimo por lotes. Las figuras originales de esta carpeta son históricas y no constituyen la arquitectura vigente. El texto siguiente registra preguntas de S1, no el estado actual del diseño.
+> **Revisión vigente:** [diagramas v1.2](../revision-v1.2/) y [Hito I v1.2](../../documentos/proyecto/Semana5_Hito_I_v1.2.md), 25/10/2026, **Pendiente de validación humana**. [Diagramas v1.1](../revision-v1.1/) conserva la revisión anterior. Se conserva el ERP propio CodeIgniter/MySQL y se propone un piloto mínimo por lotes. Las figuras originales de esta carpeta son históricas y no constituyen la arquitectura vigente. El texto siguiente registra preguntas de S1, no el estado actual del diseño.
 
 ## Estado
 
