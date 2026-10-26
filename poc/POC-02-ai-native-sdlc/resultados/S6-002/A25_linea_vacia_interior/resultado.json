@@ -1,0 +1,136 @@
+{
+  "id": "A25_linea_vacia_interior",
+  "rf": [
+    "RF-07",
+    "RF-10"
+  ],
+  "motivo": "Línea vacía interior invalida estructura y deshabilita relaciones.",
+  "passed": false,
+  "issues": [
+    "Conteos de archivos no son enteros no negativos por archivo lógico"
+  ],
+  "ambiguities": [],
+  "seconds": 0.4560829999991256,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A25_linea_vacia_interior\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A25_linea_vacia_interior\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.1567756999993435,
+      "stdout_sha256": "c37431d0363dcb6fa7d7b3aabecc9ea47b97f243321a80cdf77f61c790252af5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "",
+            "codigo": "E_FILA_ESTRUCTURA",
+            "mensaje": "La fila no cumple la estructura o los límites."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A25_linea_vacia_interior\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A25_linea_vacia_interior\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.15165439999873342,
+      "stdout_sha256": "c37431d0363dcb6fa7d7b3aabecc9ea47b97f243321a80cdf77f61c790252af5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "",
+            "codigo": "E_FILA_ESTRUCTURA",
+            "mensaje": "La fila no cumple la estructura o los límites."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A25_linea_vacia_interior\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A25_linea_vacia_interior\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.1476529000010487,
+      "stdout_sha256": "c37431d0363dcb6fa7d7b3aabecc9ea47b97f243321a80cdf77f61c790252af5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "",
+            "codigo": "E_FILA_ESTRUCTURA",
+            "mensaje": "La fila no cumple la estructura o los límites."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

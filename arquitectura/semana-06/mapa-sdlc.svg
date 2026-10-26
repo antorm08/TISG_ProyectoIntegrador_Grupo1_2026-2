@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#f4f7fc"/>
+<g font-family="Arial, sans-serif"><text x="45" y="48" font-size="28" fill="#153252">SDLC academico - Grupo 1 / Semana 6</text>
+<text x="45" y="80" font-size="18" fill="#34455b">Hechos del repositorio; SDLC empresarial NO DETERMINADO en todas las fases</text>
+<rect x="45" y="115" width="535" height="112" rx="12" fill="#ffffff" stroke="#52718c"/>
+<text x="63" y="145" font-size="19" font-weight="bold" fill="#153252">01 REQUISITOS</text>
+<text x="63" y="174" font-size="17" fill="#34455b">Hito I, supuestos y contrato</text>
+<text x="63" y="202" font-size="16" fill="#34455b">A1: proponer; equipo confirma</text>
+<rect x="620" y="115" width="535" height="112" rx="12" fill="#ffffff" stroke="#52718c"/>
+<text x="638" y="145" font-size="19" font-weight="bold" fill="#153252">02 DISENO</text>
+<text x="638" y="174" font-size="17" fill="#34455b">ADR y arquitectura v1.2</text>
+<text x="638" y="202" font-size="16" fill="#34455b">A1: alternativas; equipo decide</text>
+<rect x="45" y="247" width="535" height="112" rx="12" fill="#e5f1ed" stroke="#52718c"/>
+<text x="63" y="277" font-size="19" font-weight="bold" fill="#153252">03 IMPLEMENTACION</text>
+<text x="63" y="306" font-size="17" fill="#34455b">POC-02: Python, solo lectura</text>
+<text x="63" y="334" font-size="16" fill="#34455b">A2: generar; revision pendiente</text>
+<rect x="620" y="247" width="535" height="112" rx="12" fill="#e5f1ed" stroke="#52718c"/>
+<text x="638" y="277" font-size="19" font-weight="bold" fill="#153252">04 PRUEBAS</text>
+<text x="638" y="306" font-size="17" fill="#34455b">36 casos + 12 controles</text>
+<text x="638" y="334" font-size="16" fill="#34455b">A2: ejecutar; no independiente</text>
+<rect x="45" y="379" width="535" height="112" rx="12" fill="#ffffff" stroke="#52718c"/>
+<text x="63" y="409" font-size="19" font-weight="bold" fill="#153252">05 REVISION / SEGURIDAD</text>
+<text x="63" y="438" font-size="17" fill="#34455b">Hashes, limites, datos sinteticos</text>
+<text x="63" y="466" font-size="16" fill="#34455b">Persona acepta o rechaza</text>
+<rect x="620" y="379" width="535" height="112" rx="12" fill="#ffffff" stroke="#52718c"/>
+<text x="638" y="409" font-size="19" font-weight="bold" fill="#153252">06 INTEGRACION</text>
+<text x="638" y="438" font-size="17" fill="#34455b">Git + verificador solo lectura</text>
+<text x="638" y="466" font-size="16" fill="#34455b">A2: preparar; mantenedor autoriza</text>
+<rect x="45" y="511" width="535" height="112" rx="12" fill="#ffffff" stroke="#52718c"/>
+<text x="63" y="541" font-size="19" font-weight="bold" fill="#153252">07 DESPLIEGUE</text>
+<text x="63" y="570" font-size="17" fill="#34455b">No realizado ni autorizado</text>
+<text x="63" y="598" font-size="16" fill="#34455b">A0: control humano; no ERP</text>
+<rect x="620" y="511" width="535" height="112" rx="12" fill="#ffffff" stroke="#52718c"/>
+<text x="638" y="541" font-size="19" font-weight="bold" fill="#153252">08 MANTENER / DOCUMENTAR</text>
+<text x="638" y="570" font-size="17" fill="#34455b">Logs, contrato y borradores</text>
+<text x="638" y="598" font-size="16" fill="#34455b">A1/A2: revisar cada cambio</text>
+<text x="45" y="674" font-size="18" fill="#153252">Lectura: 01 a 08; iterar ante hallazgos. Seguridad y documentacion son transversales.</text>
+<text x="45" y="707" font-size="18" fill="#a13b28">Puerta humana: no publicar ni desplegar hasta revision y autorizacion reales.</text>
+<text x="45" y="738" font-size="15" fill="#34455b">Verde: codigo y pruebas ejecutados en S6. Resto: antecedentes o propuestas. BORRADOR / IA.</text></g></svg>

@@ -1,0 +1,5 @@
+obra_id,partida_id,costo_real,nota
+OB-1,P-1,1,"uno
+dos
+tres"
+OB-1,P-2,abc,"dice ""hola"""

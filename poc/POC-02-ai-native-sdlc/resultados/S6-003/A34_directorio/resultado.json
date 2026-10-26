@@ -1,0 +1,133 @@
+{
+  "id": "A34_directorio",
+  "rf": [
+    "RF-07"
+  ],
+  "motivo": "Una ruta existente que es directorio no es archivo regular.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [],
+  "seconds": 0.5130353000004106,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A34_directorio\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A34_directorio\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.19415119999939634,
+      "stdout_sha256": "684335c8422a5f1225d739ee93cb3c228de493402dce5197889e80f6c7fd5f61",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 0
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 0,
+            "campo": "",
+            "codigo": "E_ARCHIVO_TIPO",
+            "mensaje": "Se requiere un archivo regular sin enlace simbólico."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A34_directorio\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A34_directorio\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.1680305000008957,
+      "stdout_sha256": "684335c8422a5f1225d739ee93cb3c228de493402dce5197889e80f6c7fd5f61",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 0
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 0,
+            "campo": "",
+            "codigo": "E_ARCHIVO_TIPO",
+            "mensaje": "Se requiere un archivo regular sin enlace simbólico."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A34_directorio\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A34_directorio\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.1508536000001186,
+      "stdout_sha256": "684335c8422a5f1225d739ee93cb3c228de493402dce5197889e80f6c7fd5f61",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 0
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 0,
+            "campo": "",
+            "codigo": "E_ARCHIVO_TIPO",
+            "mensaje": "Se requiere un archivo regular sin enlace simbólico."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

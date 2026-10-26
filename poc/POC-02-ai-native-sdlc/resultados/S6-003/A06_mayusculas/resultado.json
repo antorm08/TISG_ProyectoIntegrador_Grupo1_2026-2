@@ -1,0 +1,155 @@
+{
+  "id": "A06_mayusculas",
+  "rf": [
+    "RF-02",
+    "RF-06"
+  ],
+  "motivo": "Claves con distinta caja no corresponden.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [],
+  "seconds": 0.45897190000141563,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A06_mayusculas\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A06_mayusculas\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.15153300000019954,
+      "stdout_sha256": "3469f7a481d5764d547d0da5619f52a95f5b20d3b4f70e55b23638a1b9df850f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A06_mayusculas\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A06_mayusculas\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.1508869000008417,
+      "stdout_sha256": "3469f7a481d5764d547d0da5619f52a95f5b20d3b4f70e55b23638a1b9df850f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A06_mayusculas\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A06_mayusculas\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.1565520000003744,
+      "stdout_sha256": "3469f7a481d5764d547d0da5619f52a95f5b20d3b4f70e55b23638a1b9df850f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

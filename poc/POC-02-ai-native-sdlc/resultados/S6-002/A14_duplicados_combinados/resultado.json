@@ -1,0 +1,243 @@
+{
+  "id": "A14_duplicados_combinados",
+  "rf": [
+    "RF-03",
+    "RF-04",
+    "RF-05",
+    "RF-06"
+  ],
+  "motivo": "Dos repeticiones posteriores por archivo; números inválidos conservan claves. Cada duplicado cita primera fila 2.",
+  "passed": false,
+  "issues": [
+    "Conteos de archivos no son enteros no negativos por archivo lógico"
+  ],
+  "ambiguities": [],
+  "seconds": 0.4514705999990838,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A14_duplicados_combinados\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A14_duplicados_combinados\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.15205760000026203,
+      "stdout_sha256": "ad0376d0abbce78bff3920077d6aa0d3ccd65f4dec2785437879a8a474545a0f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 3
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 4,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A14_duplicados_combinados\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A14_duplicados_combinados\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.14512920000015583,
+      "stdout_sha256": "ad0376d0abbce78bff3920077d6aa0d3ccd65f4dec2785437879a8a474545a0f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 3
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 4,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A14_duplicados_combinados\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A14_duplicados_combinados\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.15428379999866593,
+      "stdout_sha256": "ad0376d0abbce78bff3920077d6aa0d3ccd65f4dec2785437879a8a474545a0f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 3
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 3,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 4,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_CLAVE_DUPLICADA",
+            "mensaje": "Clave repetida; primera aparición en fila 2."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

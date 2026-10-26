@@ -1,0 +1,157 @@
+{
+  "id": "A19_multilinea_id",
+  "rf": [
+    "RF-02",
+    "RF-08"
+  ],
+  "motivo": "LF interior de ID está prohibido aunque el CSV sea legible; registro termina en línea 3.",
+  "passed": false,
+  "issues": [
+    "Conteos de archivos no son enteros no negativos por archivo lógico"
+  ],
+  "ambiguities": [],
+  "seconds": 0.4458235000001878,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A19_multilinea_id\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A19_multilinea_id\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.15377110000008543,
+      "stdout_sha256": "f02ca09bfc72b9b13387118db6308be5209546c04364198590bcd88087cbbda0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id",
+            "codigo": "E_ID_FORMATO",
+            "mensaje": "El identificador no cumple el formato permitido."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A19_multilinea_id\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A19_multilinea_id\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.1506998000004387,
+      "stdout_sha256": "f02ca09bfc72b9b13387118db6308be5209546c04364198590bcd88087cbbda0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id",
+            "codigo": "E_ID_FORMATO",
+            "mensaje": "El identificador no cumple el formato permitido."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A19_multilinea_id\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A19_multilinea_id\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.14135259999966365,
+      "stdout_sha256": "f02ca09bfc72b9b13387118db6308be5209546c04364198590bcd88087cbbda0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id",
+            "codigo": "E_ID_FORMATO",
+            "mensaje": "El identificador no cumple el formato permitido."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

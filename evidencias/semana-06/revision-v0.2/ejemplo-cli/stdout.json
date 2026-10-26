@@ -1,0 +1,21 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 1
+    },
+    "metrados": {
+      "filas": 1
+    }
+  },
+  "errores": [
+    {
+      "archivo": "costos",
+      "fila": 2,
+      "campo": "costo_real",
+      "codigo": "E_NO_POSITIVO",
+      "mensaje": "El valor debe ser estrictamente positivo."
+    }
+  ]
+}

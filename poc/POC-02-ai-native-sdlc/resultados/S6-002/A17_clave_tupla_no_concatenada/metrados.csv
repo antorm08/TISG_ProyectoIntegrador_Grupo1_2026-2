@@ -1,0 +1,5 @@
+obra_id,partida_id,cantidad
+A,BC,2
+AB,C,2
+A|B,C,2
+A,B|C,2

@@ -1,0 +1,199 @@
+{
+  "id": "A16_numeros_invalidos_desparejados",
+  "rf": [
+    "RF-03",
+    "RF-06"
+  ],
+  "motivo": "Números inválidos no impiden detectar claves distintas entre archivos.",
+  "passed": false,
+  "issues": [
+    "Conteos de archivos no son enteros no negativos por archivo lógico"
+  ],
+  "ambiguities": [],
+  "seconds": 0.4616034999999101,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A16_numeros_invalidos_desparejados\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A16_numeros_invalidos_desparejados\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.16026700000111305,
+      "stdout_sha256": "a9bc91020f8b480dec7cb27845f065d36455f4df2deab3644761aba22a0386d4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "cantidad",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A16_numeros_invalidos_desparejados\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A16_numeros_invalidos_desparejados\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.14782259999992675,
+      "stdout_sha256": "a9bc91020f8b480dec7cb27845f065d36455f4df2deab3644761aba22a0386d4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "cantidad",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A16_numeros_invalidos_desparejados\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002\\A16_numeros_invalidos_desparejados\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.15351389999887033,
+      "stdout_sha256": "a9bc91020f8b480dec7cb27845f065d36455f4df2deab3644761aba22a0386d4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 1
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_METRADO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "cantidad",
+            "codigo": "E_NUMERO_FORMATO",
+            "mensaje": "El número no cumple el formato permitido."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

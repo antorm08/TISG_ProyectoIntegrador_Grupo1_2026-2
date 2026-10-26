@@ -1,0 +1,186 @@
+{
+  "id": "A15_duplicados_ids_invalidos",
+  "rf": [
+    "RF-02",
+    "RF-05",
+    "RF-06"
+  ],
+  "motivo": "Ambigüedad: RF-05 no especifica si claves con ID vacío participan en duplicados; no calificar esa elección como defecto.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [
+    {
+      "codigo": "E_CLAVE_DUPLICADA",
+      "observado": 0,
+      "rango": [
+        0,
+        1
+      ]
+    }
+  ],
+  "seconds": 0.4408542000037414,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A15_duplicados_ids_invalidos\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A15_duplicados_ids_invalidos\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.14958280000064406,
+      "stdout_sha256": "75dffc85999d4453fb7e3236a1b08d74fb691a4188e41602753732ffc4b8d547",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 2
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A15_duplicados_ids_invalidos\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A15_duplicados_ids_invalidos\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.14689070000167703,
+      "stdout_sha256": "75dffc85999d4453fb7e3236a1b08d74fb691a4188e41602753732ffc4b8d547",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 2
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A15_duplicados_ids_invalidos\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A15_duplicados_ids_invalidos\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.14438070000142034,
+      "stdout_sha256": "75dffc85999d4453fb7e3236a1b08d74fb691a4188e41602753732ffc4b8d547",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 2
+          },
+          "metrados": {
+            "filas": 1
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "obra_id",
+            "codigo": "E_ID_VACIO",
+            "mensaje": "El identificador no puede estar vacío."
+          },
+          {
+            "archivo": "metrados",
+            "fila": 2,
+            "campo": "obra_id,partida_id",
+            "codigo": "E_SIN_COSTO",
+            "mensaje": "La clave no tiene correspondencia en el otro archivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+id,valido_esperado,valido_observado,codigos_esperados,codigos_observados,correcto,entradas_intactas
+C01_valido,True,True,[],[],True,True
+C02_decimales,True,True,[],[],True,True
+C03_bom_orden,True,True,[],[],True,True
+C04_extra,True,True,[],[],True,True
+C05_exponente,True,True,[],[],True,True
+C06_pequeno,True,True,[],[],True,True
+C07_grande,True,True,[],[],True,True
+C08_espacios_id,True,True,[],[],True,True
+C09_costo_negativo,False,False,['E_NO_POSITIVO'],['E_NO_POSITIVO'],True,True
+C10_costo_cero,False,False,['E_NO_POSITIVO'],['E_NO_POSITIVO'],True,True
+C11_cantidad_negativa,False,False,['E_NO_POSITIVO'],['E_NO_POSITIVO'],True,True
+C12_cantidad_cero,False,False,['E_NO_POSITIVO'],['E_NO_POSITIVO'],True,True
+C13_id_costo,False,False,"['E_ID_VACIO', 'E_SIN_COSTO']","['E_ID_VACIO', 'E_SIN_COSTO']",True,True
+C14_id_metrado,False,False,"['E_ID_VACIO', 'E_SIN_METRADO']","['E_SIN_METRADO', 'E_ID_VACIO']",True,True
+C15_duplicado_costo,False,False,['E_CLAVE_DUPLICADA'],['E_CLAVE_DUPLICADA'],True,True
+C16_duplicado_metrado,False,False,['E_CLAVE_DUPLICADA'],['E_CLAVE_DUPLICADA'],True,True
+C17_columna_costo,False,False,['E_COLUMNA_FALTANTE'],['E_COLUMNA_FALTANTE'],True,True
+C18_columna_metrado,False,False,['E_COLUMNA_FALTANTE'],['E_COLUMNA_FALTANTE'],True,True
+C19_vacio_costo,False,False,['E_ARCHIVO_VACIO'],['E_ARCHIVO_VACIO'],True,True
+C20_vacio_metrado,False,False,['E_ARCHIVO_VACIO'],['E_ARCHIVO_VACIO'],True,True
+C21_solo_cabecera,False,False,['E_SIN_FILAS'],['E_SIN_FILAS'],True,True
+C22_numero_invalido,False,False,['E_NUMERO_FORMATO'],['E_NUMERO_FORMATO'],True,True
+C23_nan,False,False,['E_NUMERO_NO_FINITO'],['E_NUMERO_NO_FINITO'],True,True
+C24_inf,False,False,['E_NUMERO_NO_FINITO'],['E_NUMERO_NO_FINITO'],True,True
+C25_menos_inf,False,False,['E_NUMERO_NO_FINITO'],['E_NUMERO_NO_FINITO'],True,True
+C26_numero_vacio,False,False,['E_NUMERO_FORMATO'],['E_NUMERO_FORMATO'],True,True
+C27_sin_metrado,False,False,['E_SIN_METRADO'],['E_SIN_METRADO'],True,True
+C28_sin_costo,False,False,['E_SIN_COSTO'],['E_SIN_COSTO'],True,True
+C29_fila_corta,False,False,['E_FILA_ESTRUCTURA'],['E_FILA_ESTRUCTURA'],True,True
+C30_csv_malformado,False,False,['E_CSV'],['E_CSV'],True,True
+C31_cabecera_duplicada,False,False,['E_CABECERA_DUPLICADA'],['E_CABECERA_DUPLICADA'],True,True
+C32_utf8_invalido,False,False,['E_CODIFICACION'],['E_CODIFICACION'],True,True
+C33_ausente,False,False,['E_LECTURA'],['E_LECTURA'],True,True
+C34_guion_bajo,False,False,['E_NUMERO_FORMATO'],['E_NUMERO_FORMATO'],True,True
+C35_coma_decimal,False,False,['E_NUMERO_FORMATO'],['E_NUMERO_FORMATO'],True,True
+C36_id_control,False,False,"['E_ID_FORMATO', 'E_SIN_COSTO']","['E_ID_FORMATO', 'E_SIN_COSTO']",True,True

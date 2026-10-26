@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="310" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 310" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="310"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-310)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="220" width="235" height="82" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="298" width="235" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="12" y="278" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,556) scale(1,-1)">01  Requisitos</text>
+			<text x="12" y="258" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,516) scale(1,-1)">Hito I + contrato RF</text>
+			<text x="12" y="243" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,486) scale(1,-1)">IA propone; custodio confirma</text>
+			<path d="M 237,260 L 252,260 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="252 260, 247 263, 247 257" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<rect x="255" y="220" width="235" height="82" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="255" y="298" width="235" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="267" y="278" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,556) scale(1,-1)">02  Diseño</text>
+			<text x="267" y="258" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,516) scale(1,-1)">ADR + alternativas</text>
+			<text x="267" y="243" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,486) scale(1,-1)">IA explora; equipo decide</text>
+			<rect x="0" y="124" width="235" height="82" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(89%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="0" y="202" width="235" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="12" y="182" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,364) scale(1,-1)">03  Código</text>
+			<text x="12" y="162" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,324) scale(1,-1)">Validador local Python</text>
+			<text x="12" y="147" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,294) scale(1,-1)">IA produce; revisión pendiente</text>
+			<path d="M 237,164 L 252,164 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="252 164, 247 167, 247 161" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<rect x="255" y="124" width="235" height="82" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(89%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="255" y="202" width="235" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="267" y="182" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,364) scale(1,-1)">04  Pruebas</text>
+			<text x="267" y="162" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,324) scale(1,-1)">Corpus + evaluación adicional</text>
+			<text x="267" y="147" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,294) scale(1,-1)">Automatizar no es certificar</text>
+			<rect x="0" y="28" width="235" height="82" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="106" width="235" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="12" y="86" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,172) scale(1,-1)">05  Revisión y seguridad</text>
+			<text x="12" y="66" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,132) scale(1,-1)">Hashes, límites, privacidad</text>
+			<text x="12" y="51" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,102) scale(1,-1)">Persona acepta o rechaza</text>
+			<path d="M 237,68 L 252,68 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<polygon points="252 68, 247 71, 247 65" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<rect x="255" y="28" width="235" height="82" rx="6" ry="0" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="255" y="106" width="235" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,17%,27%); fill-rule: evenodd;"/>
+			<text x="267" y="86" style="font-family: EditorialBold; font-size: 10px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,172) scale(1,-1)">06  Integración y despliegue</text>
+			<text x="267" y="66" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,132) scale(1,-1)">Git; sin despliegue del ERP</text>
+			<text x="267" y="51" style="font-family: Editorial; font-size: 9px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,102) scale(1,-1)">TI autoriza; no autonomía A3</text>
+			<text x="0" y="15" style="font-family: EditorialBold; font-size: 9px;fill: rgb(6%,17%,27%); stroke:none;" transform="translate(0,30) scale(1,-1)">Transversal: mantenimiento, documentación y revisión de cada cambio.</text>
+			<text x="0" y="0" style="font-family: Editorial; font-size: 8px;fill: rgb(20%,29%,36%); stroke:none;" transform="translate(0,0) scale(1,-1)">Verde: actividades ejecutadas. Empresa: SDLC no determinado. Elaboración propia / IA.</text>
+		</g>
+	</g>
+</svg>

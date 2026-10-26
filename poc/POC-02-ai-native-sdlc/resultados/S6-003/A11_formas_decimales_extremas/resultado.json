@@ -1,0 +1,110 @@
+{
+  "id": "A11_formas_decimales_extremas",
+  "rf": [
+    "RF-03",
+    "RF-04"
+  ],
+  "motivo": "Punto sin parte entera/fraccionaria y exponentes finitos extremos no deben cuantizarse.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [],
+  "seconds": 0.49411780000082217,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A11_formas_decimales_extremas\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A11_formas_decimales_extremas\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 0,
+      "seconds": 0.1837734000000637,
+      "stdout_sha256": "a33a222b0f40b5d3de5582a2a25ab1859e0600fa407b3352ee89c4d0fdc56ba1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 5
+          },
+          "metrados": {
+            "filas": 5
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A11_formas_decimales_extremas\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A11_formas_decimales_extremas\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 0,
+      "seconds": 0.1604919000001246,
+      "stdout_sha256": "a33a222b0f40b5d3de5582a2a25ab1859e0600fa407b3352ee89c4d0fdc56ba1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 5
+          },
+          "metrados": {
+            "filas": 5
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A11_formas_decimales_extremas\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A11_formas_decimales_extremas\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 0,
+      "seconds": 0.14985250000063388,
+      "stdout_sha256": "a33a222b0f40b5d3de5582a2a25ab1859e0600fa407b3352ee89c4d0fdc56ba1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 5
+          },
+          "metrados": {
+            "filas": 5
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    }
+  ]
+}

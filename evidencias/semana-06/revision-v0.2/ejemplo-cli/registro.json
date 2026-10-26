@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "python",
+    "-X",
+    "utf8",
+    "-B",
+    "validador.py",
+    "--costos",
+    "costos.csv",
+    "--metrados",
+    "metrados.csv"
+  ],
+  "cwd": "evidencias/semana-06/revision-v0.2/ejemplo-cli",
+  "inicio_utc": "2026-10-26T17:28:08.353333+00:00",
+  "fin_utc": "2026-10-26T17:28:08.545280+00:00",
+  "exit_code": 1,
+  "origen": "poc/POC-02-ai-native-sdlc/src/validador.py",
+  "source_sha256": "38e9bdaac54ecf76d92969ff931c1b43cee03556528da8c88f7bf9c161c67e85",
+  "tipo": "ejemplo visual autentico, no caso adicional puntuado"
+}

@@ -1,0 +1,25 @@
+{
+  "fecha_utc": "2026-10-26T17:43:34.176155+00:00",
+  "estado": "BORRADOR - pendiente de revision del equipo",
+  "build": "editorial-02",
+  "paginas_pdf": 12,
+  "sha256": {
+    "documentos/proyecto/Semana6_AI_Native_SDLC_v0.2.md": "b5612e85ae54feab33306cd7be46b0ee42e0087bf610876cc9fc7e0b19c95ae1",
+    "entregas/semana-06/TISG_E01_S06_AI_Native_SDLC_v0.2_BORRADOR.pdf": "068bd6dd1e7f870fe2b0be888915586444a94e59b9fbf2ab7cae7f33f833ecce",
+    "entregas/semana-06/TISG_E01_S06_AI_Native_SDLC_v0.2_BORRADOR.docx": "38113cd2714d09d6c7afe25a0bc6d0d0304153e8281c6ea68cee30f870be3f6b",
+    "entregas/semana-06/INDICE_v0.2.md": "ef21858936ee804242ae8313e1196d1ca155e349e867b1f62893a9ecd0159afe",
+    "arquitectura/semana-06/revision-v0.2/flujo-evaluacion-v02.pdf": "ce599594bcfb445499887d192dff22234c624301244934e4029aeb9bcd1df735",
+    "arquitectura/semana-06/revision-v0.2/flujo-evaluacion-v02.png": "c69cfb2f17e21d6cc0d2085d75ecd19a3d51ca2d2c92baa05b5ee95c7fa24ee9",
+    "arquitectura/semana-06/revision-v0.2/flujo-evaluacion-v02.svg": "7c91efca4a00d21f6ce14c733a2527d3b64a1f8a2b134daaabc92e1a4a5e1696",
+    "arquitectura/semana-06/revision-v0.2/mapa-sdlc-v02.pdf": "49abefeb8c0f72ea19fae5298c7eb4681212505710ed56c19bbb7eb8026225f8",
+    "arquitectura/semana-06/revision-v0.2/mapa-sdlc-v02.png": "c495810eb670c3b3770ee2845e893d836404c170864d9e7bf609394258c9521a",
+    "arquitectura/semana-06/revision-v0.2/mapa-sdlc-v02.svg": "8760e44439ab72f74f532ff4a4c407053bcaaa43e437f1df892a308cdf9d81d7",
+    "arquitectura/semana-06/revision-v0.2/poc-arquitectura-v02.pdf": "67b2c1cc2238eabe28ba725c483474f623861520b1ec376ef0bd53978f8a7a92",
+    "arquitectura/semana-06/revision-v0.2/poc-arquitectura-v02.png": "8628012077430221e32895e422f02a8c10cdd4c95e3bb1273fa5d56b338d21b1",
+    "arquitectura/semana-06/revision-v0.2/poc-arquitectura-v02.svg": "a9c3d3eb9d85ce216de354c0bcb1252232acc6ee49150ab565b29b152f99644e",
+    "evidencias/semana-06/revision-v0.2/REGISTRO_REVISION.md": "41aab4069a4cdabe6714cd9eba5007eed2f61d32431f632047d46f2854b81036",
+    "evidencias/semana-06/revision-v0.2/AUDITORIA_S6_v0.2.md": "477e098a89ae7e768f35f915d401b87a95051b0ac708df6349a82e027874f70a",
+    "evidencias/semana-06/revision-v0.2/REVISION_EQUIPO.md": "43c46f63d20ed928256484007ac50fcfc51bdac25379852d74c0a46c073c4a43",
+    "evidencias/semana-06/revision-v0.2/REVISION_VISUAL_v0.2.md": "d0d05f24bb544b608637d6b022c4efaf493cc7947ad4da3140e9a5bd4e2e44c0"
+  }
+}

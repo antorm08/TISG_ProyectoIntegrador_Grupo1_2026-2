@@ -1,0 +1,110 @@
+{
+  "id": "A31_1mib_utf8_bom",
+  "rf": [
+    "RF-01",
+    "RF-07"
+  ],
+  "motivo": "Límite en bytes, incluyendo BOM y caracteres multibyte; campo se mide en caracteres.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [],
+  "seconds": 0.5657051999987743,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A31_1mib_utf8_bom\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A31_1mib_utf8_bom\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 0,
+      "seconds": 0.18973919999916689,
+      "stdout_sha256": "8c465656baaba98e5bd5391da7979ac135983d7268c7a70d72fe41c53dce9884",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 300
+          },
+          "metrados": {
+            "filas": 300
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A31_1mib_utf8_bom\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A31_1mib_utf8_bom\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 0,
+      "seconds": 0.18355119999978342,
+      "stdout_sha256": "8c465656baaba98e5bd5391da7979ac135983d7268c7a70d72fe41c53dce9884",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 300
+          },
+          "metrados": {
+            "filas": 300
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A31_1mib_utf8_bom\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A31_1mib_utf8_bom\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 0,
+      "seconds": 0.19241479999982403,
+      "stdout_sha256": "8c465656baaba98e5bd5391da7979ac135983d7268c7a70d72fe41c53dce9884",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "VALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 300
+          },
+          "metrados": {
+            "filas": 300
+          }
+        },
+        "errores": []
+      },
+      "stderr_empty": true
+    }
+  ]
+}

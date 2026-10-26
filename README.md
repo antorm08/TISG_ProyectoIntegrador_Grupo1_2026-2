@@ -116,3 +116,12 @@ El [verificador v1.2 original](documentos/proyecto/verificar_hito_v12.py) se con
 4. Las carpetas de trabajo pueden evolucionar; las carpetas dentro de `entregas/` no se modifican después del cierre.
 5. Todo diagrama incluirá título, leyenda, fecha, versión y fuente o indicación de elaboración propia.
 6. El Hito I es fotografía hasta la semana 5; las correcciones se registran con fecha real y sin sobrescribir históricos.
+
+## Semana 6 — borrador técnico, revisión humana pendiente
+
+- [Informe AI-Native SDLC v0.1](documentos/proyecto/Semana6_AI_Native_SDLC_v0.1.md).
+- [POC-02 reproducible: validador de costos/metrados](poc/POC-02-ai-native-sdlc/README.md).
+- [Paquete PDF/DOCX BORRADOR](entregas/semana-06/README.md) y [auditoría S6](evidencias/semana-06/AUDITORIA_S6_v0.1.md).
+
+Primera versión: 48/48 pruebas, sin comparación manual ni ahorro demostrado.
+No constituye aprobación humana ni modifica el estado del Hito I.

@@ -1,0 +1,175 @@
+{
+  "id": "A12_ceros_exponente",
+  "rf": [
+    "RF-04"
+  ],
+  "motivo": "Ceros con signo/exponente y negativo pequeño siguen siendo no positivos.",
+  "passed": true,
+  "issues": [],
+  "ambiguities": [],
+  "seconds": 0.4644802999973763,
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A12_ceros_exponente\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A12_ceros_exponente\\metrados.csv"
+      ],
+      "seed": "1",
+      "returncode": 1,
+      "seconds": 0.14993539999886707,
+      "stdout_sha256": "0006420c793f88a3330f4ca8098d10e46d899dcd417ae14aa458dcf16c397fe6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 3
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A12_ceros_exponente\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A12_ceros_exponente\\metrados.csv"
+      ],
+      "seed": "987654321",
+      "returncode": 1,
+      "seconds": 0.15855089999968186,
+      "stdout_sha256": "0006420c793f88a3330f4ca8098d10e46d899dcd417ae14aa458dcf16c397fe6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 3
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    },
+    {
+      "command": [
+        "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+        "--costos",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A12_ceros_exponente\\costos.csv",
+        "--metrados",
+        "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-003\\A12_ceros_exponente\\metrados.csv"
+      ],
+      "seed": "random",
+      "returncode": 1,
+      "seconds": 0.15599399999882735,
+      "stdout_sha256": "0006420c793f88a3330f4ca8098d10e46d899dcd417ae14aa458dcf16c397fe6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json": {
+        "version_contrato": "1.0",
+        "estado": "INVALIDO",
+        "archivos": {
+          "costos": {
+            "filas": 3
+          },
+          "metrados": {
+            "filas": 3
+          }
+        },
+        "errores": [
+          {
+            "archivo": "costos",
+            "fila": 2,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 3,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          },
+          {
+            "archivo": "costos",
+            "fila": 4,
+            "campo": "costo_real",
+            "codigo": "E_NO_POSITIVO",
+            "mensaje": "El valor debe ser estrictamente positivo."
+          }
+        ]
+      },
+      "stderr_empty": true
+    }
+  ]
+}

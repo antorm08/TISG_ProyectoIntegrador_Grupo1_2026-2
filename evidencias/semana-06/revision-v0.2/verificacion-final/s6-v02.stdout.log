@@ -1,0 +1,10 @@
+{
+  "estado": "OK",
+  "comprobaciones": 1757,
+  "historicos_intactos": 220,
+  "paginas_pdf": 12,
+  "enlaces_locales": 24,
+  "archivos_escaneados": 712,
+  "limite": "No evaluación humana, ciega o auditoría exhaustiva de seguridad",
+  "revision_humana": "PENDIENTE"
+}

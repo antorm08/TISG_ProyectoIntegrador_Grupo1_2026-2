@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\TISG_ProyectoIntegrador_Grupo1_2026-2\poc\POC-02-ai-native-sdlc\evaluacion_v02\runner.py", line 233, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\TISG_ProyectoIntegrador_Grupo1_2026-2\poc\POC-02-ai-native-sdlc\evaluacion_v02\runner.py", line 157, in main
+    destination.mkdir(exist_ok=False)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [WinError 183] No se puede crear un archivo que ya existe: 'D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\resultados\\S6-002'

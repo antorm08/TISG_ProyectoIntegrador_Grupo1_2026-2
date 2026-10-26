@@ -1,0 +1,19 @@
+{
+  "modo": "estado_actual_solo_lectura",
+  "revision_humana": "PENDIENTE",
+  "archivos_previos_protegidos": 149,
+  "solo_conversion_LF_CRLF": [],
+  "base_de_preservacion": "7f962facba3abc78c38921e656fadb6852c17fe4",
+  "alcance_preservacion": "Bytes locales iniciales, no equivalencia con HEAD ni aprobación histórica",
+  "guia_canonica": "proyectoIntegrador.pdf",
+  "copia_local_opcional": "idéntica",
+  "pdf_paginas": 17,
+  "tablas_docx": 23,
+  "figuras_docx": 4,
+  "hojas_excel": 34,
+  "contribuciones_preservadas": 20,
+  "formulas_previas": 0,
+  "auditoria_inicial_opcional": "contrastada localmente",
+  "enlaces_locales": 155,
+  "limites": "Sin ejecución experimental, render Office, recálculo, revisión humana ni nueva auditoría académica"
+}

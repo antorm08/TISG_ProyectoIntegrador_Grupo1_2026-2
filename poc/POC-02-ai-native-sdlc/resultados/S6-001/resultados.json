@@ -1,0 +1,718 @@
+{
+  "id": "S6-001",
+  "inicio_utc": "2026-10-26T16:41:37.286506+00:00",
+  "fin_utc": "2026-10-26T16:41:38.952891+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "evaluacion": "PUBLICA NO CIEGA NO INDEPENDIENTE",
+  "metricas": {
+    "casos": 36,
+    "correctos": 36,
+    "Q1_porcentaje": 100.0,
+    "validos": 8,
+    "invalidos": 28,
+    "Q2_falsas_aceptaciones": 0,
+    "Q3_falsos_rechazos": 0,
+    "tests_total": 48,
+    "tests_fallos": 0,
+    "tests_errores": 0,
+    "segundos_suite": 1.4489753000016208,
+    "segundos_cli": 0.1780947000006563,
+    "M1_desarrollo": "NO DETERMINADO",
+    "M2_revision_humana": "NO DETERMINADO",
+    "M4_ahorro": "NO DETERMINADO"
+  },
+  "aceptacion_tecnica": true,
+  "revision_humana": "PENDIENTE",
+  "originales_intactos": true,
+  "hashes_originales": {
+    "costos.csv": "d9d0b48515862631428c7ca583b9ef4df002839fb39717e194b0f1df4dfb73f1",
+    "metrados.csv": "b26a57349f35ebd977cd12b4d29fd6913d448e4af73118247b1a8ff1092ba4c4"
+  },
+  "cli_exit": 0,
+  "casos": [
+    {
+      "id": "C01_valido",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C02_decimales",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C03_bom_orden",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C04_extra",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C05_exponente",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C06_pequeno",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C07_grande",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C08_espacios_id",
+      "valido_esperado": true,
+      "valido_observado": true,
+      "codigos_esperados": [],
+      "codigos_observados": [],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C09_costo_negativo",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NO_POSITIVO"
+      ],
+      "codigos_observados": [
+        "E_NO_POSITIVO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C10_costo_cero",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NO_POSITIVO"
+      ],
+      "codigos_observados": [
+        "E_NO_POSITIVO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C11_cantidad_negativa",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NO_POSITIVO"
+      ],
+      "codigos_observados": [
+        "E_NO_POSITIVO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C12_cantidad_cero",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NO_POSITIVO"
+      ],
+      "codigos_observados": [
+        "E_NO_POSITIVO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C13_id_costo",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_ID_VACIO",
+        "E_SIN_COSTO"
+      ],
+      "codigos_observados": [
+        "E_ID_VACIO",
+        "E_SIN_COSTO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C14_id_metrado",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_ID_VACIO",
+        "E_SIN_METRADO"
+      ],
+      "codigos_observados": [
+        "E_SIN_METRADO",
+        "E_ID_VACIO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C15_duplicado_costo",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_CLAVE_DUPLICADA"
+      ],
+      "codigos_observados": [
+        "E_CLAVE_DUPLICADA"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C16_duplicado_metrado",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_CLAVE_DUPLICADA"
+      ],
+      "codigos_observados": [
+        "E_CLAVE_DUPLICADA"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C17_columna_costo",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_COLUMNA_FALTANTE"
+      ],
+      "codigos_observados": [
+        "E_COLUMNA_FALTANTE"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C18_columna_metrado",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_COLUMNA_FALTANTE"
+      ],
+      "codigos_observados": [
+        "E_COLUMNA_FALTANTE"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C19_vacio_costo",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_ARCHIVO_VACIO"
+      ],
+      "codigos_observados": [
+        "E_ARCHIVO_VACIO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C20_vacio_metrado",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_ARCHIVO_VACIO"
+      ],
+      "codigos_observados": [
+        "E_ARCHIVO_VACIO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C21_solo_cabecera",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_SIN_FILAS"
+      ],
+      "codigos_observados": [
+        "E_SIN_FILAS"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C22_numero_invalido",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "codigos_observados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C23_nan",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NUMERO_NO_FINITO"
+      ],
+      "codigos_observados": [
+        "E_NUMERO_NO_FINITO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C24_inf",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NUMERO_NO_FINITO"
+      ],
+      "codigos_observados": [
+        "E_NUMERO_NO_FINITO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C25_menos_inf",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NUMERO_NO_FINITO"
+      ],
+      "codigos_observados": [
+        "E_NUMERO_NO_FINITO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C26_numero_vacio",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "codigos_observados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C27_sin_metrado",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_SIN_METRADO"
+      ],
+      "codigos_observados": [
+        "E_SIN_METRADO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C28_sin_costo",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_SIN_COSTO"
+      ],
+      "codigos_observados": [
+        "E_SIN_COSTO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C29_fila_corta",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_FILA_ESTRUCTURA"
+      ],
+      "codigos_observados": [
+        "E_FILA_ESTRUCTURA"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C30_csv_malformado",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_CSV"
+      ],
+      "codigos_observados": [
+        "E_CSV"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C31_cabecera_duplicada",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_CABECERA_DUPLICADA"
+      ],
+      "codigos_observados": [
+        "E_CABECERA_DUPLICADA"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C32_utf8_invalido",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_CODIFICACION"
+      ],
+      "codigos_observados": [
+        "E_CODIFICACION"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C33_ausente",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_LECTURA"
+      ],
+      "codigos_observados": [
+        "E_LECTURA"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C34_guion_bajo",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "codigos_observados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C35_coma_decimal",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "codigos_observados": [
+        "E_NUMERO_FORMATO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    },
+    {
+      "id": "C36_id_control",
+      "valido_esperado": false,
+      "valido_observado": false,
+      "codigos_esperados": [
+        "E_ID_FORMATO",
+        "E_SIN_COSTO"
+      ],
+      "codigos_observados": [
+        "E_ID_FORMATO",
+        "E_SIN_COSTO"
+      ],
+      "correcto": true,
+      "entradas_intactas": true
+    }
+  ],
+  "tests": [
+    {
+      "test": "test_validador.ValidadorTest.test_C01_valido",
+      "estado": "OK",
+      "segundos": 0.05483219999950961
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C02_decimales",
+      "estado": "OK",
+      "segundos": 0.0280784999995376
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C03_bom_orden",
+      "estado": "OK",
+      "segundos": 0.03288549999888346
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C04_extra",
+      "estado": "OK",
+      "segundos": 0.019952000000557746
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C05_exponente",
+      "estado": "OK",
+      "segundos": 0.021723100000599516
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C06_pequeno",
+      "estado": "OK",
+      "segundos": 0.020083199999135104
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C07_grande",
+      "estado": "OK",
+      "segundos": 0.021809799998663948
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C08_espacios_id",
+      "estado": "OK",
+      "segundos": 0.020465400000830414
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C09_costo_negativo",
+      "estado": "OK",
+      "segundos": 0.01436439999997674
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C10_costo_cero",
+      "estado": "OK",
+      "segundos": 0.013927199999670847
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C11_cantidad_negativa",
+      "estado": "OK",
+      "segundos": 0.019680500001413748
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C12_cantidad_cero",
+      "estado": "OK",
+      "segundos": 0.021261599998979364
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C13_id_costo",
+      "estado": "OK",
+      "segundos": 0.022016300001268974
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C14_id_metrado",
+      "estado": "OK",
+      "segundos": 0.014888499999869964
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C15_duplicado_costo",
+      "estado": "OK",
+      "segundos": 0.016071900001406902
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C16_duplicado_metrado",
+      "estado": "OK",
+      "segundos": 0.014369599999554339
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C17_columna_costo",
+      "estado": "OK",
+      "segundos": 0.012292500001422013
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C18_columna_metrado",
+      "estado": "OK",
+      "segundos": 0.014398899998923298
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C19_vacio_costo",
+      "estado": "OK",
+      "segundos": 0.005519099999219179
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C20_vacio_metrado",
+      "estado": "OK",
+      "segundos": 0.006387200000972371
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C21_solo_cabecera",
+      "estado": "OK",
+      "segundos": 0.014078199999858043
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C22_numero_invalido",
+      "estado": "OK",
+      "segundos": 0.01992929999869375
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C23_nan",
+      "estado": "OK",
+      "segundos": 0.02220610000040324
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C24_inf",
+      "estado": "OK",
+      "segundos": 0.020593700000972603
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C25_menos_inf",
+      "estado": "OK",
+      "segundos": 0.020975699999326025
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C26_numero_vacio",
+      "estado": "OK",
+      "segundos": 0.012472700000216719
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C27_sin_metrado",
+      "estado": "OK",
+      "segundos": 0.015185300000666757
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C28_sin_costo",
+      "estado": "OK",
+      "segundos": 0.014254600000640494
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C29_fila_corta",
+      "estado": "OK",
+      "segundos": 0.013015799999266164
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C30_csv_malformado",
+      "estado": "OK",
+      "segundos": 0.014215200000762707
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C31_cabecera_duplicada",
+      "estado": "OK",
+      "segundos": 0.020827999998800806
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C32_utf8_invalido",
+      "estado": "OK",
+      "segundos": 0.005478399998537498
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C33_ausente",
+      "estado": "OK",
+      "segundos": 0.0053542000005109
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C34_guion_bajo",
+      "estado": "OK",
+      "segundos": 0.01911610000024666
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C35_coma_decimal",
+      "estado": "OK",
+      "segundos": 0.020382500000778236
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_C36_id_control",
+      "estado": "OK",
+      "segundos": 0.013916599998992751
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_01_orden_y_repeticion",
+      "estado": "OK",
+      "segundos": 0.01984900000024936
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_02_no_escribe_archivos",
+      "estado": "OK",
+      "segundos": 0.005373100000724662
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_03_originales_solo_lectura",
+      "estado": "OK",
+      "segundos": 0.004994200000510318
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_04_limite_archivo",
+      "estado": "OK",
+      "segundos": 0.015080299999681301
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_05_limite_campo",
+      "estado": "OK",
+      "segundos": 0.021430599999803235
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_06_limite_id",
+      "estado": "OK",
+      "segundos": 0.019366299999092007
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_07_limite_numero",
+      "estado": "OK",
+      "segundos": 0.018500399999538786
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_08_cli_valido_e_invalido",
+      "estado": "OK",
+      "segundos": 0.3753822999988188
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_09_mensaje_sin_datos_privados",
+      "estado": "OK",
+      "segundos": 0.010779899999761255
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_10_directorio_no_es_csv",
+      "estado": "OK",
+      "segundos": 0.004062099998918711
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_11_cli_argumentos",
+      "estado": "OK",
+      "segundos": 0.2762478000004194
+    },
+    {
+      "test": "test_validador.ValidadorTest.test_tecnico_12_linea_vacia_interior",
+      "estado": "OK",
+      "segundos": 0.013433199999781209
+    }
+  ]
+}

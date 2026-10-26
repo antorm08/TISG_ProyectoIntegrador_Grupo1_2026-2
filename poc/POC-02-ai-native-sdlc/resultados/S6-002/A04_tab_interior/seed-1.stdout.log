@@ -1,0 +1,28 @@
+{
+  "version_contrato": "1.0",
+  "estado": "INVALIDO",
+  "archivos": {
+    "costos": {
+      "filas": 1
+    },
+    "metrados": {
+      "filas": 1
+    }
+  },
+  "errores": [
+    {
+      "archivo": "costos",
+      "fila": 2,
+      "campo": "obra_id",
+      "codigo": "E_ID_FORMATO",
+      "mensaje": "El identificador no cumple el formato permitido."
+    },
+    {
+      "archivo": "metrados",
+      "fila": 2,
+      "campo": "obra_id,partida_id",
+      "codigo": "E_SIN_COSTO",
+      "mensaje": "La clave no tiene correspondencia en el otro archivo."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "start_utc": "2026-10-26T17:35:22.052667+00:00",
+  "end_utc": "2026-10-26T17:35:40.663629+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "source_sha256": "38e9bdaac54ecf76d92969ff931c1b43cee03556528da8c88f7bf9c161c67e85",
+  "freeze_sha256": "859a55ca954375767be506d0f8ecf72921ebcfc32b58064d577f4bc96303ccb5",
+  "total": 35,
+  "passed": 35,
+  "failed": [],
+  "ambiguous_cases": [
+    "A15_duplicados_ids_invalidos",
+    "A28_campo_4097"
+  ],
+  "cli_2_passed": true,
+  "symlink": "PASS",
+  "originals_unchanged": true,
+  "changed_inputs": [],
+  "processes": 109,
+  "seconds_cases": 16.609270899994954,
+  "harness_defects": 2,
+  "harness_corrective_iterations": 1,
+  "validator_corrections": 0,
+  "previous_run": {
+    "id": "S6-002",
+    "raw_passed": 0,
+    "total": 35
+  },
+  "nvalidos": 10,
+  "ninvalidos": 25,
+  "valid_passed": 10,
+  "invalid_passed": 25,
+  "pass_rate": 1.0,
+  "valid_pass_rate": 1.0,
+  "invalid_pass_rate": 1.0,
+  "deterministic_cases": 35,
+  "control_totals": {
+    "scenario_processes": 105,
+    "exit_codes_scenarios": {
+      "0": 30,
+      "1": 75
+    },
+    "cli_argument_probes": 3,
+    "cli_argument_passed": 3,
+    "symlink_probes": 1
+  },
+  "frozen_and_prior_evidence_unchanged": true,
+  "frozen_changed_paths": [],
+  "evaluation": "Posterior, no ciega; alcance de los casos, no validación contractual absoluta."
+}

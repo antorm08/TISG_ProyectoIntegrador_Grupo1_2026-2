@@ -1,0 +1,53 @@
+test_C01_valido (test_validador_benchmark.ValidadorTest.test_C01_valido) ... ok
+test_C02_decimales (test_validador_benchmark.ValidadorTest.test_C02_decimales) ... ok
+test_C03_bom_orden (test_validador_benchmark.ValidadorTest.test_C03_bom_orden) ... ok
+test_C04_extra (test_validador_benchmark.ValidadorTest.test_C04_extra) ... ok
+test_C05_exponente (test_validador_benchmark.ValidadorTest.test_C05_exponente) ... ok
+test_C06_pequeno (test_validador_benchmark.ValidadorTest.test_C06_pequeno) ... ok
+test_C07_grande (test_validador_benchmark.ValidadorTest.test_C07_grande) ... ok
+test_C08_espacios_id (test_validador_benchmark.ValidadorTest.test_C08_espacios_id) ... ok
+test_C09_costo_negativo (test_validador_benchmark.ValidadorTest.test_C09_costo_negativo) ... ok
+test_C10_costo_cero (test_validador_benchmark.ValidadorTest.test_C10_costo_cero) ... ok
+test_C11_cantidad_negativa (test_validador_benchmark.ValidadorTest.test_C11_cantidad_negativa) ... ok
+test_C12_cantidad_cero (test_validador_benchmark.ValidadorTest.test_C12_cantidad_cero) ... ok
+test_C13_id_costo (test_validador_benchmark.ValidadorTest.test_C13_id_costo) ... ok
+test_C14_id_metrado (test_validador_benchmark.ValidadorTest.test_C14_id_metrado) ... ok
+test_C15_duplicado_costo (test_validador_benchmark.ValidadorTest.test_C15_duplicado_costo) ... ok
+test_C16_duplicado_metrado (test_validador_benchmark.ValidadorTest.test_C16_duplicado_metrado) ... ok
+test_C17_columna_costo (test_validador_benchmark.ValidadorTest.test_C17_columna_costo) ... ok
+test_C18_columna_metrado (test_validador_benchmark.ValidadorTest.test_C18_columna_metrado) ... ok
+test_C19_vacio_costo (test_validador_benchmark.ValidadorTest.test_C19_vacio_costo) ... ok
+test_C20_vacio_metrado (test_validador_benchmark.ValidadorTest.test_C20_vacio_metrado) ... ok
+test_C21_solo_cabecera (test_validador_benchmark.ValidadorTest.test_C21_solo_cabecera) ... ok
+test_C22_numero_invalido (test_validador_benchmark.ValidadorTest.test_C22_numero_invalido) ... ok
+test_C23_nan (test_validador_benchmark.ValidadorTest.test_C23_nan) ... ok
+test_C24_inf (test_validador_benchmark.ValidadorTest.test_C24_inf) ... ok
+test_C25_menos_inf (test_validador_benchmark.ValidadorTest.test_C25_menos_inf) ... ok
+test_C26_numero_vacio (test_validador_benchmark.ValidadorTest.test_C26_numero_vacio) ... ok
+test_C27_sin_metrado (test_validador_benchmark.ValidadorTest.test_C27_sin_metrado) ... ok
+test_C28_sin_costo (test_validador_benchmark.ValidadorTest.test_C28_sin_costo) ... ok
+test_C29_fila_corta (test_validador_benchmark.ValidadorTest.test_C29_fila_corta) ... ok
+test_C30_csv_malformado (test_validador_benchmark.ValidadorTest.test_C30_csv_malformado) ... ok
+test_C31_cabecera_duplicada (test_validador_benchmark.ValidadorTest.test_C31_cabecera_duplicada) ... ok
+test_C32_utf8_invalido (test_validador_benchmark.ValidadorTest.test_C32_utf8_invalido) ... ok
+test_C33_ausente (test_validador_benchmark.ValidadorTest.test_C33_ausente) ... ok
+test_C34_guion_bajo (test_validador_benchmark.ValidadorTest.test_C34_guion_bajo) ... ok
+test_C35_coma_decimal (test_validador_benchmark.ValidadorTest.test_C35_coma_decimal) ... ok
+test_C36_id_control (test_validador_benchmark.ValidadorTest.test_C36_id_control) ... ok
+test_tecnico_01_orden_y_repeticion (test_validador_benchmark.ValidadorTest.test_tecnico_01_orden_y_repeticion) ... ok
+test_tecnico_02_no_escribe_archivos (test_validador_benchmark.ValidadorTest.test_tecnico_02_no_escribe_archivos) ... ok
+test_tecnico_03_originales_solo_lectura (test_validador_benchmark.ValidadorTest.test_tecnico_03_originales_solo_lectura) ... ok
+test_tecnico_04_limite_archivo (test_validador_benchmark.ValidadorTest.test_tecnico_04_limite_archivo) ... ok
+test_tecnico_05_limite_campo (test_validador_benchmark.ValidadorTest.test_tecnico_05_limite_campo) ... ok
+test_tecnico_06_limite_id (test_validador_benchmark.ValidadorTest.test_tecnico_06_limite_id) ... ok
+test_tecnico_07_limite_numero (test_validador_benchmark.ValidadorTest.test_tecnico_07_limite_numero) ... ok
+test_tecnico_08_cli_valido_e_invalido (test_validador_benchmark.ValidadorTest.test_tecnico_08_cli_valido_e_invalido) ... ok
+test_tecnico_09_mensaje_sin_datos_privados (test_validador_benchmark.ValidadorTest.test_tecnico_09_mensaje_sin_datos_privados) ... ok
+test_tecnico_10_directorio_no_es_csv (test_validador_benchmark.ValidadorTest.test_tecnico_10_directorio_no_es_csv) ... ok
+test_tecnico_11_cli_argumentos (test_validador_benchmark.ValidadorTest.test_tecnico_11_cli_argumentos) ... ok
+test_tecnico_12_linea_vacia_interior (test_validador_benchmark.ValidadorTest.test_tecnico_12_linea_vacia_interior) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.657s
+
+OK

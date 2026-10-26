@@ -1,0 +1,59 @@
+[
+  {
+    "command": [
+      "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py"
+    ],
+    "seed": "1",
+    "returncode": 2,
+    "seconds": 0.1395286999995733,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "f91cff9af25f7bbdb1c3d34af7b8a06bcaa3a4cecd73bb5b963a9869402c2e8e",
+    "json": null,
+    "stderr_empty": false,
+    "passed": true
+  },
+  {
+    "command": [
+      "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+      "--costos"
+    ],
+    "seed": "1",
+    "returncode": 2,
+    "seconds": 0.1404199000007793,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "c112227f9c5479f7bccdb5641bbb33dc10093eff1318d0d8b14bc2722b521912",
+    "json": null,
+    "stderr_empty": false,
+    "passed": true
+  },
+  {
+    "command": [
+      "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "D:\\TISG_ProyectoIntegrador_Grupo1_2026-2\\poc\\POC-02-ai-native-sdlc\\src\\validador.py",
+      "--costos",
+      "x",
+      "--metrados",
+      "y",
+      "--desconocida"
+    ],
+    "seed": "1",
+    "returncode": 2,
+    "seconds": 0.15016540000033274,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "42e97f7fb041286d046cd2eb3391457b859134909b0fbe79bd0921ab659ca20e",
+    "json": null,
+    "stderr_empty": false,
+    "passed": true
+  }
+]
