@@ -1,0 +1,53 @@
+[
+  {
+    "nombre": "s6",
+    "comando": [
+      "python",
+      "-X",
+      "utf8",
+      "-B",
+      "documentos/proyecto/verificar_semana6.py"
+    ],
+    "inicio_utc": "2026-10-26T17:07:08.493623+00:00",
+    "fin_utc": "2026-10-26T17:07:10.096673+00:00",
+    "exit_code": 0
+  },
+  {
+    "nombre": "repositorio",
+    "comando": [
+      "python",
+      "-X",
+      "utf8",
+      "-B",
+      "documentos/proyecto/verificar_repositorio.py"
+    ],
+    "inicio_utc": "2026-10-26T17:07:10.096673+00:00",
+    "fin_utc": "2026-10-26T17:07:13.673488+00:00",
+    "exit_code": 0
+  },
+  {
+    "nombre": "git_diff_check",
+    "comando": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "inicio_utc": "2026-10-26T17:07:13.673488+00:00",
+    "fin_utc": "2026-10-26T17:07:13.753975+00:00",
+    "exit_code": 0
+  },
+  {
+    "nombre": "git_status",
+    "comando": [
+      "git",
+      "--no-optional-locks",
+      "status",
+      "--short",
+      "--branch",
+      "--untracked-files=all"
+    ],
+    "inicio_utc": "2026-10-26T17:07:13.753975+00:00",
+    "fin_utc": "2026-10-26T17:07:13.850077+00:00",
+    "exit_code": 0
+  }
+]

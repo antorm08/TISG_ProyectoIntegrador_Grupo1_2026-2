@@ -1,0 +1,11 @@
+{
+  "casos.csv": "fd65c8d662bb607953ad27cf6f1b9933983ea356ebcde71648452a2985b1ec58",
+  "casos.json": "48179eb12d2500a4cb06f89fb77557e856d3cefc2c30b39691ea824f6430b4e8",
+  "cli_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cli_stdout.json": "e64bf30cd2ad587c6df9bc26343b54da3610dd3eb4112065aa7e790d93c90109",
+  "ejecutar_evaluacion.py": "6b9664ed07509fc2781db64da60187a2aab6ecc831a401af5731b80c2fef431b",
+  "resultados.json": "fa30c998e6061cb6bb0468ef3c25351e120dd33ec1c5c99cf746cad49032b11e",
+  "test_validador.py": "d236a97505fb17c15688f2544ca46236c1fbb92663f7b1db816c077229e8a7b3",
+  "unittest.log": "a2a6b30fec57a0dfaca462352ecb6586a4569043935f68ae8d86f9c7124db6f8",
+  "validador.py": "38e9bdaac54ecf76d92969ff931c1b43cee03556528da8c88f7bf9c161c67e85"
+}

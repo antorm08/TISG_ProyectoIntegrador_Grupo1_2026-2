@@ -1,0 +1,11 @@
+{
+  "fecha_utc": "2026-10-26T16:39:11.483541+00:00",
+  "implementacion_existente": false,
+  "sha256": {
+    "poc/POC-02-ai-native-sdlc/CONTRATO.md": "89628ba79fa2b11d1b865b7ef5ef75479c8396c490a2a92a02120d939c5519d0",
+    "poc/POC-02-ai-native-sdlc/PROTOCOLO.md": "cd188a188fb8d0f74aed5db82a7925b7be85cc46c36113490a3ba82218814b76",
+    "poc/POC-02-ai-native-sdlc/prompts.md": "90415cc07dff60ae2542d6904cd444d4819abd12d52ae60d413680f29db625e0",
+    "poc/POC-02-ai-native-sdlc/pruebas/casos.json": "48179eb12d2500a4cb06f89fb77557e856d3cefc2c30b39691ea824f6430b4e8",
+    "poc/POC-02-ai-native-sdlc/pruebas/test_validador.py": "d236a97505fb17c15688f2544ca46236c1fbb92663f7b1db816c077229e8a7b3"
+  }
+}
